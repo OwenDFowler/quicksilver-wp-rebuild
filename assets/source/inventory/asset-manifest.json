@@ -1,0 +1,569 @@
+[
+    {
+        "sourcePageSlug":  "contact-us",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-01.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "contact-us",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-02.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "contact-us",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+        "url":  "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+        "alt":  "dark-logo",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "contact-us",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+        "alt":  "QuickSilver Construction Whidbey Island",
+        "inferredRole":  "logo/media reference",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/03/IMG_2689.jpg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/03/MAX_0115-scaled.webp?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-01.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-02.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg?w=847\u0026ssl=1",
+        "alt":  "Our Experience",
+        "inferredRole":  "homepage hero/slider",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.jpg?w=847\u0026ssl=1",
+        "alt":  "Our Commitment",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5580-scaled.jpg?w=847\u0026ssl=1",
+        "alt":  "Our Vision",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_0023.jpg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.jpeg?fit=768%2C1024\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Kitchen-1-1-scaled.jpg?w=847\u0026ssl=1",
+        "alt":  "Our Mission",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+        "alt":  "dark-logo",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg",
+        "alt":  "",
+        "inferredRole":  "homepage hero/slider",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg",
+        "alt":  "",
+        "inferredRole":  "homepage hero/slider",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/30-scaled.jpg",
+        "alt":  "",
+        "inferredRole":  "homepage hero/slider",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "home",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+        "alt":  "QuickSilver Construction Whidbey Island",
+        "inferredRole":  "logo/media reference",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-01.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-02.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Brandon-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Darren-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Nathan-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Pat-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Zach-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+        "alt":  "dark-logo",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "our-team",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+        "alt":  "QuickSilver Construction Whidbey Island",
+        "inferredRole":  "logo/media reference",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/03/IMG_2689.jpg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/03/IMG_4494.jpeg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/03/MAX_0115-scaled.jpg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-01.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-02.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/1000000981.jpg?fit=1152%2C1536\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg?fit=847%2C566\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg?fit=847%2C566\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/20240306_092424-scaled.jpg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/30-scaled.jpg?fit=847%2C566\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/4553353243932567837.jpeg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5580-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5649-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5682-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5692-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5730-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-1-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5796-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_8659-scaled.jpg?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/gQJhleoQ.webp?fit=847%2C566\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_0023.jpg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_2950.jpg?fit=768%2C1024\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.webp?fit=768%2C1024\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Kitchen-1-1-scaled.jpg?fit=847%2C566\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "gallery/project image",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+        "alt":  "dark-logo",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "photo-gallery",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+        "alt":  "QuickSilver Construction Whidbey Island",
+        "inferredRole":  "logo/media reference",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "services",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/03/IMG_4494.jpeg?fit=847%2C635\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "services",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-01.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "services",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2022/05/blog-02.jpg?resize=150%2C150\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "services",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.webp?fit=847%2C565\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "services",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+        "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_8659-scaled.jpg?fit=768%2C512\u0026ssl=1",
+        "alt":  "",
+        "inferredRole":  "content image",
+        "priority":  "candidate",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "services",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+        "url":  "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+        "alt":  "dark-logo",
+        "inferredRole":  "theme/demo reference",
+        "priority":  "reference",
+        "evidence":  "public img tag"
+    },
+    {
+        "sourcePageSlug":  "services",
+        "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+        "alt":  "QuickSilver Construction Whidbey Island",
+        "inferredRole":  "logo/media reference",
+        "priority":  "must-recreate",
+        "evidence":  "public img tag"
+    }
+]

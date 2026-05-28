@@ -1,0 +1,269 @@
+[
+    {
+        "slug":  "home",
+        "label":  "Home",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "statusCode":  200,
+        "contentType":  "text/html; charset=UTF-8",
+        "title":  "Home Page One - QuickSilver Construction Whidbey Island",
+        "htmlLength":  356505,
+        "headings":  [
+                         {
+                             "level":  4,
+                             "text":  "About Wastii"
+                         },
+                         {
+                             "level":  3,
+                             "text":  "Latest News"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Home Page One"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Quality Construction Services Built on Craftsmanship \u0026 Reliability"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Why Choose QuickSilver Construction"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Residential Construction"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Construction Services"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Decks \u0026 Outdoors Structures"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Our Mission"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Our Vision"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Our Experience"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Our Commitment"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "A Few Reasons Homeowners Choose QuickSilver Construction"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Start Your Next Construction Project With Confidence"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Licensed. Bonded. Insured. Washington State License Number QUICKCL813C1"
+                         }
+                     ],
+        "linkCount":  29,
+        "imageCount":  15,
+        "cssCount":  30,
+        "jsCount":  30
+    },
+    {
+        "slug":  "photo-gallery",
+        "label":  "Photo Gallery",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "statusCode":  200,
+        "contentType":  "text/html; charset=UTF-8",
+        "title":  "Photo Gallery - QuickSilver Construction Whidbey Island",
+        "htmlLength":  354771,
+        "headings":  [
+                         {
+                             "level":  4,
+                             "text":  "About Wastii"
+                         },
+                         {
+                             "level":  3,
+                             "text":  "Latest News"
+                         },
+                         {
+                             "level":  1,
+                             "text":  "Photo Gallery"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Photo Gallery"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Our Work in Action. See What We’ve Built."
+                         }
+                     ],
+        "linkCount":  45,
+        "imageCount":  28,
+        "cssCount":  28,
+        "jsCount":  30
+    },
+    {
+        "slug":  "services",
+        "label":  "Services",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+        "statusCode":  200,
+        "contentType":  "text/html; charset=UTF-8",
+        "title":  "Construction Services - QuickSilver Construction Whidbey Island",
+        "htmlLength":  322230,
+        "headings":  [
+                         {
+                             "level":  4,
+                             "text":  "About Wastii"
+                         },
+                         {
+                             "level":  3,
+                             "text":  "Latest News"
+                         },
+                         {
+                             "level":  1,
+                             "text":  "Construction Services"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Why Choose QuickSilver Construction"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "🧱 Construction Services"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Construction Services"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "🚧 Excavation \u0026 Site Preparation"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Excavation \u0026 Site Preparation"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "🔨 Demolition \u0026 Property Improvements"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Property Improvements"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Residential Construction"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Excavation, brush and land clearing"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "If you have been looking for help with a project on Whidbey, you know how frustrating it can be that contractors won’t even return your call. We pledge to call you back. We may be too busy to do the job, or not the right fit for your project, but at least we will talk to you and let you know."
+                         }
+                     ],
+        "linkCount":  21,
+        "imageCount":  7,
+        "cssCount":  28,
+        "jsCount":  30
+    },
+    {
+        "slug":  "our-team",
+        "label":  "Our Team",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "statusCode":  200,
+        "contentType":  "text/html; charset=UTF-8",
+        "title":  "Our Team - QuickSilver Construction Whidbey Island",
+        "htmlLength":  317377,
+        "headings":  [
+                         {
+                             "level":  4,
+                             "text":  "About Wastii"
+                         },
+                         {
+                             "level":  3,
+                             "text":  "Latest News"
+                         },
+                         {
+                             "level":  1,
+                             "text":  "Our Team"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Our Team"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Meet the Team Behind the Craftsmanship"
+                         }
+                     ],
+        "linkCount":  26,
+        "imageCount":  9,
+        "cssCount":  28,
+        "jsCount":  30
+    },
+    {
+        "slug":  "contact-us",
+        "label":  "Contact Us",
+        "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+        "statusCode":  200,
+        "contentType":  "text/html; charset=UTF-8",
+        "title":  "Contact Us One - QuickSilver Construction Whidbey Island",
+        "htmlLength":  314003,
+        "headings":  [
+                         {
+                             "level":  4,
+                             "text":  "About Wastii"
+                         },
+                         {
+                             "level":  3,
+                             "text":  "Latest News"
+                         },
+                         {
+                             "level":  1,
+                             "text":  "Contact Us"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Contact Us One"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Email Address"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Send Email"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Phone Number"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Call Us Now"
+                         },
+                         {
+                             "level":  2,
+                             "text":  "Mailing Address"
+                         },
+                         {
+                             "level":  4,
+                             "text":  "Send Mail Here"
+                         }
+                     ],
+        "linkCount":  23,
+        "imageCount":  4,
+        "cssCount":  28,
+        "jsCount":  30
+    }
+]

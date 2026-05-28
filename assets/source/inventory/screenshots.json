@@ -1,0 +1,42 @@
+[
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\contact-us-desktop.png",
+        "bytes":  384445
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\contact-us-mobile.png",
+        "bytes":  183424
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\home-desktop.png",
+        "bytes":  3123493
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\home-mobile.png",
+        "bytes":  2108946
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\our-team-desktop.png",
+        "bytes":  1489111
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\our-team-mobile.png",
+        "bytes":  586587
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\photo-gallery-desktop.png",
+        "bytes":  1856022
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\photo-gallery-mobile.png",
+        "bytes":  606834
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\services-desktop.png",
+        "bytes":  1353404
+    },
+    {
+        "file":  "assets\\source\\inventory\\screenshots\\services-mobile.png",
+        "bytes":  432792
+    }
+]

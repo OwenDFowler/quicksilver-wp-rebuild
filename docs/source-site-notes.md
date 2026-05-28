@@ -13,4 +13,6 @@ Useful public facts from inspection:
 - Business/site name: QuickSilver Construction Whidbey Island
 - The public result can be recreated, but private WordPress database/admin settings are not recoverable from public access alone.
 
+The structured source inventory lives in `docs/source-site-inventory.md`; generated evidence lives under `assets/source/inventory/`.
+
 Source-site plugins are reconstruction clues, not approved runtime dependencies. Put downloaded assets under `assets/source/`.

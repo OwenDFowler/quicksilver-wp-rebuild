@@ -1,0 +1,152 @@
+[
+    {
+        "id":  14564,
+        "slug":  "our-team-2",
+        "status":  "publish",
+        "menuOrder":  0,
+        "parent":  0,
+        "title":  "Our Team",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+        "buildScope":  "primary-or-primary-reference"
+    },
+    {
+        "id":  14251,
+        "slug":  "home-page-three",
+        "status":  "publish",
+        "menuOrder":  3,
+        "parent":  0,
+        "title":  "Home Page Three",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/home-page-three/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  6105,
+        "slug":  "faq",
+        "status":  "publish",
+        "menuOrder":  10,
+        "parent":  0,
+        "title":  "FAQ",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/faq/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  6079,
+        "slug":  "project-style-two",
+        "status":  "publish",
+        "menuOrder":  13,
+        "parent":  0,
+        "title":  "Photo Gallery",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "buildScope":  "primary-or-primary-reference"
+    },
+    {
+        "id":  6053,
+        "slug":  "project-style-one",
+        "status":  "publish",
+        "menuOrder":  12,
+        "parent":  0,
+        "title":  "Project Style One",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-one/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  4343,
+        "slug":  "blog-grid-view",
+        "status":  "publish",
+        "menuOrder":  14,
+        "parent":  0,
+        "title":  "Blog Grid View",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/blog-grid-view/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  4340,
+        "slug":  "blog",
+        "status":  "publish",
+        "menuOrder":  15,
+        "parent":  0,
+        "title":  "Blog",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/blog/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  4096,
+        "slug":  "contactus-2",
+        "status":  "publish",
+        "menuOrder":  9,
+        "parent":  0,
+        "title":  "Contact Us Two",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus-2/",
+        "buildScope":  "review"
+    },
+    {
+        "id":  3821,
+        "slug":  "contactus",
+        "status":  "publish",
+        "menuOrder":  8,
+        "parent":  0,
+        "title":  "Contact Us One",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+        "buildScope":  "primary-or-primary-reference"
+    },
+    {
+        "id":  3428,
+        "slug":  "service2",
+        "status":  "publish",
+        "menuOrder":  7,
+        "parent":  0,
+        "title":  "Services Two",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/service2/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  3266,
+        "slug":  "service",
+        "status":  "publish",
+        "menuOrder":  6,
+        "parent":  0,
+        "title":  "Services One",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/",
+        "buildScope":  "review"
+    },
+    {
+        "id":  3075,
+        "slug":  "about-us-2",
+        "status":  "publish",
+        "menuOrder":  5,
+        "parent":  0,
+        "title":  "About Us Two",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/about-us-2/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  2669,
+        "slug":  "about-us",
+        "status":  "publish",
+        "menuOrder":  4,
+        "parent":  0,
+        "title":  "About Us One",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/about-us/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  914,
+        "slug":  "home2",
+        "status":  "publish",
+        "menuOrder":  2,
+        "parent":  0,
+        "title":  "Home Page Two",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/home2/",
+        "buildScope":  "reference-or-demo"
+    },
+    {
+        "id":  422,
+        "slug":  "home1",
+        "status":  "publish",
+        "menuOrder":  1,
+        "parent":  0,
+        "title":  "Home Page One",
+        "link":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+        "buildScope":  "primary-or-primary-reference"
+    }
+]

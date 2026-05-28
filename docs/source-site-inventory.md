@@ -6,6 +6,8 @@ Crawl date: `2026-05-28T19:12:30Z`
 
 This inventory records public evidence for the QuickSilver rebuild. It does not approve source-site themes or plugins as dependencies.
 
+The human-readable target contract lives in `docs/target-site-model.md`. The machine-readable implementation source lives in `content/site-model.json`.
+
 ## Public Interfaces Inspected
 
 - Public HTML pages for the five primary nav targets.
@@ -44,13 +46,13 @@ Reference or likely demo pages:
 
 | Page slug | Title | Inventory decision |
 | --- | --- | --- |
-| `home2`, `home-page-three` | Home Page Two/Three | Wastii alternate demos unless later selected. |
+| `home2`, `home-page-three` | Home Page Two/Three | Wastii alternate demos; future scope requires a target-model update. |
 | `about-us`, `about-us-2` | About Us One/Two | Reference only; primary nav does not point here. |
 | `service`, `service2` | Services One/Two | Reference only; primary service target is the construction service URL. |
 | `project-style-one` | Project Style One | Reference only; primary gallery target is project style two. |
 | `contactus-2` | Contact Us Two | Review only; primary contact target is Contact Us One. |
-| `faq` | FAQ | Reference only until client confirms it belongs. |
-| `blog`, `blog-grid-view` | Blog views | No-build unless blog becomes an explicit scope item. |
+| `faq` | FAQ | Not in the current target model; future scope requires a target-model update. |
+| `blog`, `blog-grid-view` | Blog views | Not in the current target model; future scope requires a target-model update. |
 
 Demo/no-build posts:
 

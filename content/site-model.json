@@ -1,0 +1,656 @@
+{
+  "schemaVersion": 1,
+  "modelStatus": "target-site-model",
+  "sourceInventory": {
+    "document": "docs/source-site-inventory.md",
+    "crawlSummary": "assets/source/inventory/crawl-summary.json",
+    "primaryPages": "assets/source/inventory/primary-pages.json",
+    "restPages": "assets/source/inventory/rest-pages.json",
+    "restPosts": "assets/source/inventory/rest-posts.json",
+    "assetManifest": "assets/source/inventory/asset-manifest.json",
+    "pluginThemeEvidence": "assets/source/inventory/plugin-theme-evidence.json"
+  },
+  "ownership": {
+    "structuredJsonOwns": [
+      "business copy",
+      "page intent",
+      "section order",
+      "navigation labels",
+      "contact details",
+      "license text",
+      "source evidence",
+      "asset intent"
+    ],
+    "themeTemplatesOwn": [
+      "layout",
+      "reusable section rendering",
+      "header and footer structure",
+      "responsive behavior",
+      "typography",
+      "colors",
+      "buttons",
+      "gallery presentation",
+      "visual fidelity"
+    ],
+    "wordpressRuntimeOwns": [
+      "live post IDs",
+      "revisions",
+      "publish status",
+      "menu assignment",
+      "active theme state",
+      "active plugin state",
+      "uploaded media records",
+      "form runtime once implemented"
+    ],
+    "provisionalDraftWriteEvidence": "content/pages/home.json is provisional REST draft-write evidence, not the target content authority."
+  },
+  "siteIdentity": {
+    "businessName": "QuickSilver Construction",
+    "siteTitle": "QuickSilver Construction Whidbey Island",
+    "serviceArea": "Whidbey Island and nearby communities",
+    "licenseText": "Licensed. Bonded. Insured. Washington State License Number QUICKCL813C1",
+    "licenseNumber": "QUICKCL813C1",
+    "phone": {
+      "display": "(360) 321-1969",
+      "href": "tel:3603211969"
+    },
+    "email": {
+      "display": "Contact@TeamQSC.com",
+      "href": "mailto:Contact@TeamQSC.com"
+    },
+    "mailingAddress": {
+      "line1": "PO Box 852",
+      "cityStateZip": "Langley, WA 98260"
+    },
+    "facebookUrl": "https://facebook.com/teamqsc",
+    "primaryCta": {
+      "label": "Get A Quote",
+      "targetPageKey": "contact"
+    },
+    "footerSummary": "QuickSilver Construction is a licensed, bonded, and insured contractor serving Whidbey Island and nearby communities. We specialize in residential construction, excavation, and custom property improvements with a commitment to quality workmanship and dependable service.",
+    "copyrightText": "Copyright (c) 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserved."
+  },
+  "canonicalRoutes": [
+    {
+      "pageKey": "home",
+      "label": "Home",
+      "route": "/",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/",
+      "sourceRestSlug": "home1",
+      "sourceInventorySlug": "home",
+      "sourcePath": "/",
+      "sourcePathIsCanonical": false
+    },
+    {
+      "pageKey": "photoGallery",
+      "label": "Photo Gallery",
+      "route": "/photo-gallery/",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+      "sourceRestSlug": "project-style-two",
+      "sourceInventorySlug": "photo-gallery",
+      "sourcePath": "/project-style-two/",
+      "sourcePathIsCanonical": false
+    },
+    {
+      "pageKey": "services",
+      "label": "Services",
+      "route": "/services/",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+      "sourceRestSlug": null,
+      "sourceInventorySlug": "services",
+      "sourcePath": "/service/construction-services/",
+      "sourcePathIsCanonical": false
+    },
+    {
+      "pageKey": "ourTeam",
+      "label": "Our Team",
+      "route": "/our-team/",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+      "sourceRestSlug": "our-team-2",
+      "sourceInventorySlug": "our-team",
+      "sourcePath": "/our-team-2/",
+      "sourcePathIsCanonical": false
+    },
+    {
+      "pageKey": "contact",
+      "label": "Contact",
+      "route": "/contact/",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+      "sourceRestSlug": "contactus",
+      "sourceInventorySlug": "contact-us",
+      "sourcePath": "/contactus/",
+      "sourcePathIsCanonical": false
+    }
+  ],
+  "navigation": [
+    {
+      "label": "Home",
+      "targetRoute": "/",
+      "pageKey": "home"
+    },
+    {
+      "label": "Photo Gallery",
+      "targetRoute": "/photo-gallery/",
+      "pageKey": "photoGallery"
+    },
+    {
+      "label": "Services",
+      "targetRoute": "/services/",
+      "pageKey": "services"
+    },
+    {
+      "label": "Our Team",
+      "targetRoute": "/our-team/",
+      "pageKey": "ourTeam"
+    },
+    {
+      "label": "Contact",
+      "targetRoute": "/contact/",
+      "pageKey": "contact"
+    }
+  ],
+  "pages": [
+    {
+      "pageKey": "home",
+      "title": "Home",
+      "canonicalRoute": "/",
+      "templateRole": "front-page",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/",
+      "sourceRestSlug": "home1",
+      "sourceInventorySlug": "home",
+      "sourcePath": "/",
+      "sections": [
+        {
+          "id": "home.hero",
+          "type": "hero",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Welcome To QuickSilver Construction",
+          "body": "Clear timelines, honest pricing, and dependable service from start to finish.",
+          "ctas": [
+            {
+              "label": "View Our Services",
+              "targetPageKey": "services"
+            }
+          ],
+          "assetRefs": [
+            {
+              "sourcePageSlug": "home",
+              "inferredRole": "homepage hero/slider",
+              "priority": "must-recreate"
+            }
+          ],
+          "sourceEvidence": {
+            "sourcePageSlug": "home",
+            "screenshots": [
+              "assets/source/inventory/screenshots/home-desktop.png",
+              "assets/source/inventory/screenshots/home-mobile.png"
+            ]
+          }
+        },
+        {
+          "id": "home.quality-overview",
+          "type": "image-text",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Quality Construction Services Built on Craftsmanship & Reliability",
+          "body": "QuickSilver Construction provides dependable residential construction and site services built on quality craftsmanship, clear communication, and attention to detail. From excavation and grading to remodels, concrete work, and custom projects, we help homeowners bring their vision to life with reliable service and lasting results. Whether you're starting a new project or improving your existing property, our team is committed to doing the job right - from the ground up.",
+          "items": [
+            "New Construction",
+            "Remodels & Renovations",
+            "Flooring & Tile Work",
+            "Decks & Fencing",
+            "Framing & Finish Carpentry",
+            "Concrete Slabs",
+            "Custom Residential Projects"
+          ],
+          "sourceEvidence": {
+            "sourcePageSlug": "home",
+            "heading": "Quality Construction Services Built on Craftsmanship & Reliability"
+          }
+        },
+        {
+          "id": "home.service-cards",
+          "type": "card-grid",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Why Choose QuickSilver Construction",
+          "items": [
+            {
+              "title": "Residential Construction",
+              "body": "New builds, remodels, and structural improvements designed for durability, functionality, and long-term value."
+            },
+            {
+              "title": "Construction Services",
+              "body": "Professional grading, clearing, trenching, and groundwork to prepare your property for construction success."
+            },
+            {
+              "title": "Decks & Outdoors Structures",
+              "body": "Custom decks, fencing, and outdoor living spaces built to enhance usability and property value."
+            }
+          ],
+          "sourceEvidence": {
+            "sourcePageSlug": "home",
+            "heading": "Why Choose QuickSilver Construction"
+          }
+        },
+        {
+          "id": "home.values-band",
+          "type": "values-band",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "items": [
+            {
+              "title": "Our Mission",
+              "body": "To deliver dependable construction services with honesty, craftsmanship, and attention to detail for every client."
+            },
+            {
+              "title": "Our Vision",
+              "body": "To be the local contractor known for reliability, quality workmanship, and projects completed right the first time."
+            },
+            {
+              "title": "Our Experience",
+              "body": "Years of hands-on construction experience across excavation, residential building, and finish work."
+            },
+            {
+              "title": "Our Commitment",
+              "body": "We believe every project deserves clear communication, honest pricing, and dependable workmanship."
+            }
+          ],
+          "sourceEvidence": {
+            "sourcePageSlug": "home"
+          }
+        },
+        {
+          "id": "home.homeowner-reasons",
+          "type": "text-feature",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "A Few Reasons Homeowners Choose QuickSilver Construction",
+          "body": "At QuickSilver Construction, we understand that choosing a contractor is a major decision. Our team is committed to delivering dependable workmanship, clear communication, and results built to last. From initial planning to final completion, we focus on quality, transparency, and customer satisfaction on every project.",
+          "sourceEvidence": {
+            "sourcePageSlug": "home",
+            "heading": "A Few Reasons Homeowners Choose QuickSilver Construction"
+          }
+        },
+        {
+          "id": "home.project-cta",
+          "type": "image-cta",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Start Your Next Construction Project With Confidence",
+          "body": "Whether you're planning a remodel, preparing land for building, or improving your property, QuickSilver Construction is ready to help.",
+          "ctas": [
+            {
+              "label": "Get A Quote",
+              "targetPageKey": "contact"
+            }
+          ],
+          "sourceEvidence": {
+            "sourcePageSlug": "home",
+            "heading": "Start Your Next Construction Project With Confidence"
+          }
+        },
+        {
+          "id": "home.license-banner",
+          "type": "license-banner",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "text": "Licensed. Bonded. Insured. Washington State License Number QUICKCL813C1",
+          "sourceEvidence": {
+            "sourcePageSlug": "home"
+          }
+        }
+      ]
+    },
+    {
+      "pageKey": "photoGallery",
+      "title": "Photo Gallery",
+      "canonicalRoute": "/photo-gallery/",
+      "templateRole": "page-gallery",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+      "sourceRestSlug": "project-style-two",
+      "sourceInventorySlug": "photo-gallery",
+      "sourcePath": "/project-style-two/",
+      "sections": [
+        {
+          "id": "photo-gallery.page-title",
+          "type": "page-title",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Photo Gallery",
+          "sourceEvidence": {
+            "sourcePageSlug": "photo-gallery"
+          }
+        },
+        {
+          "id": "photo-gallery.intro",
+          "type": "text-intro",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Our Work in Action. See What We've Built.",
+          "body": "At QuickSilver Construction, every project reflects our commitment to quality craftsmanship, careful planning, and attention to detail. This gallery highlights a selection of completed work, from excavation and site preparation to residential construction and custom improvements. Each project represents our dedication to delivering dependable results and creating spaces built to last.",
+          "sourceEvidence": {
+            "sourcePageSlug": "photo-gallery",
+            "heading": "Our Work in Action. See What We've Built."
+          }
+        },
+        {
+          "id": "photo-gallery.grid",
+          "type": "gallery-grid",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "assetRefs": [
+            {
+              "sourcePageSlug": "photo-gallery",
+              "inferredRole": "gallery/project image",
+              "priority": "must-recreate"
+            }
+          ],
+          "sourceEvidence": {
+            "sourcePageSlug": "photo-gallery",
+            "screenshots": [
+              "assets/source/inventory/screenshots/photo-gallery-desktop.png",
+              "assets/source/inventory/screenshots/photo-gallery-mobile.png"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "pageKey": "services",
+      "title": "Services",
+      "canonicalRoute": "/services/",
+      "templateRole": "page-services",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+      "sourceRestSlug": null,
+      "sourceInventorySlug": "services",
+      "sourcePath": "/service/construction-services/",
+      "sections": [
+        {
+          "id": "services.page-title",
+          "type": "page-title",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Construction Services",
+          "sourceEvidence": {
+            "sourcePageSlug": "services"
+          }
+        },
+        {
+          "id": "services.why-choose",
+          "type": "text-intro",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Why Choose QuickSilver Construction",
+          "body": "Choosing the right contractor makes all the difference. At QuickSilver Construction, we combine hands-on experience, quality craftsmanship, and clear communication to ensure every project runs smoothly from start to finish. Our team focuses on dependable service, realistic timelines, and results built to stand the test of time.",
+          "sourceEvidence": {
+            "sourcePageSlug": "services",
+            "heading": "Why Choose QuickSilver Construction"
+          }
+        },
+        {
+          "id": "services.service-groups",
+          "type": "service-groups",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "items": [
+            {
+              "title": "Construction Services",
+              "body": "We provide residential construction solutions tailored to your property and goals. Whether building new structures or improving existing spaces, our team delivers durable workmanship with careful attention to detail."
+            },
+            {
+              "title": "Excavation & Site Preparation",
+              "body": "Proper groundwork is essential to every successful build. We handle excavation, grading, land clearing, and site preparation to create a solid foundation for construction projects of any size."
+            },
+            {
+              "title": "Demolition & Property Improvements",
+              "body": "From light demolition to structural modifications and property upgrades, we safely prepare spaces for renovation and new construction while maintaining clean and organized job sites."
+            }
+          ],
+          "sourceEvidence": {
+            "sourcePageSlug": "services"
+          }
+        },
+        {
+          "id": "services.callback-pledge",
+          "type": "callout",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "body": "If you have been looking for help with a project on Whidbey, you know how frustrating it can be that contractors won't even return your call. We pledge to call you back. We may be too busy to do the job, or not the right fit for your project, but at least we will talk to you and let you know.",
+          "sourceEvidence": {
+            "sourcePageSlug": "services",
+            "heading": "Callback pledge"
+          }
+        }
+      ]
+    },
+    {
+      "pageKey": "ourTeam",
+      "title": "Our Team",
+      "canonicalRoute": "/our-team/",
+      "templateRole": "page-standard",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+      "sourceRestSlug": "our-team-2",
+      "sourceInventorySlug": "our-team",
+      "sourcePath": "/our-team-2/",
+      "sections": [
+        {
+          "id": "our-team.page-title",
+          "type": "page-title",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Our Team",
+          "sourceEvidence": {
+            "sourcePageSlug": "our-team"
+          }
+        },
+        {
+          "id": "our-team.intro",
+          "type": "text-intro",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Meet the Team Behind the Craftsmanship",
+          "body": "At QuickSilver Construction, our team is made up of skilled professionals who take pride in quality workmanship and doing things the right way. With hands-on experience across residential construction, excavation, and custom building projects, each member of our crew shares a commitment to reliability, safety, and attention to detail. We work closely together - and with our clients - to ensure every project runs smoothly, stays on schedule, and delivers results built to last. Our goal isn't just to complete projects, but to build lasting relationships through trust, communication, and craftsmanship you can count on.",
+          "sourceEvidence": {
+            "sourcePageSlug": "our-team",
+            "heading": "Meet the Team Behind the Craftsmanship"
+          }
+        }
+      ]
+    },
+    {
+      "pageKey": "contact",
+      "title": "Contact",
+      "canonicalRoute": "/contact/",
+      "templateRole": "page-contact",
+      "sourceUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+      "sourceRestSlug": "contactus",
+      "sourceInventorySlug": "contact-us",
+      "sourcePath": "/contactus/",
+      "sections": [
+        {
+          "id": "contact.page-title",
+          "type": "page-title",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Contact",
+          "sourceEvidence": {
+            "sourcePageSlug": "contact-us"
+          }
+        },
+        {
+          "id": "contact.contact-methods",
+          "type": "contact-methods",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "items": [
+            {
+              "label": "Email Address",
+              "display": "Contact@TeamQSC.com",
+              "actionLabel": "Click To Send Email",
+              "href": "mailto:Contact@TeamQSC.com"
+            },
+            {
+              "label": "Phone Number",
+              "display": "(360) 321-1969",
+              "actionLabel": "Click To Call",
+              "href": "tel:3603211969"
+            },
+            {
+              "label": "Mailing Address",
+              "display": "Langley, WA 98260",
+              "actionLabel": "Send Mail Here"
+            }
+          ],
+          "sourceEvidence": {
+            "sourcePageSlug": "contact-us"
+          }
+        },
+        {
+          "id": "contact.form-placeholder",
+          "type": "form-placeholder",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "status": "deferred",
+          "approvedPlugin": null,
+          "collectsUserData": false,
+          "submissionEndpoint": null,
+          "renderInstruction": "Render as a non-submitting contact CTA/placeholder only until a form runtime is approved.",
+          "body": "Public source evidence shows a contact form surface. The implementation is deferred; no form plugin is approved by this model.",
+          "sourceEvidence": {
+            "sourcePageSlug": "contact-us",
+            "observedFields": [
+              "Your message (optional)"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "assetPolicy": {
+    "manifestPath": "assets/source/inventory/asset-manifest.json",
+    "requiredGroups": [
+      {
+        "sourcePageSlug": "home",
+        "inferredRole": "homepage hero/slider",
+        "priority": "must-recreate"
+      },
+      {
+        "sourcePageSlug": "photo-gallery",
+        "inferredRole": "gallery/project image",
+        "priority": "must-recreate"
+      },
+      {
+        "inferredRole": "logo/media reference",
+        "priority": "must-recreate"
+      }
+    ],
+    "deferredWork": [
+      "download original media files",
+      "normalize transformed i0.wp.com URLs to usable source assets where possible",
+      "finalize alt text during content modeling"
+    ]
+  },
+  "noBuildSourcePages": [
+    {
+      "sourceSlug": "home2",
+      "reason": "Wastii alternate demo home page"
+    },
+    {
+      "sourceSlug": "home-page-three",
+      "reason": "Wastii alternate demo home page"
+    },
+    {
+      "sourceSlug": "about-us",
+      "reason": "not primary nav; reference only"
+    },
+    {
+      "sourceSlug": "about-us-2",
+      "reason": "not primary nav; reference only"
+    },
+    {
+      "sourceSlug": "service",
+      "reason": "not canonical target services page"
+    },
+    {
+      "sourceSlug": "service2",
+      "reason": "Wastii alternate services page"
+    },
+    {
+      "sourceSlug": "project-style-one",
+      "reason": "alternate gallery/project demo"
+    },
+    {
+      "sourceSlug": "contactus-2",
+      "reason": "alternate contact page"
+    },
+    {
+      "sourceSlug": "faq",
+      "reason": "not primary nav; client confirmation required before scope"
+    },
+    {
+      "sourceSlug": "blog",
+      "reason": "blog is not target scope"
+    },
+    {
+      "sourceSlug": "blog-grid-view",
+      "reason": "blog is not target scope"
+    }
+  ],
+  "noBuildPostRules": [
+    {
+      "match": "all public REST posts from the source inventory",
+      "reason": "recycling/waste-management demo content or hello-world; no QuickSilver rebuild scope"
+    }
+  ],
+  "redirectCandidates": [
+    {
+      "status": "future-candidate",
+      "sourceHost": "https://zti.sad.mybluehost.me",
+      "sourceBasePath": "/website_6b4babaf",
+      "fromSourcePath": "/project-style-two/",
+      "toCanonicalRoute": "/photo-gallery/"
+    },
+    {
+      "status": "future-candidate",
+      "sourceHost": "https://zti.sad.mybluehost.me",
+      "sourceBasePath": "/website_6b4babaf",
+      "fromSourcePath": "/service/construction-services/",
+      "toCanonicalRoute": "/services/"
+    },
+    {
+      "status": "future-candidate",
+      "sourceHost": "https://zti.sad.mybluehost.me",
+      "sourceBasePath": "/website_6b4babaf",
+      "fromSourcePath": "/our-team-2/",
+      "toCanonicalRoute": "/our-team/"
+    },
+    {
+      "status": "future-candidate",
+      "sourceHost": "https://zti.sad.mybluehost.me",
+      "sourceBasePath": "/website_6b4babaf",
+      "fromSourcePath": "/contactus/",
+      "toCanonicalRoute": "/contact/"
+    }
+  ],
+  "pluginPolicy": {
+    "sourcePluginsAreEvidenceOnly": [
+      "elementor",
+      "wastii",
+      "revslider",
+      "contact-form-7",
+      "jetpack",
+      "yoast-seo",
+      "bluehost-wordpress-plugin",
+      "newfold-ai"
+    ],
+    "approvedTargetPlugins": [],
+    "approvalRequirements": [
+      "feature owner",
+      "reason the feature belongs in a plugin rather than theme or source code",
+      "maintenance risk",
+      "release plan"
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+:root {
+    --qsc-ink: #172033;
+    --qsc-muted: #5c6472;
+    --qsc-line: #d8dde5;
+    --qsc-paper: #ffffff;
+    --qsc-soft: #f4f7f9;
+    --qsc-lime: #98f20d;
+    --qsc-blue: #175dbf;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: var(--qsc-ink);
+    background: var(--qsc-paper);
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.55;
+}
+
+a {
+    color: inherit;
+}
+
+.skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 10;
+    background: var(--qsc-ink);
+    color: #fff;
+    padding: .75rem 1rem;
+}
+
+.skip-link:focus {
+    top: 1rem;
+}
+
+.site-header__top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 48px;
+    padding: .5rem clamp(1rem, 4vw, 2rem);
+    background: var(--qsc-lime);
+    font-size: .9rem;
+}
+
+.site-header__main {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.25rem clamp(1rem, 4vw, 2rem);
+    border-bottom: 1px solid var(--qsc-line);
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: .8rem;
+    text-decoration: none;
+}
+
+.brand__mark {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 3px solid var(--qsc-ink);
+    color: var(--qsc-blue);
+    font-weight: 800;
+}
+
+.brand__text {
+    display: grid;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.brand__text strong {
+    color: var(--qsc-blue);
+    font-size: 1.2rem;
+}
+
+.brand__text span {
+    font-size: .86rem;
+}
+
+.site-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.site-nav__list a,
+.quote-link {
+    text-decoration: none;
+}
+
+.quote-link {
+    white-space: nowrap;
+}
+
+.site-main {
+    min-height: 50vh;
+}
+
+.hero {
+    display: grid;
+    align-items: center;
+    min-height: 620px;
+    padding: clamp(4rem, 9vw, 7rem) clamp(1rem, 4vw, 2rem);
+    background:
+        linear-gradient(90deg, rgba(23, 32, 51, .86), rgba(23, 32, 51, .38)),
+        var(--qsc-soft);
+}
+
+.hero__content {
+    width: min(760px, 100%);
+    color: #fff;
+}
+
+.eyebrow {
+    margin: 0 0 .75rem;
+    color: var(--qsc-lime);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: clamp(2.5rem, 7vw, 5.5rem);
+    line-height: .98;
+}
+
+.hero p {
+    max-width: 680px;
+    font-size: 1.15rem;
+}
+
+.hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .85rem;
+    margin-top: 2rem;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: .85rem 1.2rem;
+    border: 2px solid #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.button--primary {
+    border-color: var(--qsc-lime);
+    background: var(--qsc-lime);
+    color: var(--qsc-ink);
+}
+
+.button--secondary {
+    color: #fff;
+}
+
+.service-grid,
+.content-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    width: min(1180px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.service-grid article,
+.content-card {
+    padding: 2rem;
+    background: var(--qsc-soft);
+}
+
+.service-grid h2,
+.content-card h1 {
+    margin-top: 0;
+}
+
+.site-footer {
+    background: var(--qsc-ink);
+    color: #fff;
+}
+
+.site-footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    justify-content: space-between;
+    width: min(1180px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+@media (max-width: 860px) {
+    .site-header__main,
+    .service-grid,
+    .content-list {
+        grid-template-columns: 1fr;
+    }
+
+    .site-nav__list {
+        justify-content: flex-start;
+    }
+
+    .hero {
+        min-height: 520px;
+    }
+}

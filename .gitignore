@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+
+dist/
+.cache/
+.tmp/
+no_git/
+secrets/
+exports/private/
+
+node_modules/
+vendor/
+
+.DS_Store
+Thumbs.db

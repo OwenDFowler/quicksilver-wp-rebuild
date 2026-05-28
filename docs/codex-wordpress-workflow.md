@@ -2,38 +2,40 @@
 
 ## Working Model
 
-Codex should treat this repo as the source of truth for code and repeatable operations. WordPress remains the runtime and content database.
+Codex should treat this repo as the source of truth for code, docs, content source files, and repeatable operations. WordPress remains the runtime and content database.
 
-Use wp-admin only for bootstrap or emergency manual edits. Day-to-day work should happen through this repo, Railway CLI, WordPress REST, and a clean WP-CLI path once installed.
+The governing rules are:
+
+- `docs/engineering-standard.md`
+- `docs/wordpress-boundaries.md`
+- `docs/theme-standard.md`
+- `docs/ops-and-release.md`
 
 ## Control Surfaces
 
-- Railway CLI: service status, logs, restarts, deploy inspection, SSH.
-- WordPress REST: pages, posts, media, menus, settings that are exposed through REST.
-- WP-CLI: future terminal-first admin path for themes, plugins, users, options, exports, and imports.
-- In-app browser: visual verification of public pages after changes.
+Use the current control-surface roles in `docs/wordpress-boundaries.md`. Do not duplicate those roles here.
 
 ## Secret Handling
 
-Create a local `.env` or `.env.local` from `.env.example` when needed. Keep it untracked.
+Create a local `.env.local` from `.env.example` when needed. Keep it untracked.
 
-Expected future local secrets:
+Expected local secrets:
 
 - `WORDPRESS_USERNAME`
 - `WORDPRESS_APPLICATION_PASSWORD`
 
-Do not store database passwords from Railway in this repo.
+Do not store database passwords from Railway in this repo. Do not print application passwords, Railway tokens, database credentials, cookies, or authorization headers.
 
 ## Near-Term Flow
 
-1. Create a WordPress application password in wp-admin.
+1. Create a WordPress application password in wp-admin as a bootstrap action.
 2. Run `scripts/init-local-env.ps1` and fill `.env.local` locally.
 3. Run `scripts/test-wp-auth.ps1` to prove Codex can authenticate through REST.
 4. Run `scripts/wp-inventory.ps1` before writes so Codex sees current WordPress state.
 5. Use `scripts/wp-upsert-page.ps1` to create or update draft pages from `content/pages/*.json`.
 6. Edit theme/source files locally.
-7. Package or sync the theme.
-8. Use REST/WP-CLI scripts for content and settings.
+7. Package the theme for review; add a deployment script or runbook before installing it.
+8. Use REST scripts for current content operations. Add WP-CLI scripts before WP-CLI operations.
 9. Verify through the in-app browser and `scripts/check-target.ps1`.
 
 ## Durable Rule

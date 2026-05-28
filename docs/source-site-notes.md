@@ -1,5 +1,7 @@
 # Source Site Notes
 
+Keep this file focused on public facts observed from the source site. Architecture, release, and theme rules live in `docs/engineering-standard.md`, `docs/wordpress-boundaries.md`, `docs/theme-standard.md`, and `docs/ops-and-release.md`.
+
 Original public site:
 
 https://zti.sad.mybluehost.me/website_6b4babaf/
@@ -11,4 +13,4 @@ Useful public facts from inspection:
 - Business/site name: QuickSilver Construction Whidbey Island
 - The public result can be recreated, but private WordPress database/admin settings are not recoverable from public access alone.
 
-Keep this file focused on facts observed from public surfaces. Put downloaded assets under `assets/source/`.
+Source-site plugins are reconstruction clues, not approved runtime dependencies. Put downloaded assets under `assets/source/`.

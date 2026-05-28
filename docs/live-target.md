@@ -1,5 +1,7 @@
 # Live Target
 
+Current runtime facts live here. Ownership rules live in `docs/wordpress-boundaries.md`; operational checks live in `docs/ops-and-release.md`.
+
 ## Railway
 
 - Project: `quicksilver-wp`
@@ -19,6 +21,6 @@
   - Persistent volume: `mariadb-volume`
   - Mount path: `/var/lib/mysql`
 
-## Current Boundary
+## Boundary
 
-This repo owns source-controlled rebuild work. The Railway WordPress database owns live content state until we add explicit export/import scripts.
+Use `docs/wordpress-boundaries.md` for the ownership contract.

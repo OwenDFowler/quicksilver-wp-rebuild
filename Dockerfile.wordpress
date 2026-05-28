@@ -16,4 +16,6 @@ COPY docker/wordpress-start.sh /usr/local/bin/quicksilver-wordpress-start
 RUN set -eux; \
     chmod 0755 /usr/local/bin/quicksilver-wordpress-start; \
     test -f /opt/quicksilver/themes/quicksilver-construction/style.css; \
-    test -f /opt/quicksilver/themes/quicksilver-construction/index.php
+    test -f /opt/quicksilver/themes/quicksilver-construction/index.php; \
+    test -f /opt/quicksilver/themes/quicksilver-construction/inc/generated/site-data.php; \
+    test -f /opt/quicksilver/themes/quicksilver-construction/assets/media/generated/026-logo-media-reference-logo-mug.webp

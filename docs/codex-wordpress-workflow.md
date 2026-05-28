@@ -29,10 +29,12 @@ Do not store database passwords from Railway in this repo.
 1. Create a WordPress application password in wp-admin.
 2. Run `scripts/init-local-env.ps1` and fill `.env.local` locally.
 3. Run `scripts/test-wp-auth.ps1` to prove Codex can authenticate through REST.
-4. Edit theme/source files locally.
-5. Package or sync the theme.
-6. Use REST/WP-CLI scripts for content and settings.
-7. Verify through the in-app browser and `scripts/check-target.ps1`.
+4. Run `scripts/wp-inventory.ps1` before writes so Codex sees current WordPress state.
+5. Use `scripts/wp-upsert-page.ps1` to create or update draft pages from `content/pages/*.json`.
+6. Edit theme/source files locally.
+7. Package or sync the theme.
+8. Use REST/WP-CLI scripts for content and settings.
+9. Verify through the in-app browser and `scripts/check-target.ps1`.
 
 ## Durable Rule
 

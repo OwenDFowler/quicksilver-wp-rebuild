@@ -26,6 +26,8 @@ The live runtime is a Railway-hosted WordPress install. This repo is the local C
 .\scripts\package-theme.ps1
 .\scripts\init-local-env.ps1
 .\scripts\test-wp-auth.ps1
+.\scripts\wp-inventory.ps1
+.\scripts\wp-upsert-page.ps1 -File .\content\pages\home.json
 ```
 
 Secrets belong in a local `.env` or `.env.local` file only. Do not commit WordPress passwords, application passwords, database credentials, or Railway tokens.

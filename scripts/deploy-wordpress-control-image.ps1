@@ -30,6 +30,7 @@ $requiredRepoFiles = @(
     '.dockerignore',
     'docker\wordpress-start.sh',
     'scripts\assert-railway-wordpress-target.ps1',
+    'scripts\generate-theme-data.ps1',
     'theme\quicksilver-construction\style.css',
     'theme\quicksilver-construction\index.php'
 )
@@ -40,6 +41,8 @@ foreach ($relativePath in $requiredRepoFiles) {
         throw "Missing required deploy file: $path"
     }
 }
+
+& $PSScriptRoot\generate-theme-data.ps1 -ThemeSlug 'quicksilver-construction' | Out-Null
 
 $target = & $PSScriptRoot\assert-railway-wordpress-target.ps1 `
     -RailwayDir $RailwayDir `

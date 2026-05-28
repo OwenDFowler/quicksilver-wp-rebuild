@@ -5,6 +5,8 @@
 dist/
 .cache/
 .tmp/
+theme/quicksilver-construction/inc/generated/
+theme/quicksilver-construction/assets/media/generated/
 no_git/
 secrets/
 exports/private/

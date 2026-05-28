@@ -9,6 +9,7 @@ $RepoRoot = Split-Path -Parent $PSScriptRoot
 $ThemePath = Join-Path $RepoRoot "theme\$ThemeSlug"
 $StylePath = Join-Path $ThemePath 'style.css'
 $IndexPath = Join-Path $ThemePath 'index.php'
+$GeneratedDataPath = Join-Path $ThemePath 'inc\generated\site-data.php'
 $RepoFullPath = [System.IO.Path]::GetFullPath($RepoRoot)
 
 function Assert-UnderRepo {
@@ -26,6 +27,12 @@ if (-not (Test-Path -LiteralPath $StylePath)) {
 
 if (-not (Test-Path -LiteralPath $IndexPath)) {
     throw "Missing required WordPress theme file: $IndexPath"
+}
+
+& $PSScriptRoot\generate-theme-data.ps1 -ThemeSlug $ThemeSlug | Out-Null
+
+if (-not (Test-Path -LiteralPath $GeneratedDataPath -PathType Leaf)) {
+    throw "Missing generated theme data file: $GeneratedDataPath"
 }
 
 $DistPath = Join-Path $RepoRoot 'dist'

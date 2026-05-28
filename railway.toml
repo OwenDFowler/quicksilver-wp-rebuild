@@ -1,0 +1,6 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile.wordpress"
+
+[deploy]
+startCommand = "quicksilver-wordpress-start apache2-foreground"

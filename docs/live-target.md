@@ -12,7 +12,9 @@ Current runtime facts live here. Ownership rules live in `docs/wordpress-boundar
 ## Services
 
 - `WordPress`
-  - Source image: `wordpress`
+  - Source image: repo-controlled Railway Dockerfile based on `wordpress@sha256:d32999a243ee5051babf8580ff22e7254129fe2f209f3d10aacdc81fdcd33959`
+  - WP-CLI: installed in the image as `/usr/local/bin/wp`
+  - Bundled theme sync: `theme/quicksilver-construction/` is copied into `/var/www/html/wp-content/themes/quicksilver-construction` during container startup
   - Persistent volume: `wordpress-volume`
   - Mount path: `/var/www/html`
 

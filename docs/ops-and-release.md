@@ -25,6 +25,12 @@ Run this before Railway operations:
 .\scripts\railway-status.ps1
 ```
 
+Run this after the WordPress control image is deployed:
+
+```powershell
+.\scripts\verify-railway-wp-cli.ps1
+```
+
 Run this before theme package review:
 
 ```powershell
@@ -33,14 +39,17 @@ Run this before theme package review:
 
 ## Content Draft Flow
 
-1. Author or update a source file under `content/pages/`.
+1. Author or update the target content model in `content/site-model.json`.
 2. Run `.\scripts\test-wp-auth.ps1`.
 3. Run `.\scripts\wp-inventory.ps1` and confirm the target slug/status.
-4. Run `.\scripts\wp-upsert-page.ps1 -File .\content\pages\<page>.json`.
-5. Confirm the returned page ID, slug, status, and link.
-6. Open the draft preview or authenticated URL in the browser when visual verification is required.
+4. Create or update the REST write payload under `content/pages/` from the target model.
+5. Run `.\scripts\wp-upsert-page.ps1 -File .\content\pages\<page>.json`.
+6. Confirm the returned page ID, slug, status, and link.
+7. Open the draft preview or authenticated URL in the browser when visual verification is required.
 
 `wp-upsert-page.ps1` is the current content write path. Do not add a second content write path without changing `docs/wordpress-boundaries.md`.
+
+`content/pages/*.json` is not the target content authority. If a REST payload differs from `content/site-model.json`, stop and reconcile the model first unless the payload is explicitly documented as provisional evidence.
 
 ## Publish Gate
 
@@ -61,9 +70,22 @@ No script should silently turn a draft into published content. A publish-capable
 1. Edit source under `theme/quicksilver-construction/`.
 2. Package with `.\scripts\package-theme.ps1`.
 3. Review the generated zip path and size.
-4. Do not install or activate through this repo until a theme deployment script or runbook exists.
+4. Deploy the repo-controlled WordPress image with `.\scripts\deploy-wordpress-control-image.ps1`.
+5. Verify the deployed WP-CLI/theme surface with `.\scripts\verify-railway-wp-cli.ps1`.
+6. Activate only after an explicit operator request:
 
-When theme deployment is added, it must include target validation, package validation, WordPress-side verification, and rollback instructions.
+```powershell
+.\scripts\activate-railway-theme.ps1 -ConfirmActivation
+```
+
+The image deployment syncs `theme/quicksilver-construction/` into the WordPress volume. Activation is a separate WordPress DB write and must not be bundled into ordinary image deployment.
+
+Theme activation rollback gate:
+
+- `activate-railway-theme.ps1` activates only `quicksilver-construction`.
+- The script captures the previous active theme before activation.
+- The script prints the rollback command after activation.
+- This gate is the approved narrow runbook for the reversible active-theme option change; it is not a general database backup.
 
 ## Railway Runtime Flow
 
@@ -76,6 +98,14 @@ Railway mutations require an explicit task. Before restart, redeploy, volume cha
 - Name the expected effect.
 - Confirm the rollback or recovery step.
 
+Current WordPress image deployment command:
+
+```powershell
+.\scripts\deploy-wordpress-control-image.ps1
+```
+
+Expected effect: redeploy the existing `WordPress` service with WP-CLI available at `wp`, keep the `/var/www/html` volume mounted, and sync the source-controlled QuickSilver theme into `/var/www/html/wp-content/themes/quicksilver-construction`.
+
 ## Backup And Export
 
 Before destructive or high-risk operations, create an export or backup appropriate to the surface being changed:
@@ -85,7 +115,7 @@ Before destructive or high-risk operations, create an export or backup appropria
 - Media: WordPress uploads/export path once scripted.
 - Railway environment: current variable inventory without secret values.
 
-This repo does not yet contain an active backup/export script, and WP-CLI is not active. Destructive or high-risk DB, option, user, media, plugin, and theme-runtime operations are blocked until a concrete backup/export path exists or an explicit one-time backup runbook is approved.
+This repo does not yet contain an active backup/export script. Destructive or high-risk DB, option, user, media, plugin, and theme-runtime operations are blocked until a concrete backup/export path exists or an explicit one-time backup runbook is approved.
 
 Full WordPress restore requires both database state and files. Do not treat Git revert as a database rollback. Git can restore repo source; it cannot restore WordPress DB state.
 
@@ -96,6 +126,13 @@ After a write or runtime operation:
 ```powershell
 .\scripts\check-target.ps1
 .\scripts\wp-inventory.ps1
+```
+
+After WordPress control-image deployment or WP-CLI changes:
+
+```powershell
+.\scripts\verify-railway-wp-cli.ps1
+.\scripts\railway-status.ps1
 ```
 
 Use the in-app browser for visual checks on public pages and authenticated previews. Record only actionable findings in docs or issues; do not keep temporary review notes in the repo.

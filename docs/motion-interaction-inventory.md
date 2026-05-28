@@ -52,7 +52,7 @@ These are evidence only. They are not approved target dependencies.
 
 ## Rebuild Rule
 
-Recreate visible behavior, not the old dependency stack.
+Recreate the useful visible behavior, not the old dependency stack. Good source-informed interaction design matters more than exact animation matching.
 
 Default implementation path:
 
@@ -208,9 +208,9 @@ These limits do not block the rebuild. They mean the theme should implement the 
 
 ## Theme Implementation Notes
 
-Expected target files in a later theme phase:
+Expected target files:
 
-- `theme/quicksilver-construction/assets/css/theme.css`
+- `theme/quicksilver-construction/assets/css/site.css`
 - `theme/quicksilver-construction/assets/js/interactions.js`
 
 Expected JavaScript modules or functions:

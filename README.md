@@ -25,6 +25,10 @@ Read these before changing WordPress state or theme source:
 ## Repo Shape
 
 - `theme/quicksilver-construction/` - source-controlled WordPress theme.
+- `Dockerfile.wordpress` - Railway WordPress image layer that adds WP-CLI and bundles the repo theme.
+- `docker/wordpress-start.sh` - Railway startup script that syncs the bundled theme into the WordPress volume before Apache starts.
+- `content/site-model.json` - canonical target site model for pages, sections, copy, contact data, and asset intent.
+- `content/pages/` - REST draft-write payloads; not a second content authority.
 - `scripts/` - local checks and packaging helpers.
 - `assets/source/` - public/source assets gathered for the rebuild.
 - `docs/` - operator notes and reconstruction runbooks.
@@ -35,15 +39,24 @@ Read these before changing WordPress state or theme source:
 .\scripts\check-target.ps1
 .\scripts\railway-status.ps1
 .\scripts\package-theme.ps1
+.\scripts\verify-railway-wp-cli.ps1
 .\scripts\init-local-env.ps1
 .\scripts\test-wp-auth.ps1
 .\scripts\wp-inventory.ps1
 ```
 
-After the checks pass and the target slug/status is confirmed, draft content writes use:
+After the checks pass and the target slug/status is confirmed, draft content writes use REST payloads derived from `content/site-model.json`:
 
 ```powershell
 .\scripts\wp-upsert-page.ps1 -File .\content\pages\home.json
+```
+
+Railway WordPress runtime control uses the repo-controlled image and WP-CLI wrapper:
+
+```powershell
+.\scripts\deploy-wordpress-control-image.ps1
+.\scripts\railway-wp-cli.ps1 core is-installed
+.\scripts\verify-railway-wp-cli.ps1
 ```
 
 Secrets belong in a local `.env` or `.env.local` file only. Do not commit WordPress passwords, application passwords, database credentials, or Railway tokens. The full rule is in `docs/engineering-standard.md`.

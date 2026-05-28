@@ -34,15 +34,15 @@ For the full ownership contract, use `docs/wordpress-boundaries.md`.
 - REST writes default to `draft` unless a publish gate has been explicitly invoked.
 - A publish gate requires a fresh inventory, browser verification, a named target URL, and an explicit operator request to publish.
 - Current script warning: `scripts/wp-upsert-page.ps1` can publish with `-Publish` or source JSON status `publish`. Those inputs are prohibited until the publish gate has been completed for the named page.
-- Content source files in `content/pages/*.json` are the authored source for scripted page writes.
+- `content/site-model.json` is the canonical target content model. Files under `content/pages/*.json` are REST draft-write payloads derived from the model or explicitly marked provisional evidence; they must not become a second content source.
 - WordPress post IDs and revision history are runtime facts. Record them only when they help identify the live target; do not treat them as portable source.
 
 ## Repeatable Operations
 
-- Use scripts in `scripts/` for authentication checks, inventory, content upserts, target checks, Railway inspection, and theme packaging.
+- Use scripts in `scripts/` for authentication checks, inventory, content upserts, target checks, Railway inspection, WP-CLI, theme packaging, and WordPress control-image deployment.
 - If a shell command becomes part of normal operation, promote it to a script with validation.
 - Scripts must accept explicit input, validate it early, and throw on invalid state.
-- Scripts must use structured APIs when available. Current WordPress state should come from REST scripts; WP-CLI may provide state only after it is installed and scripted. Do not parse HTML for WordPress state when a structured path exists.
+- Scripts must use structured APIs when available. Current WordPress state should come from REST scripts or the scripted WP-CLI wrapper, depending on which surface owns the operation. Do not parse HTML for WordPress state when a structured path exists.
 
 ## Review Gates
 

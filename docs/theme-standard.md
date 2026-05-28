@@ -1,6 +1,6 @@
 # Theme Standard
 
-The target theme is a source-controlled custom WordPress theme at `theme/quicksilver-construction/`. It should reproduce the public QuickSilver site faithfully while staying simpler and more controllable than the source site's builder stack.
+The target theme is a source-controlled custom WordPress theme at `theme/quicksilver-construction/`. It should create a professional, source-informed QuickSilver site while staying simpler and more controllable than the source site's builder stack. Pixel-exact Wastii/Elementor reproduction is not the goal.
 
 ## WordPress Authority
 
@@ -27,8 +27,8 @@ Do not introduce Elementor, Slider Revolution, Wastii, or another page-builder d
 - `index.php` must exist as the required base template.
 - `front-page.php` may own the homepage presentation when the site uses a static front page.
 - `functions.php` owns theme supports, menus, image sizes, enqueues, and theme-level hooks.
-- CSS belongs under `assets/css/` unless WordPress requires metadata in `style.css`.
-- JavaScript belongs under `assets/js/` once needed and must be enqueued.
+- CSS belongs under `assets/css/`; the current primary stylesheet is `assets/css/site.css`.
+- JavaScript belongs under `assets/js/` once needed and must be enqueued. Use `assets/js/interactions.js` for shared theme interaction behavior unless the theme structure changes deliberately.
 - Source assets belong under `assets/source/`; theme-ready assets belong under the theme only when they are part of the packaged theme.
 
 ## Security And Data Handling
@@ -47,7 +47,7 @@ Do not introduce Elementor, Slider Revolution, Wastii, or another page-builder d
 - Keep layout constraints explicit: max widths, grid/flex rules, media queries, image aspect ratios, and overflow behavior.
 - Avoid builder-generated class soup and inline style sprawl.
 - Preserve accessibility basics: alt text for meaningful images, focus visibility, keyboard-reachable navigation, and sufficient contrast.
-- Match the source site's public visual result, but do not copy brittle implementation details from Wastii, Elementor, or Slider Revolution.
+- Use the source site's public visual evidence for direction, then prioritize a polished QuickSilver result over exact builder matching. Do not copy brittle implementation details from Wastii, Elementor, or Slider Revolution.
 
 ## Plugin Policy
 
@@ -66,4 +66,15 @@ Package from repo source:
 
 The package output is `dist/quicksilver-construction.zip`. `dist/` is generated output and must remain untracked.
 
-Installing or activating the package on WordPress is not yet an implemented repo path. Add that path before treating theme deployment as repeatable.
+The repeatable Railway deployment path is the repo-controlled WordPress image:
+
+```powershell
+.\scripts\deploy-wordpress-control-image.ps1
+.\scripts\verify-railway-wp-cli.ps1
+```
+
+Image deployment syncs the theme files into the WordPress volume. It does not activate the theme. Theme activation is a separate explicit DB write:
+
+```powershell
+.\scripts\activate-railway-theme.ps1 -ConfirmActivation
+```

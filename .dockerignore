@@ -1,0 +1,8 @@
+*
+!Dockerfile.wordpress
+!railway.toml
+!docker/
+!docker/**
+!theme/
+!theme/quicksilver-construction/
+!theme/quicksilver-construction/**

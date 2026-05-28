@@ -1,0 +1,19 @@
+ARG WORDPRESS_IMAGE=wordpress@sha256:d32999a243ee5051babf8580ff22e7254129fe2f209f3d10aacdc81fdcd33959
+FROM ${WORDPRESS_IMAGE}
+
+ARG WP_CLI_VERSION=2.12.0
+ARG WP_CLI_SHA256=ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c
+
+RUN set -eux; \
+    curl -fsSL -o /usr/local/bin/wp "https://github.com/wp-cli/wp-cli/releases/download/v${WP_CLI_VERSION}/wp-cli-${WP_CLI_VERSION}.phar"; \
+    echo "${WP_CLI_SHA256}  /usr/local/bin/wp" | sha256sum -c -; \
+    chmod 0755 /usr/local/bin/wp; \
+    wp --allow-root --info
+
+COPY theme/quicksilver-construction/ /opt/quicksilver/themes/quicksilver-construction/
+COPY docker/wordpress-start.sh /usr/local/bin/quicksilver-wordpress-start
+
+RUN set -eux; \
+    chmod 0755 /usr/local/bin/quicksilver-wordpress-start; \
+    test -f /opt/quicksilver/themes/quicksilver-construction/style.css; \
+    test -f /opt/quicksilver/themes/quicksilver-construction/index.php

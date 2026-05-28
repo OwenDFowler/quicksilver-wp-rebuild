@@ -38,7 +38,7 @@ Theme templates own:
 - Header and footer structure.
 - Responsive behavior.
 - Typography, colors, buttons, and gallery presentation.
-- Visual fidelity to the public source evidence.
+- Source-informed visual direction and a polished QuickSilver presentation.
 
 WordPress runtime owns:
 
@@ -179,4 +179,4 @@ This target model approves no plugins. Any plugin later needs a named owner, fea
 
 Use this document to understand intent. Use `content/site-model.json` for implementation inputs.
 
-The next phase may generate page JSON, theme section renderers, or an asset acquisition list from the model. It must not treat WordPress live IDs, source slugs, or source plugins as target authority.
+Implementation may generate page JSON, theme section renderers, or an asset acquisition list from the model. It must not treat WordPress live IDs, source slugs, or source plugins as target authority.

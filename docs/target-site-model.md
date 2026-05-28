@@ -145,6 +145,11 @@ The local public media copy is documented in:
 - `docs/source-media-assets.md`
 - `assets/source/media/media-manifest.json`
 
+Motion and interaction behavior is documented in:
+
+- `docs/motion-interaction-inventory.md`
+- `assets/source/inventory/motion/motion-capture.json`
+
 Required groups:
 
 - Homepage hero/slider images.

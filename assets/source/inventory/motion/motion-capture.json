@@ -1,0 +1,2486 @@
+{
+  "sourceBaseUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/",
+  "capturedAtUtc": "2026-05-28T20:35:26.918Z",
+  "delayMilliseconds": 1500,
+  "inspectedPages": 5,
+  "pages": [
+    {
+      "slug": "home",
+      "label": "Home",
+      "url": "https://zti.sad.mybluehost.me/website_6b4babaf/",
+      "viewport": "desktop",
+      "status": "ok",
+      "title": "Home Page One - QuickSilver Construction Whidbey Island",
+      "libraries": {
+        "resourceCount": 93,
+        "scriptCount": 31,
+        "stylesheetCount": 39,
+        "detected": {
+          "elementor": true,
+          "sliderRevolution": true,
+          "wastiiTheme": true,
+          "flexslider": true,
+          "slick": true,
+          "isotope": true,
+          "magnificPopup": true,
+          "prettyPhoto": true,
+          "waypoints": true,
+          "stickyKit": true,
+          "mousewheel": true,
+          "circleProgress": true,
+          "numinate": true
+        },
+        "matchedResourceUrls": [
+          "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/section-frontend-handlers.d85ab872da118940910d.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/fonts/revicons/css/revicons.css",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/fonts/revicons/fonts/revicons.woff?5510888",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/preloaders/loader.gif",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/preloaders/t0.css",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/sr7.lp.css",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/sr7.media.css",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/sr7.nav.css",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/themetechmount-wastii-extras/js/jquery-resize.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/chrisbracco-tooltip/chrisbracco-tooltip.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/datecounter/timecircles.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/flexslider.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/jquery.flexslider-min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/isotope/isotope.pkgd.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-circle-progress/circle-progress.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-mousewheel/jquery.mousewheel.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/jquery.magnific-popup.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/magnific-popup.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/numinate/numinate.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.jquery.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/css/prettyPhoto.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/js/jquery.prettyPhoto.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick-theme.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/sticky-kit/jquery.sticky-kit.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themetechmount-wastii-extra-icons/font/flaticon.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themify-icons/themify-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/css/tm-wastii-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/font/tm-wastii-icons.woff2?52456988",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/waypoints/jquery.waypoints.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/base.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap-theme.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/main.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/multi-columns-row.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/responsive.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/wastii-last-checkpoint.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/js/functions.min.js?ver=1.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-422.css?ver=1779989263",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-9.css?ver=1779989263"
+        ]
+      },
+      "header": {
+        "initial": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 901
+          }
+        },
+        "scrolled": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": -900,
+            "width": 1440,
+            "height": 901
+          }
+        }
+      },
+      "slider": {
+        "initial": [
+          {
+            "tagName": "sr7-module",
+            "id": "SR7_1_1",
+            "className": "rs-ov-hidden",
+            "text": "Clear timelines, honest pricing, and dependable service from start to finish.Welcome To QuickSilver ConstructionView Our Services!<img src=\"https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg\" alt=\"\" ti",
+            "childCount": 2,
+            "transform": "none",
+            "opacity": "1",
+            "rect": {
+              "x": 0,
+              "y": 151,
+              "width": 1440,
+              "height": 750
+            }
+          }
+        ],
+        "afterWait": [
+          {
+            "tagName": "sr7-module",
+            "id": "SR7_1_1",
+            "className": "rs-ov-hidden",
+            "text": "Clear timelines, honest pricing, and dependable service from start to finish.Welcome To QuickSilver ConstructionView Our Services!<img src=\"https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg\" alt=\"\" ti",
+            "childCount": 2,
+            "transform": "none",
+            "opacity": "1",
+            "rect": {
+              "x": 0,
+              "y": 151,
+              "width": 1440,
+              "height": 750
+            }
+          }
+        ]
+      },
+      "hoverSamples": [
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Less Plastic & Paper this reduce our environmental concerns?",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/less-plastic-paper-this-reduce-our-environmental-concerns/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1568,
+            "y": 362,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "To Remove Your Hard Drive From A Computer Before Recycling",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/what-can-not-you-put-in-the-dumpster-3/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 457,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Waste to Energy A Guide to Sustainable Waste Management",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/waste-to-energy-a-guide-to-sustainable-waste-management/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 552,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "",
+          "href": "https://facebook.com/teamqsc",
+          "id": "",
+          "className": " tooltip-top",
+          "rect": {
+            "x": 1352,
+            "y": 667,
+            "width": 38,
+            "height": 33
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "button",
+          "selector": "a.elementor-button, .elementor-button, .tm-btn, a[class*=\"btn\"], button",
+          "text": "Get A Quote",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+          "id": "",
+          "className": "tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-rounded tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-gradient",
+          "rect": {
+            "x": 1256,
+            "y": 92,
+            "width": 84,
+            "height": 20
+          },
+          "changedProps": [
+            "borderColor",
+            "color"
+          ],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(36, 36, 36)",
+            "boxShadow": "none",
+            "color": "rgb(36, 36, 36)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(177, 15, 60)",
+            "boxShadow": "none",
+            "color": "rgb(177, 15, 60)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        }
+      ],
+      "scrollClassSamples": {
+        "initial": [
+          {
+            "tagName": "body",
+            "id": "",
+            "className": "home wp-singular page-template-default page page-id-422 wp-theme-wastii tm-pageslider-yes tm-headerstyle-classic tm-layout-default themetechmount-topbar-yes themetechmount-flotbar-yes themetechmount-fullwide themetechmount-page-full-width tm-empty-sidebar elementor-default elementor-kit-9 elementor-page elementor-page-422 e--ua-isTouchDevice",
+            "text": "About Wastii Do you know what materials are recycling? In 2020, almost all materials are recyclable! Plastic, glass, alu",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 0,
+              "height": 5273
+            }
+          },
+          {
+            "tagName": "div",
+            "id": "",
+            "className": "themetechmount-slider-wrapper",
+            "text": "Clear timelines, honest pricing, and dependable service from start to finish.Welcome To QuickSilver ConstructionView Our",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 151,
+              "height": 750
+            }
+          },
+          {
+            "tagName": "div",
+            "id": "",
+            "className": "themetechmount-slider-wide",
+            "text": "Clear timelines, honest pricing, and dependable service from start to finish.Welcome To QuickSilver ConstructionView Our",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 151,
+              "height": 750
+            }
+          },
+          {
+            "tagName": "sr7-slide",
+            "id": "SR7_1_1-9",
+            "className": "sr7-staticslide sr7-staticslide-high",
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 151,
+              "height": 750
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1446,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1489,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1532,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1575,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1618,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1661,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1704,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 5187,
+              "height": 86
+            }
+          }
+        ],
+        "scrolled": [
+          {
+            "tagName": "body",
+            "id": "",
+            "className": "home wp-singular page-template-default page page-id-422 wp-theme-wastii tm-pageslider-yes tm-headerstyle-classic tm-layout-default themetechmount-topbar-yes themetechmount-flotbar-yes themetechmount-fullwide themetechmount-page-full-width tm-empty-sidebar elementor-default elementor-kit-9 elementor-page elementor-page-422 e--ua-isTouchDevice",
+            "text": "About Wastii Do you know what materials are recycling? In 2020, almost all materials are recyclable! Plastic, glass, alu",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": -900,
+              "height": 5273
+            }
+          },
+          {
+            "tagName": "div",
+            "id": "",
+            "className": "themetechmount-slider-wrapper",
+            "text": "Clear timelines, honest pricing, and dependable service from start to finish.Welcome To QuickSilver ConstructionView Our",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": -749,
+              "height": 750
+            }
+          },
+          {
+            "tagName": "div",
+            "id": "",
+            "className": "themetechmount-slider-wide",
+            "text": "Clear timelines, honest pricing, and dependable service from start to finish.Welcome To QuickSilver ConstructionView Our",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": -749,
+              "height": 750
+            }
+          },
+          {
+            "tagName": "sr7-slide",
+            "id": "SR7_1_1-9",
+            "className": "sr7-staticslide sr7-staticslide-high",
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": -749,
+              "height": 750
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 546,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 589,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 632,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 675,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 718,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 761,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0.3s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 804,
+              "height": 15
+            }
+          },
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 4287,
+              "height": 86
+            }
+          }
+        ]
+      },
+      "galleryLightbox": null,
+      "screenshots": [
+        {
+          "label": "desktop-initial",
+          "file": "assets/source/inventory/motion/screenshots/home-desktop-initial.png",
+          "bytes": 1315527
+        },
+        {
+          "label": "desktop-scrolled",
+          "file": "assets/source/inventory/motion/screenshots/home-desktop-scrolled.png",
+          "bytes": 834056
+        },
+        {
+          "label": "desktop-hero-after-wait",
+          "file": "assets/source/inventory/motion/screenshots/home-desktop-hero-after-wait.png",
+          "bytes": 1315791
+        }
+      ]
+    },
+    {
+      "slug": "photo-gallery",
+      "label": "Photo Gallery",
+      "url": "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+      "viewport": "desktop",
+      "status": "ok",
+      "title": "Photo Gallery - QuickSilver Construction Whidbey Island",
+      "libraries": {
+        "resourceCount": 97,
+        "scriptCount": 33,
+        "stylesheetCount": 34,
+        "detected": {
+          "elementor": true,
+          "sliderRevolution": true,
+          "wastiiTheme": true,
+          "flexslider": true,
+          "slick": true,
+          "isotope": true,
+          "magnificPopup": true,
+          "prettyPhoto": true,
+          "waypoints": true,
+          "stickyKit": true,
+          "mousewheel": true,
+          "circleProgress": true,
+          "numinate": true
+        },
+        "matchedResourceUrls": [
+          "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/conditionals/dialog.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/conditionals/lightbox.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/397f2d183c19202777d6.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/lightbox.570c05c5a283cfb6b223.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/section-frontend-handlers.d85ab872da118940910d.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.3",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/themetechmount-wastii-extras/js/jquery-resize.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/chrisbracco-tooltip/chrisbracco-tooltip.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/datecounter/timecircles.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/flexslider.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/jquery.flexslider-min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/isotope/isotope.pkgd.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-circle-progress/circle-progress.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-mousewheel/jquery.mousewheel.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/jquery.magnific-popup.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/magnific-popup.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/numinate/numinate.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.jquery.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/css/prettyPhoto.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/js/jquery.prettyPhoto.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick-theme.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/sticky-kit/jquery.sticky-kit.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themetechmount-wastii-extra-icons/font/flaticon.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themify-icons/themify-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/css/tm-wastii-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/font/tm-wastii-icons.woff2?52456988",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/waypoints/jquery.waypoints.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/base.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap-theme.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/main.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/multi-columns-row.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/responsive.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/wastii-last-checkpoint.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/js/functions.min.js?ver=1.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-6079.css?ver=1779989751",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-9.css?ver=1779989263"
+        ]
+      },
+      "header": {
+        "initial": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 401
+          }
+        },
+        "scrolled": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": -900,
+            "width": 1440,
+            "height": 401
+          }
+        }
+      },
+      "slider": {
+        "initial": [],
+        "afterWait": []
+      },
+      "hoverSamples": [
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Less Plastic & Paper this reduce our environmental concerns?",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/less-plastic-paper-this-reduce-our-environmental-concerns/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1568,
+            "y": 362,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "To Remove Your Hard Drive From A Computer Before Recycling",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/what-can-not-you-put-in-the-dumpster-3/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 457,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Waste to Energy A Guide to Sustainable Waste Management",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/waste-to-energy-a-guide-to-sustainable-waste-management/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 552,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "",
+          "href": "https://facebook.com/teamqsc",
+          "id": "",
+          "className": " tooltip-top",
+          "rect": {
+            "x": 1352,
+            "y": 667,
+            "width": 38,
+            "height": 33
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "button",
+          "selector": "a.elementor-button, .elementor-button, .tm-btn, a[class*=\"btn\"], button",
+          "text": "Get A Quote",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+          "id": "",
+          "className": "tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-rounded tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-gradient",
+          "rect": {
+            "x": 1256,
+            "y": 92,
+            "width": 84,
+            "height": 20
+          },
+          "changedProps": [
+            "borderColor",
+            "color"
+          ],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(36, 36, 36)",
+            "boxShadow": "none",
+            "color": "rgb(36, 36, 36)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(177, 15, 60)",
+            "boxShadow": "none",
+            "color": "rgb(177, 15, 60)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "Our Work in Action. See What We’ve Built.At QuickSilver Construction, every project reflects our commitment to quality c",
+          "href": "",
+          "id": "",
+          "className": "elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d25b48f tm-bgimage-no tm-bgcolor-yes",
+          "rect": {
+            "x": 150,
+            "y": 491,
+            "width": 1140,
+            "height": 168
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s, 0s, 0s, 0s, 0s",
+            "transitionDuration": "0.3s, 0.3s, 0.3s, 0.3s, 0.4s",
+            "transitionProperty": "background, border, border-radius, box-shadow, transform",
+            "transitionTimingFunction": "ease, ease, ease, ease, ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s, 0s, 0s, 0s, 0s",
+            "transitionDuration": "0.3s, 0.3s, 0.3s, 0.3s, 0.4s",
+            "transitionProperty": "background, border, border-radius, box-shadow, transform",
+            "transitionTimingFunction": "ease, ease, ease, ease, ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "",
+          "href": "",
+          "id": "",
+          "className": "elementor-element elementor-element-acdd8c1 elementor-widget elementor-widget-image",
+          "rect": {
+            "x": 150,
+            "y": 744,
+            "width": 367,
+            "height": 275
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s, 0s, 0s, 0s, 0s",
+            "transitionDuration": "0.3s, 0.3s, 0.3s, 0.3s, 0.4s",
+            "transitionProperty": "background, border, border-radius, box-shadow, transform",
+            "transitionTimingFunction": "ease, ease, ease, ease, ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s, 0s, 0s, 0s, 0s",
+            "transitionDuration": "0.3s, 0.3s, 0.3s, 0.3s, 0.4s",
+            "transitionProperty": "background, border, border-radius, box-shadow, transform",
+            "transitionTimingFunction": "ease, ease, ease, ease, ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "",
+          "href": "",
+          "id": "",
+          "className": "elementor-element elementor-element-07a6b5f elementor-widget elementor-widget-image",
+          "rect": {
+            "x": 537,
+            "y": 744,
+            "width": 367,
+            "height": 275
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s, 0s, 0s, 0s, 0s",
+            "transitionDuration": "0.3s, 0.3s, 0.3s, 0.3s, 0.4s",
+            "transitionProperty": "background, border, border-radius, box-shadow, transform",
+            "transitionTimingFunction": "ease, ease, ease, ease, ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s, 0s, 0s, 0s, 0s",
+            "transitionDuration": "0.3s, 0.3s, 0.3s, 0.3s, 0.4s",
+            "transitionProperty": "background, border, border-radius, box-shadow, transform",
+            "transitionTimingFunction": "ease, ease, ease, ease, ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "",
+          "href": "",
+          "id": "",
+          "className": "elementor-element elementor-element-3a65cae elementor-widget elementor-widget-image",
+          "rect": {
+            "x": 923,
+            "y": 744,
+            "width": 367,
+            "height": 275
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s, 0s, 0s, 0s, 0s",
+            "transitionDuration": "0.3s, 0.3s, 0.3s, 0.3s, 0.4s",
+            "transitionProperty": "background, border, border-radius, box-shadow, transform",
+            "transitionTimingFunction": "ease, ease, ease, ease, ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s, 0s, 0s, 0s, 0s",
+            "transitionDuration": "0.3s, 0.3s, 0.3s, 0.3s, 0.4s",
+            "transitionProperty": "background, border, border-radius, box-shadow, transform",
+            "transitionTimingFunction": "ease, ease, ease, ease, ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        }
+      ],
+      "scrollClassSamples": {
+        "initial": [
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 3931,
+              "height": 86
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 0,
+              "height": 0
+            }
+          }
+        ],
+        "scrolled": [
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 3031,
+              "height": 86
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 0,
+              "height": 0
+            }
+          }
+        ]
+      },
+      "galleryLightbox": {
+        "triggerFound": true,
+        "triggerHref": "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg?ssl=1",
+        "beforeUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "afterUrl": "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+        "modalDetected": true,
+        "modalSelectors": [
+          ".elementor-lightbox"
+        ],
+        "navigatedToAsset": false
+      },
+      "screenshots": [
+        {
+          "label": "desktop-initial",
+          "file": "assets/source/inventory/motion/screenshots/photo-gallery-desktop-initial.png",
+          "bytes": 931155
+        },
+        {
+          "label": "desktop-scrolled",
+          "file": "assets/source/inventory/motion/screenshots/photo-gallery-desktop-scrolled.png",
+          "bytes": 1673489
+        },
+        {
+          "label": "desktop-gallery-after-click",
+          "file": "assets/source/inventory/motion/screenshots/photo-gallery-desktop-gallery-after-click.png",
+          "bytes": 931155
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "label": "Services",
+      "url": "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+      "viewport": "desktop",
+      "status": "ok",
+      "title": "Construction Services - QuickSilver Construction Whidbey Island",
+      "libraries": {
+        "resourceCount": 78,
+        "scriptCount": 31,
+        "stylesheetCount": 31,
+        "detected": {
+          "elementor": true,
+          "sliderRevolution": true,
+          "wastiiTheme": true,
+          "flexslider": true,
+          "slick": true,
+          "isotope": true,
+          "magnificPopup": true,
+          "prettyPhoto": true,
+          "waypoints": true,
+          "stickyKit": true,
+          "mousewheel": true,
+          "circleProgress": true,
+          "numinate": true
+        },
+        "matchedResourceUrls": [
+          "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/section-frontend-handlers.d85ab872da118940910d.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/themetechmount-wastii-extras/js/jquery-resize.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/chrisbracco-tooltip/chrisbracco-tooltip.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/datecounter/timecircles.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/flexslider.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/jquery.flexslider-min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/isotope/isotope.pkgd.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-circle-progress/circle-progress.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-mousewheel/jquery.mousewheel.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/jquery.magnific-popup.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/magnific-popup.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/numinate/numinate.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.jquery.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/css/prettyPhoto.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/js/jquery.prettyPhoto.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick-theme.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/sticky-kit/jquery.sticky-kit.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themetechmount-wastii-extra-icons/font/flaticon.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themify-icons/themify-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/css/tm-wastii-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/font/tm-wastii-icons.woff2?52456988",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/waypoints/jquery.waypoints.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/base.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap-theme.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/main.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/multi-columns-row.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/responsive.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/wastii-last-checkpoint.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/js/functions.min.js?ver=1.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-497.css?ver=1779994777",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-9.css?ver=1779989263"
+        ]
+      },
+      "header": {
+        "initial": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 401
+          }
+        },
+        "scrolled": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": -900,
+            "width": 1440,
+            "height": 401
+          }
+        }
+      },
+      "slider": {
+        "initial": [],
+        "afterWait": []
+      },
+      "hoverSamples": [
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Less Plastic & Paper this reduce our environmental concerns?",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/less-plastic-paper-this-reduce-our-environmental-concerns/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1568,
+            "y": 362,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "To Remove Your Hard Drive From A Computer Before Recycling",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/what-can-not-you-put-in-the-dumpster-3/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 457,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Waste to Energy A Guide to Sustainable Waste Management",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/waste-to-energy-a-guide-to-sustainable-waste-management/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 552,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "",
+          "href": "https://facebook.com/teamqsc",
+          "id": "",
+          "className": " tooltip-top",
+          "rect": {
+            "x": 1352,
+            "y": 667,
+            "width": 38,
+            "height": 33
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "button",
+          "selector": "a.elementor-button, .elementor-button, .tm-btn, a[class*=\"btn\"], button",
+          "text": "Get A Quote",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+          "id": "",
+          "className": "tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-rounded tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-gradient",
+          "rect": {
+            "x": 1256,
+            "y": 92,
+            "width": 84,
+            "height": 20
+          },
+          "changedProps": [
+            "borderColor",
+            "color"
+          ],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(36, 36, 36)",
+            "boxShadow": "none",
+            "color": "rgb(36, 36, 36)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(177, 15, 60)",
+            "boxShadow": "none",
+            "color": "rgb(177, 15, 60)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "Why Choose QuickSilver Construction Choosing the right contractor makes all the difference. At QuickSilver Construction,",
+          "href": "",
+          "id": "",
+          "className": "elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-18bef770 tm-bgimage-no tm-bgcolor-yes",
+          "rect": {
+            "x": 143,
+            "y": 481,
+            "width": 1140,
+            "height": 404
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "Construction Services Construction Services We provide residential construction solutions tailored to your property and ",
+          "href": "",
+          "id": "",
+          "className": "elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-23925768 tm-bgimage-no tm-bgcolor-yes",
+          "rect": {
+            "x": 163,
+            "y": 650,
+            "width": 373,
+            "height": 235
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "Excavation & Site Preparation Excavation & Site Preparation Proper groundwork is essential to every successful build. We",
+          "href": "",
+          "id": "",
+          "className": "elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-30eafd9c tm-bgimage-no tm-bgcolor-yes",
+          "rect": {
+            "x": 536,
+            "y": 650,
+            "width": 373,
+            "height": 235
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "Demolition & Property Improvements Property Improvements From light demolition to structural modifications and property ",
+          "href": "",
+          "id": "",
+          "className": "elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7f451e8d tm-bgimage-no tm-bgcolor-yes",
+          "rect": {
+            "x": 909,
+            "y": 650,
+            "width": 373,
+            "height": 235
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        }
+      ],
+      "scrollClassSamples": {
+        "initial": [
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 2384,
+              "height": 86
+            }
+          }
+        ],
+        "scrolled": [
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1484,
+              "height": 86
+            }
+          }
+        ]
+      },
+      "galleryLightbox": null,
+      "screenshots": [
+        {
+          "label": "desktop-initial",
+          "file": "assets/source/inventory/motion/screenshots/services-desktop-initial.png",
+          "bytes": 629773
+        },
+        {
+          "label": "desktop-scrolled",
+          "file": "assets/source/inventory/motion/screenshots/services-desktop-scrolled.png",
+          "bytes": 1196592
+        }
+      ]
+    },
+    {
+      "slug": "our-team",
+      "label": "Our Team",
+      "url": "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+      "viewport": "desktop",
+      "status": "ok",
+      "title": "Our Team - QuickSilver Construction Whidbey Island",
+      "libraries": {
+        "resourceCount": 83,
+        "scriptCount": 33,
+        "stylesheetCount": 34,
+        "detected": {
+          "elementor": true,
+          "sliderRevolution": true,
+          "wastiiTheme": true,
+          "flexslider": true,
+          "slick": true,
+          "isotope": true,
+          "magnificPopup": true,
+          "prettyPhoto": true,
+          "waypoints": true,
+          "stickyKit": true,
+          "mousewheel": true,
+          "circleProgress": true,
+          "numinate": true
+        },
+        "matchedResourceUrls": [
+          "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/conditionals/dialog.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/conditionals/lightbox.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/397f2d183c19202777d6.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/lightbox.570c05c5a283cfb6b223.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.3",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/themetechmount-wastii-extras/js/jquery-resize.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/chrisbracco-tooltip/chrisbracco-tooltip.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/datecounter/timecircles.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/flexslider.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/jquery.flexslider-min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/isotope/isotope.pkgd.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-circle-progress/circle-progress.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-mousewheel/jquery.mousewheel.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/jquery.magnific-popup.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/magnific-popup.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/numinate/numinate.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.jquery.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/css/prettyPhoto.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/js/jquery.prettyPhoto.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick-theme.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/sticky-kit/jquery.sticky-kit.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themetechmount-wastii-extra-icons/font/flaticon.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themify-icons/themify-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/css/tm-wastii-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/font/tm-wastii-icons.woff2?52456988",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/waypoints/jquery.waypoints.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/base.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap-theme.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/main.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/multi-columns-row.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/responsive.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/wastii-last-checkpoint.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/js/functions.min.js?ver=1.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-14564.css?ver=1779989751",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-9.css?ver=1779989263"
+        ]
+      },
+      "header": {
+        "initial": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 401
+          }
+        },
+        "scrolled": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": -883,
+            "width": 1440,
+            "height": 401
+          }
+        }
+      },
+      "slider": {
+        "initial": [],
+        "afterWait": []
+      },
+      "hoverSamples": [
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Less Plastic & Paper this reduce our environmental concerns?",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/less-plastic-paper-this-reduce-our-environmental-concerns/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1568,
+            "y": 362,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "To Remove Your Hard Drive From A Computer Before Recycling",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/what-can-not-you-put-in-the-dumpster-3/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 457,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Waste to Energy A Guide to Sustainable Waste Management",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/waste-to-energy-a-guide-to-sustainable-waste-management/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 552,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "",
+          "href": "https://facebook.com/teamqsc",
+          "id": "",
+          "className": " tooltip-top",
+          "rect": {
+            "x": 1352,
+            "y": 667,
+            "width": 38,
+            "height": 33
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "button",
+          "selector": "a.elementor-button, .elementor-button, .tm-btn, a[class*=\"btn\"], button",
+          "text": "Get A Quote",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+          "id": "",
+          "className": "tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-rounded tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-gradient",
+          "rect": {
+            "x": 1256,
+            "y": 92,
+            "width": 84,
+            "height": 20
+          },
+          "changedProps": [
+            "borderColor",
+            "color"
+          ],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(36, 36, 36)",
+            "boxShadow": "none",
+            "color": "rgb(36, 36, 36)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(177, 15, 60)",
+            "boxShadow": "none",
+            "color": "rgb(177, 15, 60)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        }
+      ],
+      "scrollClassSamples": {
+        "initial": [
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1997,
+              "height": 86
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 0,
+              "height": 0
+            }
+          }
+        ],
+        "scrolled": [
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1114,
+              "height": 86
+            }
+          },
+          {
+            "tagName": "svg",
+            "id": "",
+            "className": {},
+            "text": "",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 0,
+              "height": 0
+            }
+          }
+        ]
+      },
+      "galleryLightbox": null,
+      "screenshots": [
+        {
+          "label": "desktop-initial",
+          "file": "assets/source/inventory/motion/screenshots/our-team-desktop-initial.png",
+          "bytes": 963964
+        },
+        {
+          "label": "desktop-scrolled",
+          "file": "assets/source/inventory/motion/screenshots/our-team-desktop-scrolled.png",
+          "bytes": 884907
+        }
+      ]
+    },
+    {
+      "slug": "contact-us",
+      "label": "Contact Us",
+      "url": "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+      "viewport": "desktop",
+      "status": "ok",
+      "title": "Contact Us One - QuickSilver Construction Whidbey Island",
+      "libraries": {
+        "resourceCount": 75,
+        "scriptCount": 31,
+        "stylesheetCount": 31,
+        "detected": {
+          "elementor": true,
+          "sliderRevolution": true,
+          "wastiiTheme": true,
+          "flexslider": true,
+          "slick": true,
+          "isotope": true,
+          "magnificPopup": true,
+          "prettyPhoto": true,
+          "waypoints": true,
+          "stickyKit": true,
+          "mousewheel": true,
+          "circleProgress": true,
+          "numinate": true
+        },
+        "matchedResourceUrls": [
+          "https://www.themetechmount.com/wordpress/wastii/wp-content/uploads/2022/04/logo-dark.svg",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/section-frontend-handlers.d85ab872da118940910d.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.1",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.14",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/plugins/themetechmount-wastii-extras/js/jquery-resize.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/chrisbracco-tooltip/chrisbracco-tooltip.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/datecounter/timecircles.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/flexslider.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/flexslider/jquery.flexslider-min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/isotope/isotope.pkgd.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-circle-progress/circle-progress.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/jquery-mousewheel/jquery.mousewheel.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/jquery.magnific-popup.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/magnific-popup/magnific-popup.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/numinate/numinate.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.jquery.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/perfect-scrollbar/perfect-scrollbar.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/css/prettyPhoto.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/prettyphoto/js/jquery.prettyPhoto.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/select2/select2.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick-theme.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/slick/slick.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/sticky-kit/jquery.sticky-kit.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themetechmount-wastii-extra-icons/font/flaticon.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themetechmount-wastii-extra-icons/font/flaticon.ttf?872d2b2dac1b281030073297981fb276",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/themify-icons/themify-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/css/tm-wastii-icons.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/tm-wastii-icons/font/tm-wastii-icons.woff2?52456988",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/assets/waypoints/jquery.waypoints.min.js?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/base.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap-theme.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/bootstrap.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/main.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/multi-columns-row.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/responsive.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/css/wastii-last-checkpoint.min.css?ver=7.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/themes/wastii/js/functions.min.js?ver=1.0",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-3821.css?ver=1779989751",
+          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/elementor/css/post-9.css?ver=1779989263"
+        ]
+      },
+      "header": {
+        "initial": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 401
+          }
+        },
+        "scrolled": {
+          "tagName": "header",
+          "id": "masthead",
+          "className": " tm-header-style-classic tm-main-menu-total-5",
+          "position": "relative",
+          "top": "0px",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "zIndex": "auto",
+          "rect": {
+            "x": 0,
+            "y": -900,
+            "width": 1440,
+            "height": 401
+          }
+        }
+      },
+      "slider": {
+        "initial": [],
+        "afterWait": []
+      },
+      "hoverSamples": [
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Less Plastic & Paper this reduce our environmental concerns?",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/less-plastic-paper-this-reduce-our-environmental-concerns/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1568,
+            "y": 362,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "To Remove Your Hard Drive From A Computer Before Recycling",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/what-can-not-you-put-in-the-dumpster-3/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 457,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "Waste to Energy A Guide to Sustainable Waste Management",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/waste-to-energy-a-guide-to-sustainable-waste-management/",
+          "id": "",
+          "className": "",
+          "rect": {
+            "x": 1440,
+            "y": 552,
+            "width": 232,
+            "height": 48
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "header-nav",
+          "selector": "header a, nav a, .main-navigation a",
+          "text": "",
+          "href": "https://facebook.com/teamqsc",
+          "id": "",
+          "className": " tooltip-top",
+          "rect": {
+            "x": 1352,
+            "y": 667,
+            "width": 38,
+            "height": 33
+          },
+          "hoverError": "elementHandle.hover: Timeout 5000ms exceeded."
+        },
+        {
+          "label": "button",
+          "selector": "a.elementor-button, .elementor-button, .tm-btn, a[class*=\"btn\"], button",
+          "text": "Get A Quote",
+          "href": "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+          "id": "",
+          "className": "tm-vc_general tm-vc_btn3 tm-vc_btn3-size-md tm-vc_btn3-shape-rounded tm-vc_btn3-style-flat tm-vc_btn3-weight-no tm-vc_btn3-color-gradient",
+          "rect": {
+            "x": 1256,
+            "y": 92,
+            "width": 84,
+            "height": 20
+          },
+          "changedProps": [
+            "borderColor",
+            "color"
+          ],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(36, 36, 36)",
+            "boxShadow": "none",
+            "color": "rgb(36, 36, 36)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(177, 15, 60)",
+            "boxShadow": "none",
+            "color": "rgb(177, 15, 60)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": null,
+          "hoverOverlayClassName": ""
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "Email Address Send Email Contact@TeamQSC.com Click To Send Email",
+          "href": "",
+          "id": "",
+          "className": "elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-74ec5f0b tm-bgimage-no tm-bgcolor-yes",
+          "rect": {
+            "x": 150,
+            "y": 491,
+            "width": 380,
+            "height": 266
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": {
+            "opacity": "1",
+            "transform": "none",
+            "backgroundColor": "rgb(245, 245, 245)"
+          },
+          "hoverOverlayClassName": "themetechmount-iconbox themetechmount-iconbox-styleten themetechmount-iconcolor-white themetechmount-icon-bgcolor-darkgrey tm-iconstyle-rounded tm-textalign-"
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "Phone Number Call Us Now (360) 321-1969 Click To Call",
+          "href": "",
+          "id": "",
+          "className": "elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7cbcf68e tm-bgimage-no tm-bgcolor-yes",
+          "rect": {
+            "x": 530,
+            "y": 491,
+            "width": 380,
+            "height": 266
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": {
+            "opacity": "1",
+            "transform": "none",
+            "backgroundColor": "rgb(245, 245, 245)"
+          },
+          "hoverOverlayClassName": "themetechmount-iconbox themetechmount-iconbox-styleten themetechmount-iconcolor-white themetechmount-icon-bgcolor-skincolor tm-iconstyle-rounded tm-textalign-"
+        },
+        {
+          "label": "card-or-image",
+          "selector": ".tm-box, .tm-servicebox, .tm-project-box, .elementor-widget-image, .elementor-column, article, .tm-team-member-single",
+          "text": "Mailing Address Send Mail Here PO Box 852 ​ Langley, WA 98260",
+          "href": "",
+          "id": "",
+          "className": "elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3b57e6dc tm-bgimage-no tm-bgcolor-yes",
+          "rect": {
+            "x": 910,
+            "y": 491,
+            "width": 380,
+            "height": 266
+          },
+          "changedProps": [],
+          "beforeStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderColor": "rgb(129, 129, 129)",
+            "boxShadow": "none",
+            "color": "rgb(129, 129, 129)",
+            "opacity": "1",
+            "textDecorationLine": "none",
+            "transform": "none",
+            "transitionDelay": "0s",
+            "transitionDuration": "0s",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+          },
+          "hoverOverlay": {
+            "opacity": "1",
+            "transform": "none",
+            "backgroundColor": "rgb(245, 245, 245)"
+          },
+          "hoverOverlayClassName": "themetechmount-iconbox themetechmount-iconbox-styleten themetechmount-iconcolor-white themetechmount-icon-bgcolor-darkgrey tm-iconstyle-rounded tm-textalign-"
+        }
+      ],
+      "scrollClassSamples": {
+        "initial": [
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 2383,
+              "height": 86
+            }
+          }
+        ],
+        "scrolled": [
+          {
+            "tagName": "div",
+            "id": "bottom-footer-text",
+            "className": "bottom-footer-text tm-bottom-footer-text site-info  tm-bg tm-bgcolor-custom tm-textcolor-white tm-bgimage-no tm-bordercolor-none tm-footer-animation-yes",
+            "text": "Copyright © 2026 Quicksilver Construction | Designed With Love & Caffeine by Seattle Website Experts | All Rights Reserv",
+            "opacity": "1",
+            "transform": "none",
+            "transitionDuration": "0s",
+            "animationName": "none",
+            "animationDuration": "0s",
+            "rect": {
+              "y": 1483,
+              "height": 86
+            }
+          }
+        ]
+      },
+      "galleryLightbox": null,
+      "screenshots": [
+        {
+          "label": "desktop-initial",
+          "file": "assets/source/inventory/motion/screenshots/contact-us-desktop-initial.png",
+          "bytes": 355546
+        },
+        {
+          "label": "desktop-scrolled",
+          "file": "assets/source/inventory/motion/screenshots/contact-us-desktop-scrolled.png",
+          "bytes": 218793
+        }
+      ]
+    }
+  ],
+  "mobileHome": {
+    "slug": "home",
+    "label": "Home",
+    "url": "https://zti.sad.mybluehost.me/website_6b4babaf/",
+    "viewport": "mobile",
+    "status": "ok",
+    "title": "Home Page One - QuickSilver Construction Whidbey Island",
+    "header": {
+      "initial": {
+        "tagName": "header",
+        "id": "masthead",
+        "className": " tm-header-style-classic tm-main-menu-total-5",
+        "position": "relative",
+        "top": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "boxShadow": "none",
+        "transform": "none",
+        "zIndex": "auto",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 585
+        }
+      },
+      "scrolled": {
+        "tagName": "header",
+        "id": "masthead",
+        "className": " tm-header-style-classic tm-main-menu-total-5",
+        "position": "relative",
+        "top": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "boxShadow": "none",
+        "transform": "none",
+        "zIndex": "auto",
+        "rect": {
+          "x": 0,
+          "y": -700,
+          "width": 390,
+          "height": 585
+        }
+      }
+    },
+    "mobileMenu": {
+      "toggleFound": true,
+      "toggleSelector": ".menu-toggle",
+      "beforeVisibleMenuText": "",
+      "afterVisibleMenuText": "",
+      "bodyClassBefore": "home wp-singular page-template-default page page-id-422 wp-theme-wastii tm-pageslider-yes tm-headerstyle-classic tm-layout-default themetechmount-topbar-yes themetechmount-flotbar-yes themetechmount-fullwide themetechmount-page-full-width tm-empty-sidebar elementor-default elementor-kit-9 elementor-page elementor-page-422 rs-ISM e--ua-isTouchDevice",
+      "bodyClassAfter": "home wp-singular page-template-default page page-id-422 wp-theme-wastii tm-pageslider-yes tm-headerstyle-classic tm-layout-default themetechmount-topbar-yes themetechmount-flotbar-yes themetechmount-fullwide themetechmount-page-full-width tm-empty-sidebar elementor-default elementor-kit-9 elementor-page elementor-page-422 rs-ISM e--ua-isTouchDevice",
+      "htmlClassBefore": "no-js",
+      "htmlClassAfter": "no-js"
+    },
+    "screenshots": [
+      {
+        "label": "mobile-initial",
+        "file": "assets/source/inventory/motion/screenshots/home-mobile-initial.png",
+        "bytes": 185613
+      },
+      {
+        "label": "mobile-menu-after-toggle",
+        "file": "assets/source/inventory/motion/screenshots/home-mobile-menu-after-toggle.png",
+        "bytes": 77998
+      },
+      {
+        "label": "mobile-scrolled",
+        "file": "assets/source/inventory/motion/screenshots/home-mobile-scrolled.png",
+        "bytes": 248107
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "label": "desktop-initial",
+      "file": "assets/source/inventory/motion/screenshots/home-desktop-initial.png",
+      "bytes": 1315527
+    },
+    {
+      "label": "desktop-scrolled",
+      "file": "assets/source/inventory/motion/screenshots/home-desktop-scrolled.png",
+      "bytes": 834056
+    },
+    {
+      "label": "desktop-hero-after-wait",
+      "file": "assets/source/inventory/motion/screenshots/home-desktop-hero-after-wait.png",
+      "bytes": 1315791
+    },
+    {
+      "label": "desktop-initial",
+      "file": "assets/source/inventory/motion/screenshots/photo-gallery-desktop-initial.png",
+      "bytes": 931155
+    },
+    {
+      "label": "desktop-scrolled",
+      "file": "assets/source/inventory/motion/screenshots/photo-gallery-desktop-scrolled.png",
+      "bytes": 1673489
+    },
+    {
+      "label": "desktop-gallery-after-click",
+      "file": "assets/source/inventory/motion/screenshots/photo-gallery-desktop-gallery-after-click.png",
+      "bytes": 931155
+    },
+    {
+      "label": "desktop-initial",
+      "file": "assets/source/inventory/motion/screenshots/services-desktop-initial.png",
+      "bytes": 629773
+    },
+    {
+      "label": "desktop-scrolled",
+      "file": "assets/source/inventory/motion/screenshots/services-desktop-scrolled.png",
+      "bytes": 1196592
+    },
+    {
+      "label": "desktop-initial",
+      "file": "assets/source/inventory/motion/screenshots/our-team-desktop-initial.png",
+      "bytes": 963964
+    },
+    {
+      "label": "desktop-scrolled",
+      "file": "assets/source/inventory/motion/screenshots/our-team-desktop-scrolled.png",
+      "bytes": 884907
+    },
+    {
+      "label": "desktop-initial",
+      "file": "assets/source/inventory/motion/screenshots/contact-us-desktop-initial.png",
+      "bytes": 355546
+    },
+    {
+      "label": "desktop-scrolled",
+      "file": "assets/source/inventory/motion/screenshots/contact-us-desktop-scrolled.png",
+      "bytes": 218793
+    },
+    {
+      "label": "mobile-initial",
+      "file": "assets/source/inventory/motion/screenshots/home-mobile-initial.png",
+      "bytes": 185613
+    },
+    {
+      "label": "mobile-menu-after-toggle",
+      "file": "assets/source/inventory/motion/screenshots/home-mobile-menu-after-toggle.png",
+      "bytes": 77998
+    },
+    {
+      "label": "mobile-scrolled",
+      "file": "assets/source/inventory/motion/screenshots/home-mobile-scrolled.png",
+      "bytes": 248107
+    }
+  ]
+}

@@ -9,6 +9,7 @@
     "restPosts": "assets/source/inventory/rest-posts.json",
     "assetManifest": "assets/source/inventory/asset-manifest.json",
     "localMediaManifest": "assets/source/media/media-manifest.json",
+    "motionCapture": "assets/source/inventory/motion/motion-capture.json",
     "pluginThemeEvidence": "assets/source/inventory/plugin-theme-evidence.json"
   },
   "ownership": {

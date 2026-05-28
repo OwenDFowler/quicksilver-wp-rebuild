@@ -13,6 +13,7 @@ Read these before changing WordPress state or theme source:
 - `docs/theme-standard.md` - custom theme rules anchored to official WordPress docs.
 - `docs/ops-and-release.md` - checks, draft flow, publish gate, release verification, and rollback posture.
 - `docs/source-media-assets.md` - local public media acquisition rules and manifest.
+- `docs/motion-interaction-inventory.md` - source-site motion and interaction rebuild spec.
 
 ## Current Target
 

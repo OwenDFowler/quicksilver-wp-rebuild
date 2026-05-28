@@ -26,11 +26,13 @@ Do not store database passwords from Railway in this repo.
 
 ## Near-Term Flow
 
-1. Edit theme/source files locally.
-2. Package or sync the theme.
-3. Use Railway/WordPress commands to install or update the theme.
-4. Use REST/WP-CLI scripts for content and settings.
-5. Verify through the in-app browser and `scripts/check-target.ps1`.
+1. Create a WordPress application password in wp-admin.
+2. Run `scripts/init-local-env.ps1` and fill `.env.local` locally.
+3. Run `scripts/test-wp-auth.ps1` to prove Codex can authenticate through REST.
+4. Edit theme/source files locally.
+5. Package or sync the theme.
+6. Use REST/WP-CLI scripts for content and settings.
+7. Verify through the in-app browser and `scripts/check-target.ps1`.
 
 ## Durable Rule
 

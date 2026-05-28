@@ -24,6 +24,8 @@ The live runtime is a Railway-hosted WordPress install. This repo is the local C
 .\scripts\check-target.ps1
 .\scripts\railway-status.ps1
 .\scripts\package-theme.ps1
+.\scripts\init-local-env.ps1
+.\scripts\test-wp-auth.ps1
 ```
 
 Secrets belong in a local `.env` or `.env.local` file only. Do not commit WordPress passwords, application passwords, database credentials, or Railway tokens.

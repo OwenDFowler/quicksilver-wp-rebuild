@@ -1,0 +1,24 @@
+[CmdletBinding()]
+param()
+
+$ErrorActionPreference = 'Stop'
+
+$RepoRoot = Split-Path -Parent $PSScriptRoot
+$EnvPath = Join-Path $RepoRoot '.env.local'
+
+if (Test-Path -LiteralPath $EnvPath) {
+    throw ".env.local already exists. Edit it directly rather than overwriting local secrets."
+}
+
+@'
+WORDPRESS_BASE_URL=https://wordpress-production-49a8.up.railway.app
+WORDPRESS_USERNAME=
+WORDPRESS_APPLICATION_PASSWORD=
+
+RAILWAY_PROJECT_ID=9680e4f9-863d-4987-92f5-bcb2d643331a
+RAILWAY_ENVIRONMENT=production
+RAILWAY_WORDPRESS_SERVICE=WordPress
+RAILWAY_MARIADB_SERVICE=mariadb
+'@ | Set-Content -LiteralPath $EnvPath -NoNewline
+
+Get-Item -LiteralPath $EnvPath

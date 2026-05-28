@@ -8,6 +8,7 @@
     "restPages": "assets/source/inventory/rest-pages.json",
     "restPosts": "assets/source/inventory/rest-posts.json",
     "assetManifest": "assets/source/inventory/asset-manifest.json",
+    "localMediaManifest": "assets/source/media/media-manifest.json",
     "pluginThemeEvidence": "assets/source/inventory/plugin-theme-evidence.json"
   },
   "ownership": {
@@ -530,6 +531,19 @@
   ],
   "assetPolicy": {
     "manifestPath": "assets/source/inventory/asset-manifest.json",
+    "localMediaManifestPath": "assets/source/media/media-manifest.json",
+    "localMediaStatus": {
+      "downloadedPriorities": [
+        "must-recreate",
+        "candidate"
+      ],
+      "excludedPriority": "reference",
+      "downloadedAssetCount": 29,
+      "requestCount": 29,
+      "delayMilliseconds": 2500,
+      "totalBytes": 56020805,
+      "notes": "Local media files are public source evidence only. They are not WordPress uploaded media records."
+    },
     "requiredGroups": [
       {
         "sourcePageSlug": "home",
@@ -547,8 +561,7 @@
       }
     ],
     "deferredWork": [
-      "download original media files",
-      "normalize transformed i0.wp.com URLs to usable source assets where possible",
+      "map local media files to target sections",
       "finalize alt text during content modeling"
     ]
   },

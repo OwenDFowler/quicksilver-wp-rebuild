@@ -12,6 +12,7 @@ Read these before changing WordPress state or theme source:
 - `docs/wordpress-boundaries.md` - ownership contract across Git, WordPress, Railway, REST, WP-CLI, media, and wp-admin.
 - `docs/theme-standard.md` - custom theme rules anchored to official WordPress docs.
 - `docs/ops-and-release.md` - checks, draft flow, publish gate, release verification, and rollback posture.
+- `docs/source-media-assets.md` - local public media acquisition rules and manifest.
 
 ## Current Target
 

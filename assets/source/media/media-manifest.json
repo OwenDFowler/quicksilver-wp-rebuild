@@ -1,0 +1,1034 @@
+{
+    "generatedAtUtc":  "2026-05-28T19:42:15.8846524Z",
+    "assetManifestPath":  "assets/source/inventory/asset-manifest.json",
+    "outputDir":  "assets/source/media",
+    "selectedPriorities":  [
+                               "must-recreate",
+                               "candidate"
+                           ],
+    "allowedHosts":  [
+                         "zti.sad.mybluehost.me",
+                         "i0.wp.com"
+                     ],
+    "delayMilliseconds":  2500,
+    "requestCount":  29,
+    "downloadedAssetCount":  29,
+    "totalBytes":  56020805,
+    "assets":  [
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/001-gallery-project-image-1000000981.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/1000000981.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/1000000981.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/1000000981.jpg?fit=1152%2C1536\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  1982732,
+                       "sha256":  "8ff063565f1c611510ac4e6dcb1df053b4732d2129b02285df16d6578a16b347",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/1000000981.jpg?fit=1152%2C1536\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/002-gallery-project-image-homepage-hero-slider-10-2-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg?fit=847%2C566\u0026ssl=1",
+                                          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "home",
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image",
+                                             "homepage hero/slider"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  584871,
+                       "sha256":  "bdb1c2a6e4f189e0197cf2a420c8fb9160d69fee0176ad304f7d5396a1bbea46",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg",
+                                               "alt":  "",
+                                               "inferredRole":  "homepage hero/slider",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/10-2-scaled.jpg?fit=847%2C566\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg?fit=847%2C566\u0026ssl=1",
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg?w=847\u0026ssl=1",
+                                          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "home",
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image",
+                                             "homepage hero/slider"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  871167,
+                       "sha256":  "e9ab28941583192ad7d2e48496fd224a25250082e81c29e5d623fd08bc182323",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg?w=847\u0026ssl=1",
+                                               "alt":  "Our Experience",
+                                               "inferredRole":  "homepage hero/slider",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg",
+                                               "alt":  "",
+                                               "inferredRole":  "homepage hero/slider",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/18-scaled.jpg?fit=847%2C566\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/004-gallery-project-image-20240306-092424-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/20240306_092424-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/20240306_092424-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/20240306_092424-scaled.jpg?fit=847%2C635\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  3561426,
+                       "sha256":  "09e7ffc8894cf75ced3d894b4a6063f715367b596377679868a15810ce2580ff",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/20240306_092424-scaled.jpg?fit=847%2C635\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/005-gallery-project-image-homepage-hero-slider-30-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/30-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/30-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/30-scaled.jpg?fit=847%2C566\u0026ssl=1",
+                                          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/30-scaled.jpg"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "home",
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image",
+                                             "homepage hero/slider"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  370684,
+                       "sha256":  "5d6dd7cf7c8a587fb63194207b24d9dcc3bdcef216ecbe78668106671d67694f",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/30-scaled.jpg",
+                                               "alt":  "",
+                                               "inferredRole":  "homepage hero/slider",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/30-scaled.jpg?fit=847%2C566\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/006-gallery-project-image-4553353243932567837.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/4553353243932567837.jpeg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/4553353243932567837.jpeg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/4553353243932567837.jpeg?fit=847%2C635\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  1739086,
+                       "sha256":  "e86a79612c9a2f4baf4ae0101ad92e61450b6036c3ed1d2c614b7012b81501e7",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/4553353243932567837.jpeg?fit=847%2C635\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/candidate/007-content-image-brandon-1-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Brandon-1-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Brandon-1-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Brandon-1-scaled.jpg?fit=684%2C1024\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "our-team"
+                                           ],
+                       "priority":  "candidate",
+                       "inferredRoles":  [
+                                             "content image"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  448083,
+                       "sha256":  "14e42d0d2fb5d2ad39d4e09c4564ff2a606f3938bcaeb891a2badecfd692fcb7",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "our-team",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Brandon-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/candidate/008-content-image-darren-1-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Darren-1-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Darren-1-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Darren-1-scaled.jpg?fit=684%2C1024\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "our-team"
+                                           ],
+                       "priority":  "candidate",
+                       "inferredRoles":  [
+                                             "content image"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  414551,
+                       "sha256":  "0f3398ad69639146405206ca9c8812132a4249f7a0290604df1c7904ca9aae71",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "our-team",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Darren-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.jpg?w=847\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "home",
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "content image",
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  3533580,
+                       "sha256":  "66d5f156d8c5ae69698dc88679e0f0ff7ae304ffe7e19c69ab6675bc5f626af7",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.jpg?w=847\u0026ssl=1",
+                                               "alt":  "Our Commitment",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/candidate/010-content-image-dsc-5516-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.webp",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.webp",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.webp?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "services"
+                                           ],
+                       "priority":  "candidate",
+                       "inferredRoles":  [
+                                             "content image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  3533580,
+                       "sha256":  "66d5f156d8c5ae69698dc88679e0f0ff7ae304ffe7e19c69ab6675bc5f626af7",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "services",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5516-scaled.webp?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5580-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5580-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5580-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5580-scaled.jpg?w=847\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "home",
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "content image",
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2836324,
+                       "sha256":  "f293557f3b5132ed6a537d8a06d4d00e094234b23b99f2bc163f6f925ff4f6c0",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5580-scaled.jpg?w=847\u0026ssl=1",
+                                               "alt":  "Our Vision",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5580-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/012-gallery-project-image-dsc-5649-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5649-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5649-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5649-scaled.jpg?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2616712,
+                       "sha256":  "54f4d559978ecea1ec0b24da8eba306aa45b3d06b02b2260c64086d9d0d89688",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5649-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/013-gallery-project-image-dsc-5682-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5682-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5682-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5682-scaled.jpg?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  3256950,
+                       "sha256":  "7d1fa0608b2461e70fc256afa764cce19d9631b565136e62105cb0c26ec05bf6",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5682-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/014-gallery-project-image-dsc-5692-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5692-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5692-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5692-scaled.jpg?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2858090,
+                       "sha256":  "c544204971e5343489961e5dfe54f23c1c408fc3313cd4001b17c66e8fb54942",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5692-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/015-gallery-project-image-dsc-5730-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5730-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5730-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5730-scaled.jpg?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2573958,
+                       "sha256":  "2b977bb31fab53865b01e138d01b5f8f4fcae4b4c83ea2487a26a6983bb1e565",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5730-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/016-gallery-project-image-dsc-5763-1-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-1-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-1-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-1-scaled.jpg?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2844076,
+                       "sha256":  "8b1d51ad7f2598e1812e13b5eb2527ed724b792ef62a3472f8f4ac418723bdfa",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-1-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/017-gallery-project-image-dsc-5763-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-scaled.jpg?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2844076,
+                       "sha256":  "8b1d51ad7f2598e1812e13b5eb2527ed724b792ef62a3472f8f4ac418723bdfa",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5763-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/018-gallery-project-image-dsc-5796-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5796-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5796-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5796-scaled.jpg?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2612214,
+                       "sha256":  "7450418f9d1221ccb5d2f8cbd92fa42dc959b6403c5bd0e6db239c44bdfd66b7",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_5796-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/019-content-image-gallery-project-image-dsc-8659-scaled.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_8659-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_8659-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_8659-scaled.jpg?fit=768%2C512\u0026ssl=1",
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_8659-scaled.jpg?fit=847%2C565\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery",
+                                               "services"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "content image",
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2719324,
+                       "sha256":  "9fdf2fdf71e1ab602375ac264bf4b8e0b8f2a383b107f107f62ce59ec5a28bfa",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_8659-scaled.jpg?fit=847%2C565\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "services",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/DSC_8659-scaled.jpg?fit=768%2C512\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/020-gallery-project-image-gqjhleoq.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/gQJhleoQ.webp",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/gQJhleoQ.webp",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/gQJhleoQ.webp?fit=847%2C566\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  516498,
+                       "sha256":  "55f0c8b51a03f86635681996205ea4acde6ac8d0681f5a55a18f8bb2eb0af041",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/gQJhleoQ.webp?fit=847%2C566\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/021-content-image-gallery-project-image-img-0023.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_0023.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_0023.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_0023.jpg?fit=847%2C635\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "home",
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "content image",
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2793204,
+                       "sha256":  "aaeeb94f9198e2047ec82eed86dc430e10c5bee98f14af28848f27b15ca2f1dd",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_0023.jpg?fit=847%2C635\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_0023.jpg?fit=847%2C635\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/022-gallery-project-image-img-2950.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_2950.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_2950.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_2950.jpg?fit=768%2C1024\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  2364290,
+                       "sha256":  "5e7baf175a081b0452dc090539adc94c4b6363ff8cb386e62bf4bc9847f50efe",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_2950.jpg?fit=768%2C1024\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/candidate/023-content-image-img-9309.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.jpeg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.jpeg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.jpeg?fit=768%2C1024\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "home"
+                                           ],
+                       "priority":  "candidate",
+                       "inferredRoles":  [
+                                             "content image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  3084872,
+                       "sha256":  "ea8457f0388da1ace150ec1e20a700971a9e3e9389ab2d52e5fccef1e22c983a",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.jpeg?fit=768%2C1024\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/024-gallery-project-image-img-9309.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.webp",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.webp",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.webp?fit=768%2C1024\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  3084872,
+                       "sha256":  "ea8457f0388da1ace150ec1e20a700971a9e3e9389ab2d52e5fccef1e22c983a",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/IMG_9309.webp?fit=768%2C1024\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Kitchen-1-1-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Kitchen-1-1-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Kitchen-1-1-scaled.jpg?fit=847%2C566\u0026ssl=1",
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Kitchen-1-1-scaled.jpg?w=847\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "home",
+                                               "photo-gallery"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "content image",
+                                             "gallery/project image"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  775755,
+                       "sha256":  "2f69f29824318b5f81171f5f1d04b31e32cbfefa9d9eb6924aee0d01ab5ed57f",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Kitchen-1-1-scaled.jpg?w=847\u0026ssl=1",
+                                               "alt":  "Our Mission",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Kitchen-1-1-scaled.jpg?fit=847%2C566\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "gallery/project image",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/must-recreate/026-logo-media-reference-logo-mug.webp",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+                       "sourceUrls":  [
+                                          "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "contact-us",
+                                               "home",
+                                               "our-team",
+                                               "photo-gallery",
+                                               "services"
+                                           ],
+                       "priority":  "must-recreate",
+                       "inferredRoles":  [
+                                             "logo/media reference"
+                                         ],
+                       "contentType":  "image/webp",
+                       "bytes":  17048,
+                       "sha256":  "6e0e7e4b28e9dfb9fea4e0eeebeb4e1f27392239baf42a6e679f628b69f6ff2c",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "contact-us",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
+                                               "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+                                               "alt":  "QuickSilver Construction Whidbey Island",
+                                               "inferredRole":  "logo/media reference",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "home",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
+                                               "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+                                               "alt":  "QuickSilver Construction Whidbey Island",
+                                               "inferredRole":  "logo/media reference",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "our-team",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+                                               "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+                                               "alt":  "QuickSilver Construction Whidbey Island",
+                                               "inferredRole":  "logo/media reference",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "photo-gallery",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
+                                               "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+                                               "alt":  "QuickSilver Construction Whidbey Island",
+                                               "inferredRole":  "logo/media reference",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           },
+                                           {
+                                               "sourcePageSlug":  "services",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
+                                               "url":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/logo-mug.jpg",
+                                               "alt":  "QuickSilver Construction Whidbey Island",
+                                               "inferredRole":  "logo/media reference",
+                                               "priority":  "must-recreate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/candidate/027-content-image-nathan-1-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Nathan-1-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Nathan-1-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Nathan-1-scaled.jpg?fit=684%2C1024\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "our-team"
+                                           ],
+                       "priority":  "candidate",
+                       "inferredRoles":  [
+                                             "content image"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  426377,
+                       "sha256":  "d8d7b8185d9042c2cfa3ee5bcee043eeb7e87396f9d9fce6e861b1568c94aa15",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "our-team",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Nathan-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/candidate/028-content-image-pat-1-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Pat-1-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Pat-1-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Pat-1-scaled.jpg?fit=684%2C1024\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "our-team"
+                                           ],
+                       "priority":  "candidate",
+                       "inferredRoles":  [
+                                             "content image"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  425076,
+                       "sha256":  "ac98fee9a93170c1428a0e9cda6b43aa641f6cf043f6eed759bbeedea6ee68ee",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "our-team",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Pat-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   },
+                   {
+                       "localPath":  "assets/source/media/downloads/candidate/029-content-image-zach-1-scaled.jpg",
+                       "sourceAssetUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Zach-1-scaled.jpg",
+                       "downloadedUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Zach-1-scaled.jpg",
+                       "sourceUrls":  [
+                                          "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Zach-1-scaled.jpg?fit=684%2C1024\u0026ssl=1"
+                                      ],
+                       "sourcePageSlugs":  [
+                                               "our-team"
+                                           ],
+                       "priority":  "candidate",
+                       "inferredRoles":  [
+                                             "content image"
+                                         ],
+                       "contentType":  "image/jpeg",
+                       "bytes":  331329,
+                       "sha256":  "f434494898844e586a78023fae8c0d1cc4dd6f7c5cb7f4ae12e1625c28b661ea",
+                       "appearances":  [
+                                           {
+                                               "sourcePageSlug":  "our-team",
+                                               "sourcePageUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
+                                               "url":  "https://i0.wp.com/zti.sad.mybluehost.me/website_6b4babaf/wp-content/uploads/2026/02/Zach-1-scaled.jpg?fit=684%2C1024\u0026ssl=1",
+                                               "alt":  "",
+                                               "inferredRole":  "content image",
+                                               "priority":  "candidate",
+                                               "evidence":  "public img tag"
+                                           }
+                                       ],
+                       "downloadedAtUtc":  "2026-05-28T19:42:15.8846524Z"
+                   }
+               ]
+}

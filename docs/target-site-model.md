@@ -140,6 +140,11 @@ The asset manifest remains the source evidence for images:
 
 - `assets/source/inventory/asset-manifest.json`
 
+The local public media copy is documented in:
+
+- `docs/source-media-assets.md`
+- `assets/source/media/media-manifest.json`
+
 Required groups:
 
 - Homepage hero/slider images.
@@ -148,8 +153,7 @@ Required groups:
 
 Deferred asset work:
 
-- Download original media files.
-- Normalize transformed `i0.wp.com` URLs to usable source assets where possible.
+- Map local media files to target sections.
 - Finalize alt text during content modeling.
 
 ## Plugin Policy

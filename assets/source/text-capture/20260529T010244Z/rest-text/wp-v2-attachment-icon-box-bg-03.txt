@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 6342
+slug: icon-box-bg-03
+link: https://zti.sad.mybluehost.me/website_6b4babaf/home1/icon-box-bg-03/
+title: icon-box-bg-03
+
+excerpt:
+
+
+content:

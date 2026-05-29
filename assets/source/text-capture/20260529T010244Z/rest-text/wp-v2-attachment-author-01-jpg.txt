@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14219
+slug: author-01-jpg
+link: https://zti.sad.mybluehost.me/website_6b4babaf/author-01-jpg/
+title: author-01.jpg
+
+excerpt:
+
+
+content:

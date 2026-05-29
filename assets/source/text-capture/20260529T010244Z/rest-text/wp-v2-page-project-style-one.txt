@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-page
+id: 6053
+slug: project-style-one
+link: https://zti.sad.mybluehost.me/website_6b4babaf/project-style-one/
+title: Project Style One
+
+excerpt:
+Roll-Off Dumpsters Hospitals Business Waste Pickup Constructions Residential Waste Pickup Grocery-Store Material Recovery Grocery-Store Urban Cleaning Grocery-Store, Hospitals Waste to Energy Hospitals, Hotels
+
+content:

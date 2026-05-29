@@ -507,6 +507,23 @@
             "sourcePageSlug": "our-team",
             "heading": "Meet the Team Behind the Craftsmanship"
           }
+        },
+        {
+          "id": "our-team.names",
+          "type": "name-list",
+          "contentOwner": "structured-json",
+          "renderOwner": "theme-template",
+          "heading": "Team Members",
+          "items": [
+            "Pat",
+            "Darren",
+            "Nathan",
+            "Zach",
+            "Brandon"
+          ],
+          "sourceEvidence": {
+            "sourceTextCapture": "assets/source/text-capture/20260529T010244Z/rest-text/wp-v2-page-our-team-2.txt"
+          }
         }
       ]
     },

@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 4761
+slug: bg_img2
+link: https://zti.sad.mybluehost.me/website_6b4babaf/bg_img2/
+title: bg_img2
+
+excerpt:
+
+
+content:

@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 13837
+slug: process2
+link: https://zti.sad.mybluehost.me/website_6b4babaf/home2/process2/
+title: process2
+
+excerpt:
+
+
+content:

@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 7394
+slug: cover-bg-06-min
+link: https://zti.sad.mybluehost.me/website_6b4babaf/home1/cover-bg-06-min/
+title: cover-bg-06-min
+
+excerpt:
+
+
+content:

@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14336
+slug: slide3-bg2-jpg
+link: https://zti.sad.mybluehost.me/website_6b4babaf/slide3-bg2-jpg/
+title: slide3-bg2.jpg
+
+excerpt:
+
+
+content:

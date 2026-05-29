@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 3720
+slug: star-img
+link: https://zti.sad.mybluehost.me/website_6b4babaf/star-img/
+title: star-img
+
+excerpt:
+
+
+content:

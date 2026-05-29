@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 3895
+slug: service_detail1
+link: https://zti.sad.mybluehost.me/website_6b4babaf/service_detail1/
+title: service_detail1
+
+excerpt:
+
+
+content:

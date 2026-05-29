@@ -1,0 +1,11 @@
+sourceCollection: wp-v2-page
+id: 14564
+slug: our-team-2
+link: https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/
+title: Our Team
+
+excerpt:
+Meet the Team Behind the Craftsmanship At QuickSilver Construction, our team is made up of skilled professionals who take pride in quality workmanship and doing things the right way. With hands-on experience across residential construction, excavation, and custom building projects, each member of our crew shares a commitment to reliability, safety, and attention to detail. … Continue reading Our Team
+
+content:
+Meet the Team Behind the Craftsmanship At QuickSilver Construction, our team is made up of skilled professionals who take pride in quality workmanship and doing things the right way. With hands-on experience across residential construction, excavation, and custom building projects, each member of our crew shares a commitment to reliability, safety, and attention to detail. We work closely together — and with our clients — to ensure every project runs smoothly, stays on schedule, and delivers results built to last. Our goal isn’t just to complete projects, but to build lasting relationships through trust, communication, and craftsmanship you can count on. Pat Darren Nathan Zach Brandon

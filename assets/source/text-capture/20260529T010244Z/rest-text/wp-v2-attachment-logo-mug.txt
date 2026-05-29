@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14344
+slug: logo-mug
+link: https://zti.sad.mybluehost.me/website_6b4babaf/logo-mug/
+title: logo-mug
+
+excerpt:
+
+
+content:

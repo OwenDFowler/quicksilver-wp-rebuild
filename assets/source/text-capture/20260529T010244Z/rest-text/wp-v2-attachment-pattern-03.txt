@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 3801
+slug: pattern-03
+link: https://zti.sad.mybluehost.me/website_6b4babaf/service/pattern-03/
+title: pattern-03
+
+excerpt:
+
+
+content:

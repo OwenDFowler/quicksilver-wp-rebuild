@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14228
+slug: row-bg-img-2-jpg
+link: https://zti.sad.mybluehost.me/website_6b4babaf/row-bg-img-2-jpg/
+title: row-bg-img-2.jpg
+
+excerpt:
+
+
+content:

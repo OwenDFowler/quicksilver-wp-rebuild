@@ -103,8 +103,7 @@ Sections:
 
 - Page title.
 - Team intro: skilled professionals, craftsmanship, reliability, safety, communication, relationships.
-
-No individual team-member names were found in the public source inventory.
+- Team members: Pat, Darren, Nathan, Zach, Brandon.
 
 ### Contact
 

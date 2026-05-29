@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 13478
+slug: section-bg-4
+link: https://zti.sad.mybluehost.me/website_6b4babaf/home1/section-bg-4/
+title: section-bg-4
+
+excerpt:
+
+
+content:

@@ -29,6 +29,9 @@ Generated artifacts:
 - `assets/source/inventory/plugin-theme-evidence.json`
 - `assets/source/inventory/screenshots.json`
 - `assets/source/inventory/screenshots/*.png`
+- `assets/source/text-capture/20260529T010244Z/manifest.json`
+
+The text-preservation snapshot is documented in `docs/source-text-capture.md`. It complements this inventory by storing raw public HTML, full public REST JSON, and extracted text bodies. The placement map for rebuild work lives in `docs/source-to-target-placement.md`.
 
 ## Build-Scope Classification
 
@@ -168,7 +171,7 @@ Sections to recreate:
 - Breadcrumb/title area: Our Team.
 - Heading: `Meet the Team Behind the Craftsmanship`.
 - Team positioning copy: skilled professionals, residential construction, excavation, custom building projects, reliability, safety, communication, relationships, and craftsmanship.
-- No individual team-member names were found in the public text inventory.
+- Team names preserved by the full REST text capture: Pat, Darren, Nathan, Zach, Brandon.
 
 ### Contact Us
 

@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 8286
+slug: blog_detail1
+link: https://zti.sad.mybluehost.me/website_6b4babaf/blog_detail1/
+title: blog_detail1
+
+excerpt:
+
+
+content:

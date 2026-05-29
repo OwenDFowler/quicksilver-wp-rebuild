@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 3805
+slug: row-bg-img-4
+link: https://zti.sad.mybluehost.me/website_6b4babaf/service2/row-bg-img-4/
+title: row-bg-img-4
+
+excerpt:
+
+
+content:

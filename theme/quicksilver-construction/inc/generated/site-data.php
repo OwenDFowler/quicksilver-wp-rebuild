@@ -7,8 +7,6 @@ if (!defined('ABSPATH')) {
 return json_decode(<<<'JSON'
 {
     "schemaVersion":  1,
-    "sourceModelPath":  "content/site-model.json",
-    "sourceMediaManifestPath":  "assets/source/media/media-manifest.json",
     "siteIdentity":  {
                          "businessName":  "QuickSilver Construction",
                          "siteTitle":  "QuickSilver Construction Whidbey Island",
@@ -35,58 +33,6 @@ return json_decode(<<<'JSON'
                          "footerSummary":  "QuickSilver Construction is a licensed, bonded, and insured contractor serving Whidbey Island and nearby communities. We specialize in residential construction, excavation, and custom property improvements with a commitment to quality workmanship and dependable service.",
                          "copyrightText":  "Copyright (c) 2026 Quicksilver Construction | Designed With Love \u0026 Caffeine by Seattle Website Experts | All Rights Reserved."
                      },
-    "canonicalRoutes":  [
-                            {
-                                "pageKey":  "home",
-                                "label":  "Home",
-                                "route":  "/",
-                                "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
-                                "sourceRestSlug":  "home1",
-                                "sourceInventorySlug":  "home",
-                                "sourcePath":  "/",
-                                "sourcePathIsCanonical":  false
-                            },
-                            {
-                                "pageKey":  "photoGallery",
-                                "label":  "Photo Gallery",
-                                "route":  "/photo-gallery/",
-                                "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
-                                "sourceRestSlug":  "project-style-two",
-                                "sourceInventorySlug":  "photo-gallery",
-                                "sourcePath":  "/project-style-two/",
-                                "sourcePathIsCanonical":  false
-                            },
-                            {
-                                "pageKey":  "services",
-                                "label":  "Services",
-                                "route":  "/services/",
-                                "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
-                                "sourceRestSlug":  null,
-                                "sourceInventorySlug":  "services",
-                                "sourcePath":  "/service/construction-services/",
-                                "sourcePathIsCanonical":  false
-                            },
-                            {
-                                "pageKey":  "ourTeam",
-                                "label":  "Our Team",
-                                "route":  "/our-team/",
-                                "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
-                                "sourceRestSlug":  "our-team-2",
-                                "sourceInventorySlug":  "our-team",
-                                "sourcePath":  "/our-team-2/",
-                                "sourcePathIsCanonical":  false
-                            },
-                            {
-                                "pageKey":  "contact",
-                                "label":  "Contact",
-                                "route":  "/contact/",
-                                "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
-                                "sourceRestSlug":  "contactus",
-                                "sourceInventorySlug":  "contact-us",
-                                "sourcePath":  "/contactus/",
-                                "sourcePathIsCanonical":  false
-                            }
-                        ],
     "routeByPageKey":  {
                            "photoGallery":  "/photo-gallery/",
                            "contact":  "/contact/",
@@ -97,517 +43,34 @@ return json_decode(<<<'JSON'
     "navigation":  [
                        {
                            "label":  "Home",
-                           "targetRoute":  "/",
                            "pageKey":  "home"
                        },
                        {
                            "label":  "Photo Gallery",
-                           "targetRoute":  "/photo-gallery/",
                            "pageKey":  "photoGallery"
                        },
                        {
                            "label":  "Services",
-                           "targetRoute":  "/services/",
                            "pageKey":  "services"
                        },
                        {
                            "label":  "Our Team",
-                           "targetRoute":  "/our-team/",
                            "pageKey":  "ourTeam"
                        },
                        {
                            "label":  "Contact",
-                           "targetRoute":  "/contact/",
                            "pageKey":  "contact"
                        }
                    ],
-    "pages":  [
-                  {
-                      "pageKey":  "home",
-                      "title":  "Home",
-                      "canonicalRoute":  "/",
-                      "templateRole":  "front-page",
-                      "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
-                      "sourceRestSlug":  "home1",
-                      "sourceInventorySlug":  "home",
-                      "sourcePath":  "/",
-                      "mediaSlots":  {
-                                         "qualityPrimary":  {
-                                                                "sectionId":  "home.quality-overview",
-                                                                "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                                "alt":  "Completed wood kitchen remodel by QuickSilver Construction",
-                                                                "decorative":  false
-                                                            },
-                                         "qualityInset":  {
-                                                              "sectionId":  "home.quality-overview",
-                                                              "localPath":  "assets/source/media/downloads/must-recreate/001-gallery-project-image-1000000981.webp",
-                                                              "alt":  "QuickSilver crew cutting concrete during a remodel",
-                                                              "decorative":  false
-                                                          },
-                                         "ctaBackground":  {
-                                                               "sectionId":  "home.project-cta",
-                                                               "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                               "alt":  "",
-                                                               "decorative":  true
-                                                           },
-                                         "valueMission":  {
-                                                              "sectionId":  "home.values-band",
-                                                              "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                              "alt":  "",
-                                                              "decorative":  true
-                                                          },
-                                         "valueVision":  {
-                                                             "sectionId":  "home.values-band",
-                                                             "localPath":  "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
-                                                             "alt":  "",
-                                                             "decorative":  true
-                                                         },
-                                         "valueExperience":  {
-                                                                 "sectionId":  "home.values-band",
-                                                                 "localPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
-                                                                 "alt":  "",
-                                                                 "decorative":  true
-                                                             },
-                                         "valueCommitment":  {
-                                                                 "sectionId":  "home.values-band",
-                                                                 "localPath":  "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
-                                                                 "alt":  "",
-                                                                 "decorative":  true
-                                                             }
-                                     },
-                      "sections":  [
-                                       {
-                                           "id":  "home.hero",
-                                           "type":  "hero",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Welcome To QuickSilver Construction",
-                                           "body":  "Clear timelines, honest pricing, and dependable service from start to finish.",
-                                           "ctas":  [
-                                                        {
-                                                            "label":  "View Our Services",
-                                                            "targetPageKey":  "services"
-                                                        }
-                                                    ],
-                                           "assetRefs":  [
-                                                             {
-                                                                 "sourcePageSlug":  "home",
-                                                                 "inferredRole":  "homepage hero/slider",
-                                                                 "priority":  "must-recreate"
-                                                             }
-                                                         ],
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "home",
-                                                                  "screenshots":  [
-                                                                                      "assets/source/inventory/screenshots/home-desktop.png",
-                                                                                      "assets/source/inventory/screenshots/home-mobile.png"
-                                                                                  ]
-                                                              }
-                                       },
-                                       {
-                                           "id":  "home.quality-overview",
-                                           "type":  "image-text",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Quality Construction Services Built on Craftsmanship \u0026 Reliability",
-                                           "body":  "QuickSilver Construction provides dependable residential construction and site services built on quality craftsmanship, clear communication, and attention to detail. From excavation and grading to remodels, concrete work, and custom projects, we help homeowners bring their vision to life with reliable service and lasting results. Whether you\u0027re starting a new project or improving your existing property, our team is committed to doing the job right - from the ground up.",
-                                           "items":  [
-                                                         "New Construction",
-                                                         "Remodels \u0026 Renovations",
-                                                         "Flooring \u0026 Tile Work",
-                                                         "Decks \u0026 Fencing",
-                                                         "Framing \u0026 Finish Carpentry",
-                                                         "Concrete Slabs",
-                                                         "Custom Residential Projects"
-                                                     ],
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "home",
-                                                                  "heading":  "Quality Construction Services Built on Craftsmanship \u0026 Reliability"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "home.service-cards",
-                                           "type":  "card-grid",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Why Choose QuickSilver Construction",
-                                           "body":  "Attention to detail guides every project - big or small - with thoughtful planning and precise execution designed to last.",
-                                           "items":  [
-                                                         {
-                                                             "title":  "Residential Construction",
-                                                             "body":  "New builds, remodels, and structural improvements designed for durability, functionality, and long-term value."
-                                                         },
-                                                         {
-                                                             "title":  "Construction Services",
-                                                             "body":  "Professional grading, clearing, trenching, and groundwork to prepare your property for construction success."
-                                                         },
-                                                         {
-                                                             "title":  "Decks \u0026 Outdoors Structures",
-                                                             "body":  "Custom decks, fencing, and outdoor living spaces built to enhance usability and property value."
-                                                         }
-                                                     ],
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "home",
-                                                                  "heading":  "Why Choose QuickSilver Construction"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "home.values-band",
-                                           "type":  "values-band",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "items":  [
-                                                         {
-                                                             "mediaSlotKey":  "valueMission",
-                                                             "title":  "Our Mission",
-                                                             "body":  "To deliver dependable construction services with honesty, craftsmanship, and attention to detail for every client."
-                                                         },
-                                                         {
-                                                             "mediaSlotKey":  "valueVision",
-                                                             "title":  "Our Vision",
-                                                             "body":  "To be the local contractor known for reliability, quality workmanship, and projects completed right the first time."
-                                                         },
-                                                         {
-                                                             "mediaSlotKey":  "valueExperience",
-                                                             "title":  "Our Experience",
-                                                             "body":  "Years of hands-on construction experience across excavation, residential building, and finish work."
-                                                         },
-                                                         {
-                                                             "mediaSlotKey":  "valueCommitment",
-                                                             "title":  "Our Commitment",
-                                                             "body":  "We believe every project deserves clear communication, honest pricing, and dependable workmanship."
-                                                         }
-                                                     ],
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "home"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "home.homeowner-reasons",
-                                           "type":  "text-feature",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "A Few Reasons Homeowners Choose QuickSilver Construction",
-                                           "body":  "At QuickSilver Construction, we understand that choosing a contractor is a major decision. Our team is committed to delivering dependable workmanship, clear communication, and results built to last. From initial planning to final completion, we focus on quality, transparency, and customer satisfaction on every project.",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "home",
-                                                                  "heading":  "A Few Reasons Homeowners Choose QuickSilver Construction"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "home.project-cta",
-                                           "type":  "image-cta",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Start Your Next Construction Project With Confidence",
-                                           "body":  "Whether you\u0027re planning a remodel, preparing land for building, or improving your property, QuickSilver Construction is ready to help.",
-                                           "ctas":  [
-                                                        {
-                                                            "label":  "Get A Quote",
-                                                            "targetPageKey":  "contact"
-                                                        }
-                                                    ],
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "home",
-                                                                  "heading":  "Start Your Next Construction Project With Confidence"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "home.license-banner",
-                                           "type":  "license-banner",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "text":  "Licensed. Bonded. Insured. Washington State License Number QUICKCL813C1",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "home"
-                                                              }
-                                       }
-                                   ]
-                  },
-                  {
-                      "pageKey":  "photoGallery",
-                      "title":  "Photo Gallery",
-                      "canonicalRoute":  "/photo-gallery/",
-                      "templateRole":  "page-gallery",
-                      "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/",
-                      "sourceRestSlug":  "project-style-two",
-                      "sourceInventorySlug":  "photo-gallery",
-                      "sourcePath":  "/project-style-two/",
-                      "sections":  [
-                                       {
-                                           "id":  "photo-gallery.page-title",
-                                           "type":  "page-title",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Photo Gallery",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "photo-gallery"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "photo-gallery.intro",
-                                           "type":  "text-intro",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Our Work in Action. See What We\u0027ve Built.",
-                                           "body":  "At QuickSilver Construction, every project reflects our commitment to quality craftsmanship, careful planning, and attention to detail. This gallery highlights a selection of completed work, from excavation and site preparation to residential construction and custom improvements. Each project represents our dedication to delivering dependable results and creating spaces built to last.",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "photo-gallery",
-                                                                  "heading":  "Our Work in Action. See What We\u0027ve Built."
-                                                              }
-                                       },
-                                       {
-                                           "id":  "photo-gallery.grid",
-                                           "type":  "gallery-grid",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "assetRefs":  [
-                                                             {
-                                                                 "sourcePageSlug":  "photo-gallery",
-                                                                 "inferredRole":  "gallery/project image",
-                                                                 "priority":  "must-recreate"
-                                                             }
-                                                         ],
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "photo-gallery",
-                                                                  "screenshots":  [
-                                                                                      "assets/source/inventory/screenshots/photo-gallery-desktop.png",
-                                                                                      "assets/source/inventory/screenshots/photo-gallery-mobile.png"
-                                                                                  ]
-                                                              }
-                                       }
-                                   ]
-                  },
-                  {
-                      "pageKey":  "services",
-                      "title":  "Services",
-                      "canonicalRoute":  "/services/",
-                      "templateRole":  "page-services",
-                      "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/service/construction-services/",
-                      "sourceRestSlug":  null,
-                      "sourceInventorySlug":  "services",
-                      "sourcePath":  "/service/construction-services/",
-                      "sections":  [
-                                       {
-                                           "id":  "services.page-title",
-                                           "type":  "page-title",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Construction Services",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "services"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "services.why-choose",
-                                           "type":  "text-intro",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Why Choose QuickSilver Construction",
-                                           "body":  "Choosing the right contractor makes all the difference. At QuickSilver Construction, we combine hands-on experience, quality craftsmanship, and clear communication to ensure every project runs smoothly from start to finish. Our team focuses on dependable service, realistic timelines, and results built to stand the test of time.",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "services",
-                                                                  "heading":  "Why Choose QuickSilver Construction"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "services.service-groups",
-                                           "type":  "service-groups",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "items":  [
-                                                         {
-                                                             "title":  "Construction Services",
-                                                             "body":  "We provide residential construction solutions tailored to your property and goals. Whether building new structures or improving existing spaces, our team delivers durable workmanship with careful attention to detail."
-                                                         },
-                                                         {
-                                                             "title":  "Excavation \u0026 Site Preparation",
-                                                             "body":  "Proper groundwork is essential to every successful build. We handle excavation, grading, land clearing, and site preparation to create a solid foundation for construction projects of any size."
-                                                         },
-                                                         {
-                                                             "title":  "Demolition \u0026 Property Improvements",
-                                                             "body":  "From light demolition to structural modifications and property upgrades, we safely prepare spaces for renovation and new construction while maintaining clean and organized job sites."
-                                                         }
-                                                     ],
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "services"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "services.callback-pledge",
-                                           "type":  "callout",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "body":  "If you have been looking for help with a project on Whidbey, you know how frustrating it can be that contractors won\u0027t even return your call. We pledge to call you back. We may be too busy to do the job, or not the right fit for your project, but at least we will talk to you and let you know.",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "services",
-                                                                  "heading":  "Callback pledge"
-                                                              }
-                                       }
-                                   ]
-                  },
-                  {
-                      "pageKey":  "ourTeam",
-                      "title":  "Our Team",
-                      "canonicalRoute":  "/our-team/",
-                      "templateRole":  "page-standard",
-                      "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/",
-                      "sourceRestSlug":  "our-team-2",
-                      "sourceInventorySlug":  "our-team",
-                      "sourcePath":  "/our-team-2/",
-                      "sections":  [
-                                       {
-                                           "id":  "our-team.page-title",
-                                           "type":  "page-title",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Our Team",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "our-team"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "our-team.intro",
-                                           "type":  "text-intro",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Meet the Team Behind the Craftsmanship",
-                                           "body":  "At QuickSilver Construction, our team is made up of skilled professionals who take pride in quality workmanship and doing things the right way. With hands-on experience across residential construction, excavation, and custom building projects, each member of our crew shares a commitment to reliability, safety, and attention to detail. We work closely together - and with our clients - to ensure every project runs smoothly, stays on schedule, and delivers results built to last. Our goal isn\u0027t just to complete projects, but to build lasting relationships through trust, communication, and craftsmanship you can count on.",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "our-team",
-                                                                  "heading":  "Meet the Team Behind the Craftsmanship"
-                                                              }
-                                       }
-                                   ]
-                  },
-                  {
-                      "pageKey":  "contact",
-                      "title":  "Contact",
-                      "canonicalRoute":  "/contact/",
-                      "templateRole":  "page-contact",
-                      "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/contactus/",
-                      "sourceRestSlug":  "contactus",
-                      "sourceInventorySlug":  "contact-us",
-                      "sourcePath":  "/contactus/",
-                      "sections":  [
-                                       {
-                                           "id":  "contact.page-title",
-                                           "type":  "page-title",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "heading":  "Contact",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "contact-us"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "contact.contact-methods",
-                                           "type":  "contact-methods",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "items":  [
-                                                         {
-                                                             "label":  "Email Address",
-                                                             "display":  "Contact@TeamQSC.com",
-                                                             "actionLabel":  "Click To Send Email",
-                                                             "href":  "mailto:Contact@TeamQSC.com"
-                                                         },
-                                                         {
-                                                             "label":  "Phone Number",
-                                                             "display":  "(360) 321-1969",
-                                                             "actionLabel":  "Click To Call",
-                                                             "href":  "tel:3603211969"
-                                                         },
-                                                         {
-                                                             "label":  "Mailing Address",
-                                                             "display":  "Langley, WA 98260",
-                                                             "actionLabel":  "Send Mail Here"
-                                                         }
-                                                     ],
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "contact-us"
-                                                              }
-                                       },
-                                       {
-                                           "id":  "contact.form-placeholder",
-                                           "type":  "form-placeholder",
-                                           "contentOwner":  "structured-json",
-                                           "renderOwner":  "theme-template",
-                                           "status":  "deferred",
-                                           "approvedPlugin":  null,
-                                           "collectsUserData":  false,
-                                           "submissionEndpoint":  null,
-                                           "renderInstruction":  "Render as a non-submitting contact CTA/placeholder only until a form runtime is approved.",
-                                           "body":  "Public source evidence shows a contact form surface. The implementation is deferred; no form plugin is approved by this model.",
-                                           "sourceEvidence":  {
-                                                                  "sourcePageSlug":  "contact-us",
-                                                                  "observedFields":  [
-                                                                                         "Your message (optional)"
-                                                                                     ]
-                                                              }
-                                       }
-                                   ]
-                  }
-              ],
     "homePage":  {
                      "pageKey":  "home",
                      "title":  "Home",
                      "canonicalRoute":  "/",
                      "templateRole":  "front-page",
-                     "sourceUrl":  "https://zti.sad.mybluehost.me/website_6b4babaf/",
-                     "sourceRestSlug":  "home1",
-                     "sourceInventorySlug":  "home",
-                     "sourcePath":  "/",
-                     "mediaSlots":  {
-                                        "qualityPrimary":  {
-                                                               "sectionId":  "home.quality-overview",
-                                                               "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                               "alt":  "Completed wood kitchen remodel by QuickSilver Construction",
-                                                               "decorative":  false
-                                                           },
-                                        "qualityInset":  {
-                                                             "sectionId":  "home.quality-overview",
-                                                             "localPath":  "assets/source/media/downloads/must-recreate/001-gallery-project-image-1000000981.webp",
-                                                             "alt":  "QuickSilver crew cutting concrete during a remodel",
-                                                             "decorative":  false
-                                                         },
-                                        "ctaBackground":  {
-                                                              "sectionId":  "home.project-cta",
-                                                              "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                              "alt":  "",
-                                                              "decorative":  true
-                                                          },
-                                        "valueMission":  {
-                                                             "sectionId":  "home.values-band",
-                                                             "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                             "alt":  "",
-                                                             "decorative":  true
-                                                         },
-                                        "valueVision":  {
-                                                            "sectionId":  "home.values-band",
-                                                            "localPath":  "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
-                                                            "alt":  "",
-                                                            "decorative":  true
-                                                        },
-                                        "valueExperience":  {
-                                                                "sectionId":  "home.values-band",
-                                                                "localPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
-                                                                "alt":  "",
-                                                                "decorative":  true
-                                                            },
-                                        "valueCommitment":  {
-                                                                "sectionId":  "home.values-band",
-                                                                "localPath":  "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
-                                                                "alt":  "",
-                                                                "decorative":  true
-                                                            }
-                                    },
                      "sections":  [
                                       {
                                           "id":  "home.hero",
                                           "type":  "hero",
-                                          "contentOwner":  "structured-json",
-                                          "renderOwner":  "theme-template",
                                           "heading":  "Welcome To QuickSilver Construction",
                                           "body":  "Clear timelines, honest pricing, and dependable service from start to finish.",
                                           "ctas":  [
@@ -615,27 +78,11 @@ return json_decode(<<<'JSON'
                                                            "label":  "View Our Services",
                                                            "targetPageKey":  "services"
                                                        }
-                                                   ],
-                                          "assetRefs":  [
-                                                            {
-                                                                "sourcePageSlug":  "home",
-                                                                "inferredRole":  "homepage hero/slider",
-                                                                "priority":  "must-recreate"
-                                                            }
-                                                        ],
-                                          "sourceEvidence":  {
-                                                                 "sourcePageSlug":  "home",
-                                                                 "screenshots":  [
-                                                                                     "assets/source/inventory/screenshots/home-desktop.png",
-                                                                                     "assets/source/inventory/screenshots/home-mobile.png"
-                                                                                 ]
-                                                             }
+                                                   ]
                                       },
                                       {
                                           "id":  "home.quality-overview",
                                           "type":  "image-text",
-                                          "contentOwner":  "structured-json",
-                                          "renderOwner":  "theme-template",
                                           "heading":  "Quality Construction Services Built on Craftsmanship \u0026 Reliability",
                                           "body":  "QuickSilver Construction provides dependable residential construction and site services built on quality craftsmanship, clear communication, and attention to detail. From excavation and grading to remodels, concrete work, and custom projects, we help homeowners bring their vision to life with reliable service and lasting results. Whether you\u0027re starting a new project or improving your existing property, our team is committed to doing the job right - from the ground up.",
                                           "items":  [
@@ -646,17 +93,11 @@ return json_decode(<<<'JSON'
                                                         "Framing \u0026 Finish Carpentry",
                                                         "Concrete Slabs",
                                                         "Custom Residential Projects"
-                                                    ],
-                                          "sourceEvidence":  {
-                                                                 "sourcePageSlug":  "home",
-                                                                 "heading":  "Quality Construction Services Built on Craftsmanship \u0026 Reliability"
-                                                             }
+                                                    ]
                                       },
                                       {
                                           "id":  "home.service-cards",
                                           "type":  "card-grid",
-                                          "contentOwner":  "structured-json",
-                                          "renderOwner":  "theme-template",
                                           "heading":  "Why Choose QuickSilver Construction",
                                           "body":  "Attention to detail guides every project - big or small - with thoughtful planning and precise execution designed to last.",
                                           "items":  [
@@ -672,17 +113,11 @@ return json_decode(<<<'JSON'
                                                             "title":  "Decks \u0026 Outdoors Structures",
                                                             "body":  "Custom decks, fencing, and outdoor living spaces built to enhance usability and property value."
                                                         }
-                                                    ],
-                                          "sourceEvidence":  {
-                                                                 "sourcePageSlug":  "home",
-                                                                 "heading":  "Why Choose QuickSilver Construction"
-                                                             }
+                                                    ]
                                       },
                                       {
                                           "id":  "home.values-band",
                                           "type":  "values-band",
-                                          "contentOwner":  "structured-json",
-                                          "renderOwner":  "theme-template",
                                           "items":  [
                                                         {
                                                             "mediaSlotKey":  "valueMission",
@@ -704,28 +139,17 @@ return json_decode(<<<'JSON'
                                                             "title":  "Our Commitment",
                                                             "body":  "We believe every project deserves clear communication, honest pricing, and dependable workmanship."
                                                         }
-                                                    ],
-                                          "sourceEvidence":  {
-                                                                 "sourcePageSlug":  "home"
-                                                             }
+                                                    ]
                                       },
                                       {
                                           "id":  "home.homeowner-reasons",
                                           "type":  "text-feature",
-                                          "contentOwner":  "structured-json",
-                                          "renderOwner":  "theme-template",
                                           "heading":  "A Few Reasons Homeowners Choose QuickSilver Construction",
-                                          "body":  "At QuickSilver Construction, we understand that choosing a contractor is a major decision. Our team is committed to delivering dependable workmanship, clear communication, and results built to last. From initial planning to final completion, we focus on quality, transparency, and customer satisfaction on every project.",
-                                          "sourceEvidence":  {
-                                                                 "sourcePageSlug":  "home",
-                                                                 "heading":  "A Few Reasons Homeowners Choose QuickSilver Construction"
-                                                             }
+                                          "body":  "At QuickSilver Construction, we understand that choosing a contractor is a major decision. Our team is committed to delivering dependable workmanship, clear communication, and results built to last. From initial planning to final completion, we focus on quality, transparency, and customer satisfaction on every project."
                                       },
                                       {
                                           "id":  "home.project-cta",
                                           "type":  "image-cta",
-                                          "contentOwner":  "structured-json",
-                                          "renderOwner":  "theme-template",
                                           "heading":  "Start Your Next Construction Project With Confidence",
                                           "body":  "Whether you\u0027re planning a remodel, preparing land for building, or improving your property, QuickSilver Construction is ready to help.",
                                           "ctas":  [
@@ -733,21 +157,12 @@ return json_decode(<<<'JSON'
                                                            "label":  "Get A Quote",
                                                            "targetPageKey":  "contact"
                                                        }
-                                                   ],
-                                          "sourceEvidence":  {
-                                                                 "sourcePageSlug":  "home",
-                                                                 "heading":  "Start Your Next Construction Project With Confidence"
-                                                             }
+                                                   ]
                                       },
                                       {
                                           "id":  "home.license-banner",
                                           "type":  "license-banner",
-                                          "contentOwner":  "structured-json",
-                                          "renderOwner":  "theme-template",
-                                          "text":  "Licensed. Bonded. Insured. Washington State License Number QUICKCL813C1",
-                                          "sourceEvidence":  {
-                                                                 "sourcePageSlug":  "home"
-                                                             }
+                                          "text":  "Licensed. Bonded. Insured. Washington State License Number QUICKCL813C1"
                                       }
                                   ]
                  },
@@ -758,18 +173,7 @@ return json_decode(<<<'JSON'
                                "alt":  "QuickSilver Construction",
                                "decorative":  false,
                                "width":  341,
-                               "height":  100,
-                               "sourceLocalPath":  "assets/source/media/downloads/must-recreate/026-logo-media-reference-logo-mug.webp",
-                               "priority":  "must-recreate",
-                               "roles":  "logo/media reference",
-                               "sourcePageSlugs":  [
-                                                       "contact-us",
-                                                       "home",
-                                                       "our-team",
-                                                       "photo-gallery",
-                                                       "services"
-                                                   ],
-                               "sha256":  "6e0e7e4b28e9dfb9fea4e0eeebeb4e1f27392239baf42a6e679f628b69f6ff2c"
+                               "height":  100
                            },
                   "homeHero":  [
                                    {
@@ -778,18 +182,7 @@ return json_decode(<<<'JSON'
                                        "alt":  "",
                                        "decorative":  true,
                                        "width":  2560,
-                                       "height":  1709,
-                                       "sourceLocalPath":  "assets/source/media/downloads/must-recreate/002-gallery-project-image-homepage-hero-slider-10-2-scaled.jpg",
-                                       "priority":  "must-recreate",
-                                       "roles":  [
-                                                     "gallery/project image",
-                                                     "homepage hero/slider"
-                                                 ],
-                                       "sourcePageSlugs":  [
-                                                               "home",
-                                                               "photo-gallery"
-                                                           ],
-                                       "sha256":  "bdb1c2a6e4f189e0197cf2a420c8fb9160d69fee0176ad304f7d5396a1bbea46"
+                                       "height":  1709
                                    },
                                    {
                                        "slot":  "home.hero",
@@ -797,18 +190,7 @@ return json_decode(<<<'JSON'
                                        "alt":  "",
                                        "decorative":  true,
                                        "width":  2560,
-                                       "height":  1709,
-                                       "sourceLocalPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
-                                       "priority":  "must-recreate",
-                                       "roles":  [
-                                                     "gallery/project image",
-                                                     "homepage hero/slider"
-                                                 ],
-                                       "sourcePageSlugs":  [
-                                                               "home",
-                                                               "photo-gallery"
-                                                           ],
-                                       "sha256":  "e9ab28941583192ad7d2e48496fd224a25250082e81c29e5d623fd08bc182323"
+                                       "height":  1709
                                    },
                                    {
                                        "slot":  "home.hero",
@@ -816,18 +198,7 @@ return json_decode(<<<'JSON'
                                        "alt":  "",
                                        "decorative":  true,
                                        "width":  2560,
-                                       "height":  1709,
-                                       "sourceLocalPath":  "assets/source/media/downloads/must-recreate/005-gallery-project-image-homepage-hero-slider-30-scaled.jpg",
-                                       "priority":  "must-recreate",
-                                       "roles":  [
-                                                     "gallery/project image",
-                                                     "homepage hero/slider"
-                                                 ],
-                                       "sourcePageSlugs":  [
-                                                               "home",
-                                                               "photo-gallery"
-                                                           ],
-                                       "sha256":  "5d6dd7cf7c8a587fb63194207b24d9dcc3bdcef216ecbe78668106671d67694f"
+                                       "height":  1709
                                    }
                                ],
                   "homeStill":  {
@@ -837,18 +208,7 @@ return json_decode(<<<'JSON'
                                                            "alt":  "Completed wood kitchen remodel by QuickSilver Construction",
                                                            "decorative":  false,
                                                            "width":  2560,
-                                                           "height":  1709,
-                                                           "sourceLocalPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                           "priority":  "must-recreate",
-                                                           "roles":  [
-                                                                         "content image",
-                                                                         "gallery/project image"
-                                                                     ],
-                                                           "sourcePageSlugs":  [
-                                                                                   "home",
-                                                                                   "photo-gallery"
-                                                                               ],
-                                                           "sha256":  "2f69f29824318b5f81171f5f1d04b31e32cbfefa9d9eb6924aee0d01ab5ed57f"
+                                                           "height":  1709
                                                        },
                                     "qualityInset":  {
                                                          "slot":  "home.qualityInset",
@@ -856,12 +216,7 @@ return json_decode(<<<'JSON'
                                                          "alt":  "QuickSilver crew cutting concrete during a remodel",
                                                          "decorative":  false,
                                                          "width":  1875,
-                                                         "height":  2244,
-                                                         "sourceLocalPath":  "assets/source/media/downloads/must-recreate/001-gallery-project-image-1000000981.webp",
-                                                         "priority":  "must-recreate",
-                                                         "roles":  "gallery/project image",
-                                                         "sourcePageSlugs":  "photo-gallery",
-                                                         "sha256":  "8ff063565f1c611510ac4e6dcb1df053b4732d2129b02285df16d6578a16b347"
+                                                         "height":  2244
                                                      },
                                     "ctaBackground":  {
                                                           "slot":  "home.ctaBackground",
@@ -869,18 +224,7 @@ return json_decode(<<<'JSON'
                                                           "alt":  "",
                                                           "decorative":  true,
                                                           "width":  2560,
-                                                          "height":  1709,
-                                                          "sourceLocalPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                          "priority":  "must-recreate",
-                                                          "roles":  [
-                                                                        "content image",
-                                                                        "gallery/project image"
-                                                                    ],
-                                                          "sourcePageSlugs":  [
-                                                                                  "home",
-                                                                                  "photo-gallery"
-                                                                              ],
-                                                          "sha256":  "2f69f29824318b5f81171f5f1d04b31e32cbfefa9d9eb6924aee0d01ab5ed57f"
+                                                          "height":  1709
                                                       }
                                 },
                   "homeValues":  {
@@ -890,18 +234,7 @@ return json_decode(<<<'JSON'
                                                           "alt":  "",
                                                           "decorative":  true,
                                                           "width":  2560,
-                                                          "height":  1709,
-                                                          "sourceLocalPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
-                                                          "priority":  "must-recreate",
-                                                          "roles":  [
-                                                                        "content image",
-                                                                        "gallery/project image"
-                                                                    ],
-                                                          "sourcePageSlugs":  [
-                                                                                  "home",
-                                                                                  "photo-gallery"
-                                                                              ],
-                                                          "sha256":  "2f69f29824318b5f81171f5f1d04b31e32cbfefa9d9eb6924aee0d01ab5ed57f"
+                                                          "height":  1709
                                                       },
                                      "valueVision":  {
                                                          "slot":  "home.valueVision",
@@ -909,18 +242,7 @@ return json_decode(<<<'JSON'
                                                          "alt":  "",
                                                          "decorative":  true,
                                                          "width":  2560,
-                                                         "height":  1195,
-                                                         "sourceLocalPath":  "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
-                                                         "priority":  "must-recreate",
-                                                         "roles":  [
-                                                                       "content image",
-                                                                       "gallery/project image"
-                                                                   ],
-                                                         "sourcePageSlugs":  [
-                                                                                 "home",
-                                                                                 "photo-gallery"
-                                                                             ],
-                                                         "sha256":  "f293557f3b5132ed6a537d8a06d4d00e094234b23b99f2bc163f6f925ff4f6c0"
+                                                         "height":  1195
                                                      },
                                      "valueExperience":  {
                                                              "slot":  "home.valueExperience",
@@ -928,18 +250,7 @@ return json_decode(<<<'JSON'
                                                              "alt":  "",
                                                              "decorative":  true,
                                                              "width":  2560,
-                                                             "height":  1709,
-                                                             "sourceLocalPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
-                                                             "priority":  "must-recreate",
-                                                             "roles":  [
-                                                                           "gallery/project image",
-                                                                           "homepage hero/slider"
-                                                                       ],
-                                                             "sourcePageSlugs":  [
-                                                                                     "home",
-                                                                                     "photo-gallery"
-                                                                                 ],
-                                                             "sha256":  "e9ab28941583192ad7d2e48496fd224a25250082e81c29e5d623fd08bc182323"
+                                                             "height":  1709
                                                          },
                                      "valueCommitment":  {
                                                              "slot":  "home.valueCommitment",
@@ -947,18 +258,7 @@ return json_decode(<<<'JSON'
                                                              "alt":  "",
                                                              "decorative":  true,
                                                              "width":  2560,
-                                                             "height":  1195,
-                                                             "sourceLocalPath":  "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
-                                                             "priority":  "must-recreate",
-                                                             "roles":  [
-                                                                           "content image",
-                                                                           "gallery/project image"
-                                                                       ],
-                                                             "sourcePageSlugs":  [
-                                                                                     "home",
-                                                                                     "photo-gallery"
-                                                                                 ],
-                                                             "sha256":  "66d5f156d8c5ae69698dc88679e0f0ff7ae304ffe7e19c69ab6675bc5f626af7"
+                                                             "height":  1195
                                                          }
                                  }
               }

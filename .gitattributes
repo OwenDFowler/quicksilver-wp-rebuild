@@ -1,0 +1,7 @@
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+
+assets/source/text-capture/** -text

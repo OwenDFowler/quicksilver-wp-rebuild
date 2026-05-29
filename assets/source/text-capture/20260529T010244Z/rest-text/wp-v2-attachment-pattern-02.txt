@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 3760
+slug: pattern-02
+link: https://zti.sad.mybluehost.me/website_6b4babaf/pattern-02/
+title: pattern-02
+
+excerpt:
+
+
+content:

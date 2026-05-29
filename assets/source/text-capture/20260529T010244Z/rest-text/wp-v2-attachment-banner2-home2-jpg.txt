@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14213
+slug: banner2-home2-jpg
+link: https://zti.sad.mybluehost.me/website_6b4babaf/banner2-home2-jpg/
+title: banner2_home2.jpg
+
+excerpt:
+
+
+content:

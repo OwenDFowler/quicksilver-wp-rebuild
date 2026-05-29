@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14581
+slug: zach-1
+link: https://zti.sad.mybluehost.me/website_6b4babaf/our-team-2/zach-1/
+title: Zach 1
+
+excerpt:
+
+
+content:

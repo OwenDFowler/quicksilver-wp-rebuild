@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14210
+slug: mainslider-bg01-1-jpg
+link: https://zti.sad.mybluehost.me/website_6b4babaf/mainslider-bg01-1-jpg/
+title: mainslider-bg01-1.jpg
+
+excerpt:
+
+
+content:

@@ -1,0 +1,33 @@
+
+---Downloaded files---
+The import files for: Overlay were successfully downloaded!
+Initial max execution time = 600
+Files info:
+Site URL = https://zti.sad.mybluehost.me/website_6b4babaf
+Data file = /home1/ztisadmy/public_html/website_6b4babaf/wp-content/plugins/themetechmount-wastii-demo-content-setup/demo-content/demo.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---ocdi/after_import---
+ Slider processed

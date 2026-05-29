@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14531
+slug: dsc_5692
+link: https://zti.sad.mybluehost.me/website_6b4babaf/project-style-two/dsc_5692/
+title: DSC_5692
+
+excerpt:
+
+
+content:

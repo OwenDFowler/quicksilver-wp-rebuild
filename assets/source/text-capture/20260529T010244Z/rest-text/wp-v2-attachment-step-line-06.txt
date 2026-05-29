@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 3794
+slug: step-line-06
+link: https://zti.sad.mybluehost.me/website_6b4babaf/about-us-2/step-line-06/
+title: step-line-06
+
+excerpt:
+
+
+content:

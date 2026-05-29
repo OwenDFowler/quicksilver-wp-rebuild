@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14226
+slug: home3_bg2-jpg
+link: https://zti.sad.mybluehost.me/website_6b4babaf/home3_bg2-jpg/
+title: home3_bg2.jpg
+
+excerpt:
+
+
+content:

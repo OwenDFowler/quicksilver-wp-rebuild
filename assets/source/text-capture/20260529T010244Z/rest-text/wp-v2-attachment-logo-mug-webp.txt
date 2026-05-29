@@ -1,0 +1,10 @@
+sourceCollection: wp-v2-attachment
+id: 14343
+slug: logo-mug-webp
+link: https://zti.sad.mybluehost.me/website_6b4babaf/logo-mug-webp/
+title: logo-mug.webp
+
+excerpt:
+
+
+content:

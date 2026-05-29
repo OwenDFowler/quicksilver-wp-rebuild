@@ -59,6 +59,8 @@ This is a public, unauthenticated capture. It does not claim to preserve private
 
 The manifest records public failures and inaccessible REST collections. In the latest run, Elementor library, feedback, Jetpack forms, menu items, templates, template parts, font family, and global styles endpoints were not publicly readable or did not exist as public collections.
 
+The capture is tracked source evidence. Keep it in Git so the rebuild is not dependent on continued source-site access. It must not be copied into the Railway WordPress image; `.dockerignore` keeps the deploy context narrowed to the Dockerfile, Railway config, startup script, and source-controlled theme.
+
 ## Important Content Note
 
 The earlier source inventory summarized `Our Team` as having no individual names in the public text inventory. The full REST text capture did preserve the names visible in the page body:

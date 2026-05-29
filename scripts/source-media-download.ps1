@@ -13,6 +13,8 @@ $ErrorActionPreference = 'Stop'
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 $RepoFullPath = [System.IO.Path]::GetFullPath($RepoRoot)
+$SourceInventoryRoot = Join-Path $RepoRoot 'assets\source\inventory'
+$SourceMediaRoot = Join-Path $RepoRoot 'assets\source\media'
 $SourceUserAgent = 'QuickSilverSourceMediaDownload/1.0 (+public-source-site-rebuild)'
 $AllowedHosts = @(
     'zti.sad.mybluehost.me',
@@ -35,8 +37,23 @@ function Assert-UnderRepo {
     param([string]$Path)
 
     $fullPath = [System.IO.Path]::GetFullPath($Path)
-    if (-not $fullPath.StartsWith($RepoFullPath, [System.StringComparison]::OrdinalIgnoreCase)) {
+    $repoRootWithSeparator = $RepoFullPath.TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $RepoFullPath -and -not $fullPath.StartsWith($repoRootWithSeparator, [System.StringComparison]::OrdinalIgnoreCase)) {
         throw "Refusing to write outside repo: $fullPath"
+    }
+}
+
+function Assert-UnderPath {
+    param(
+        [string]$Path,
+        [string]$ParentPath,
+        [string]$Description
+    )
+
+    $fullPath = [System.IO.Path]::GetFullPath($Path)
+    $fullParent = [System.IO.Path]::GetFullPath($ParentPath).TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $fullParent.TrimEnd([System.IO.Path]::DirectorySeparatorChar) -and -not $fullPath.StartsWith($fullParent, [System.StringComparison]::OrdinalIgnoreCase)) {
+        throw "$Description must resolve under $fullParent. Received: $fullPath"
     }
 }
 
@@ -198,9 +215,9 @@ function Get-Sha256Hex {
     }
 }
 
-Assert-UnderRepo $AssetManifestPath
-Assert-UnderRepo $OutputDir
-Assert-UnderRepo $OutputManifestPath
+Assert-UnderPath -Path $AssetManifestPath -ParentPath $SourceInventoryRoot -Description 'Source asset manifest'
+Assert-UnderPath -Path $OutputDir -ParentPath $SourceMediaRoot -Description 'Source media output'
+Assert-UnderPath -Path $OutputManifestPath -ParentPath $SourceMediaRoot -Description 'Source media manifest output'
 
 if (-not (Test-Path -LiteralPath $AssetManifestPath)) {
     throw "Asset manifest not found: $AssetManifestPath"
@@ -240,7 +257,7 @@ if ($selectedItems.Count -eq 0) {
 
 New-Item -ItemType Directory -Force -Path $OutputDir | Out-Null
 $downloadRoot = Join-Path $OutputDir 'downloads'
-Assert-UnderRepo $downloadRoot
+Assert-UnderPath -Path $downloadRoot -ParentPath $SourceMediaRoot -Description 'Source media download output'
 New-Item -ItemType Directory -Force -Path $downloadRoot | Out-Null
 
 $groups = @{}
@@ -288,11 +305,11 @@ try {
         $priorityPart = ConvertTo-SafeFilePart $priority
         $fileName = ('{0:d3}-{1}-{2}{3}' -f $index, $rolePart, $leafPart, $extension)
         $priorityDir = Join-Path $downloadRoot $priorityPart
-        Assert-UnderRepo $priorityDir
+        Assert-UnderPath -Path $priorityDir -ParentPath $SourceMediaRoot -Description 'Source media priority output'
         New-Item -ItemType Directory -Force -Path $priorityDir | Out-Null
 
         $localPath = Join-Path $priorityDir $fileName
-        Assert-UnderRepo $localPath
+        Assert-UnderPath -Path $localPath -ParentPath $SourceMediaRoot -Description 'Source media file output'
         [System.IO.File]::WriteAllBytes($localPath, $result.Bytes)
 
         $relativeLocalPath = [System.IO.Path]::GetFullPath($localPath).Substring($RepoFullPath.Length + 1).Replace('\', '/')

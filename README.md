@@ -30,7 +30,7 @@ Read these before changing WordPress state or theme source:
 - `content/site-model.json` - canonical target site model for pages, sections, copy, contact data, and asset intent.
 - `content/pages/` - REST draft-write payloads; not a second content authority.
 - `scripts/` - local checks and packaging helpers.
-- `assets/source/` - public/source assets gathered for the rebuild.
+- `assets/source/` - tracked public/source evidence gathered for the rebuild, including text-capture backups. These files are excluded from Railway deploy context by `.dockerignore`, not by Git ignore.
 - `docs/` - operator notes and reconstruction runbooks.
 
 ## First Checks
@@ -38,7 +38,7 @@ Read these before changing WordPress state or theme source:
 ```powershell
 .\scripts\check-target.ps1
 .\scripts\railway-status.ps1
-.\scripts\package-theme.ps1
+.\scripts\check-theme-local.ps1
 .\scripts\verify-railway-wp-cli.ps1
 .\scripts\init-local-env.ps1
 .\scripts\test-wp-auth.ps1
@@ -58,5 +58,7 @@ Railway WordPress runtime control uses the repo-controlled image and WP-CLI wrap
 .\scripts\railway-wp-cli.ps1 core is-installed
 .\scripts\verify-railway-wp-cli.ps1
 ```
+
+`scripts\package-theme.ps1` is the lower-level zip helper called by `scripts\check-theme-local.ps1`; the normal pre-deploy theme gate is `scripts\check-theme-local.ps1`.
 
 Secrets belong in a local `.env` or `.env.local` file only. Do not commit WordPress passwords, application passwords, database credentials, or Railway tokens. The full rule is in `docs/engineering-standard.md`.

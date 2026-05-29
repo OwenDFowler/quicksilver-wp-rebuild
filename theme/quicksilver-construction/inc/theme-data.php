@@ -143,7 +143,11 @@ function qsc_asset_url(array $asset): string
 function qsc_asset_alt(array $asset): string
 {
     $alt = qsc_required($asset, 'alt');
-    return is_string($alt) ? $alt : '';
+    if (!is_string($alt)) {
+        throw new RuntimeException('QuickSilver media asset alt must be a string.');
+    }
+
+    return $alt;
 }
 
 function qsc_asset_width(array $asset): int

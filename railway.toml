@@ -4,3 +4,5 @@ dockerfilePath = "Dockerfile.wordpress"
 
 [deploy]
 startCommand = "quicksilver-wordpress-start apache2-foreground"
+healthcheckPath = "/wp-json/"
+healthcheckTimeout = 300

@@ -1,3 +1,5 @@
+# Railway deploy context is intentionally narrow.
+# Source evidence under assets/source/, including text-capture backups, belongs in Git but not in the WordPress image.
 *
 !Dockerfile.wordpress
 !railway.toml

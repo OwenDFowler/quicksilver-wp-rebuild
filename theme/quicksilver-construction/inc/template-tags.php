@@ -59,11 +59,19 @@ function qsc_render_decorative_image(array $asset, string $className, string $lo
 
 function qsc_render_section_text(array $section): void
 {
-    if (array_key_exists('heading', $section) && is_string($section['heading']) && $section['heading'] !== '') {
+    if (array_key_exists('heading', $section) && !is_string($section['heading'])) {
+        throw new RuntimeException('QuickSilver section heading must be a string when present.');
+    }
+
+    if (array_key_exists('body', $section) && !is_string($section['body'])) {
+        throw new RuntimeException('QuickSilver section body must be a string when present.');
+    }
+
+    if (array_key_exists('heading', $section) && $section['heading'] !== '') {
         printf('<h2>%s</h2>', esc_html($section['heading']));
     }
 
-    if (array_key_exists('body', $section) && is_string($section['body']) && $section['body'] !== '') {
+    if (array_key_exists('body', $section) && $section['body'] !== '') {
         printf('<p>%s</p>', esc_html($section['body']));
     }
 }

@@ -12,6 +12,7 @@ $ErrorActionPreference = 'Stop'
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 $RepoFullPath = [System.IO.Path]::GetFullPath($RepoRoot)
+$SourceInventoryRoot = Join-Path $RepoRoot 'assets\source\inventory'
 $SourceUserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36 QuickSilverSourceInventory/1.0'
 
 if ([string]::IsNullOrWhiteSpace($OutputDir)) {
@@ -22,8 +23,23 @@ function Assert-UnderRepo {
     param([string]$Path)
 
     $fullPath = [System.IO.Path]::GetFullPath($Path)
-    if (-not $fullPath.StartsWith($RepoFullPath, [System.StringComparison]::OrdinalIgnoreCase)) {
+    $repoRootWithSeparator = $RepoFullPath.TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $RepoFullPath -and -not $fullPath.StartsWith($repoRootWithSeparator, [System.StringComparison]::OrdinalIgnoreCase)) {
         throw "Refusing to write outside repo: $fullPath"
+    }
+}
+
+function Assert-UnderPath {
+    param(
+        [string]$Path,
+        [string]$ParentPath,
+        [string]$Description
+    )
+
+    $fullPath = [System.IO.Path]::GetFullPath($Path)
+    $fullParent = [System.IO.Path]::GetFullPath($ParentPath).TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $fullParent.TrimEnd([System.IO.Path]::DirectorySeparatorChar) -and -not $fullPath.StartsWith($fullParent, [System.StringComparison]::OrdinalIgnoreCase)) {
+        throw "$Description must resolve under $fullParent. Received: $fullPath"
     }
 }
 
@@ -335,11 +351,11 @@ function Get-ImagePriority {
 
 $sourceBase = Normalize-SourceBaseUrl $SourceBaseUrl
 $outputFullPath = [System.IO.Path]::GetFullPath($OutputDir)
-Assert-UnderRepo $outputFullPath
+Assert-UnderPath -Path $outputFullPath -ParentPath $SourceInventoryRoot -Description 'Source inventory output'
 New-Item -ItemType Directory -Force -Path $outputFullPath | Out-Null
 
 $screenshotDir = Join-Path $outputFullPath 'screenshots'
-Assert-UnderRepo $screenshotDir
+Assert-UnderPath -Path $screenshotDir -ParentPath $SourceInventoryRoot -Description 'Source inventory screenshot output'
 New-Item -ItemType Directory -Force -Path $screenshotDir | Out-Null
 
 $primaryPages = @(

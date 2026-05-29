@@ -61,10 +61,10 @@ Do not introduce Elementor, Slider Revolution, Wastii, or another page-builder d
 Package from repo source:
 
 ```powershell
-.\scripts\package-theme.ps1
+.\scripts\check-theme-local.ps1
 ```
 
-The package output is `dist/quicksilver-construction.zip`. `dist/` is generated output and must remain untracked.
+`check-theme-local.ps1` regenerates theme data, checks all theme JavaScript syntax, lints theme PHP through the WordPress image, packages the theme, and runs Git deploy-hygiene checks. The package output is `dist/quicksilver-construction.zip`. `dist/` is generated output and must remain untracked. `package-theme.ps1` is the lower-level zip helper called by the local theme gate.
 
 The repeatable Railway deployment path is the repo-controlled WordPress image:
 

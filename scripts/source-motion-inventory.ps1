@@ -13,6 +13,7 @@ $ErrorActionPreference = 'Stop'
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 $RepoFullPath = [System.IO.Path]::GetFullPath($RepoRoot)
+$SourceMotionRoot = Join-Path $RepoRoot 'assets\source\inventory\motion'
 $SourceUserAgent = 'QuickSilverSourceMotionInventory/1.0 (+public-source-site-rebuild)'
 
 if ([string]::IsNullOrWhiteSpace($OutputDir)) {
@@ -23,8 +24,23 @@ function Assert-UnderRepo {
     param([string]$Path)
 
     $fullPath = [System.IO.Path]::GetFullPath($Path)
-    if (-not $fullPath.StartsWith($RepoFullPath, [System.StringComparison]::OrdinalIgnoreCase)) {
+    $repoRootWithSeparator = $RepoFullPath.TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $RepoFullPath -and -not $fullPath.StartsWith($repoRootWithSeparator, [System.StringComparison]::OrdinalIgnoreCase)) {
         throw "Refusing to write outside repo: $fullPath"
+    }
+}
+
+function Assert-UnderPath {
+    param(
+        [string]$Path,
+        [string]$ParentPath,
+        [string]$Description
+    )
+
+    $fullPath = [System.IO.Path]::GetFullPath($Path)
+    $fullParent = [System.IO.Path]::GetFullPath($ParentPath).TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $fullParent.TrimEnd([System.IO.Path]::DirectorySeparatorChar) -and -not $fullPath.StartsWith($fullParent, [System.StringComparison]::OrdinalIgnoreCase)) {
+        throw "$Description must resolve under $fullParent. Received: $fullPath"
     }
 }
 
@@ -114,11 +130,11 @@ if (-not (Test-Path -LiteralPath $BrowserExecutablePath)) {
 
 $sourceBase = Normalize-SourceBaseUrl $SourceBaseUrl
 $outputFullPath = [System.IO.Path]::GetFullPath($OutputDir)
-Assert-UnderRepo $outputFullPath
+Assert-UnderPath -Path $outputFullPath -ParentPath $SourceMotionRoot -Description 'Source motion inventory output'
 New-Item -ItemType Directory -Force -Path $outputFullPath | Out-Null
 
 $screenshotDir = Join-Path $outputFullPath 'screenshots'
-Assert-UnderRepo $screenshotDir
+Assert-UnderPath -Path $screenshotDir -ParentPath $SourceMotionRoot -Description 'Source motion screenshot output'
 New-Item -ItemType Directory -Force -Path $screenshotDir | Out-Null
 
 $tmpDir = Join-Path $RepoRoot '.tmp\source-motion-inventory'

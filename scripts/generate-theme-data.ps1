@@ -7,6 +7,7 @@ $ErrorActionPreference = 'Stop'
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 $RepoFullPath = [System.IO.Path]::GetFullPath($RepoRoot)
+$CanonicalThemeSlug = 'quicksilver-construction'
 $ThemePath = Join-Path $RepoRoot "theme\$ThemeSlug"
 $ModelPath = Join-Path $RepoRoot 'content\site-model.json'
 $MediaManifestPath = Join-Path $RepoRoot 'assets\source\media\media-manifest.json'
@@ -15,11 +16,16 @@ $GeneratedDataPath = Join-Path $GeneratedDataDir 'site-data.php'
 $GeneratedMediaDir = Join-Path $ThemePath 'assets\media\generated'
 $ApprovedSourceMediaDir = Join-Path $RepoRoot 'assets\source\media\downloads'
 
+if ($ThemeSlug -cne $CanonicalThemeSlug) {
+    throw "Unsupported QuickSilver theme slug '$ThemeSlug'. This repo owns one theme: $CanonicalThemeSlug."
+}
+
 function Assert-UnderRepo {
     param([string]$Path)
 
     $fullPath = [System.IO.Path]::GetFullPath($Path)
-    if (-not $fullPath.StartsWith($RepoFullPath, [System.StringComparison]::OrdinalIgnoreCase)) {
+    $repoRootWithSeparator = $RepoFullPath.TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $RepoFullPath -and -not $fullPath.StartsWith($repoRootWithSeparator, [System.StringComparison]::OrdinalIgnoreCase)) {
         throw "Refusing to touch path outside repo: $fullPath"
     }
 }
@@ -218,6 +224,54 @@ function Get-FirstRequired {
     return $items[0]
 }
 
+function Get-RequiredStringValue {
+    param(
+        $Value,
+        [string]$Description
+    )
+
+    if (-not ($Value -is [string]) -or [string]::IsNullOrWhiteSpace($Value)) {
+        throw "$Description must be a non-empty string."
+    }
+
+    return $Value
+}
+
+function Assert-PageKey {
+    param(
+        [string]$Value,
+        [string]$Description
+    )
+
+    if ($Value -notmatch '^[a-z][a-z0-9-]*$') {
+        throw "$Description must be a lowercase page key. Received: $Value"
+    }
+}
+
+function Assert-RoutePath {
+    param(
+        [string]$Value,
+        [string]$Description
+    )
+
+    if ($Value -notmatch '^/[a-z0-9-]*/?$' -or $Value.Contains('..') -or $Value.Contains('//')) {
+        throw "$Description must be a clean local route. Received: $Value"
+    }
+}
+
+function Assert-RuntimeHref {
+    param(
+        [string]$Value,
+        [string]$Description
+    )
+
+    if ($Value -match '^(https://|mailto:|tel:|/)' -and -not $Value.Contains('..')) {
+        return
+    }
+
+    throw "$Description must use https:, mailto:, tel:, or a local absolute route. Received: $Value"
+}
+
 function Get-RequiredAssetByLocalPath {
     param(
         $Assets,
@@ -303,20 +357,21 @@ function Copy-ThemeAsset {
 function ConvertTo-RuntimeCta {
     param($Cta)
 
-    $label = $Cta.label
-    if ([string]::IsNullOrWhiteSpace($label)) {
-        throw 'Runtime CTA requires a label.'
-    }
+    $label = Get-RequiredStringValue -Value $Cta.label -Description 'Runtime CTA label'
 
     $runtimeCta = [ordered]@{
         label = $label
     }
 
     if (-not [string]::IsNullOrWhiteSpace($Cta.targetPageKey)) {
-        $runtimeCta.targetPageKey = $Cta.targetPageKey
+        $pageKey = Get-RequiredStringValue -Value $Cta.targetPageKey -Description "Runtime CTA '$label' targetPageKey"
+        Assert-PageKey -Value $pageKey -Description "Runtime CTA '$label' targetPageKey"
+        $runtimeCta.targetPageKey = $pageKey
     }
     elseif (-not [string]::IsNullOrWhiteSpace($Cta.href)) {
-        $runtimeCta.href = $Cta.href
+        $href = Get-RequiredStringValue -Value $Cta.href -Description "Runtime CTA '$label' href"
+        Assert-RuntimeHref -Value $href -Description "Runtime CTA '$label' href"
+        $runtimeCta.href = $href
     }
     else {
         throw "Runtime CTA '$label' requires targetPageKey or href."
@@ -329,13 +384,17 @@ function ConvertTo-RuntimeSectionItem {
     param($Item)
 
     if ($Item -is [string]) {
+        if ([string]::IsNullOrWhiteSpace($Item)) {
+            throw 'Runtime section string item must be non-empty.'
+        }
+
         return $Item
     }
 
     $runtimeItem = [ordered]@{}
     foreach ($key in @('mediaSlotKey', 'title', 'body')) {
         if ($null -ne $Item.$key) {
-            $runtimeItem[$key] = $Item.$key
+            $runtimeItem[$key] = Get-RequiredStringValue -Value $Item.$key -Description "Runtime section item $key"
         }
     }
 
@@ -349,21 +408,26 @@ function ConvertTo-RuntimeSectionItem {
 function ConvertTo-RuntimeSection {
     param($Section)
 
-    $id = $Section.id
-    $type = $Section.type
-    if ([string]::IsNullOrWhiteSpace($id) -or [string]::IsNullOrWhiteSpace($type)) {
-        throw 'Runtime section requires id and type.'
-    }
+    $id = Get-RequiredStringValue -Value $Section.id -Description 'Runtime section id'
+    $type = Get-RequiredStringValue -Value $Section.type -Description "Runtime section '$id' type"
 
     $runtimeSection = [ordered]@{
         id = $id
         type = $type
     }
 
-    foreach ($key in @('heading', 'body', 'text', 'status', 'approvedPlugin', 'collectsUserData', 'submissionEndpoint', 'renderInstruction')) {
+    foreach ($key in @('heading', 'body', 'text', 'status', 'approvedPlugin', 'submissionEndpoint', 'renderInstruction')) {
         if ($null -ne $Section.$key) {
-            $runtimeSection[$key] = $Section.$key
+            $runtimeSection[$key] = Get-RequiredStringValue -Value $Section.$key -Description "Runtime section '$id' $key"
         }
+    }
+
+    if ($null -ne $Section.collectsUserData) {
+        if (-not ($Section.collectsUserData -is [bool])) {
+            throw "Runtime section '$id' collectsUserData must be boolean."
+        }
+
+        $runtimeSection.collectsUserData = $Section.collectsUserData
     }
 
     if ($null -ne $Section.ctas) {
@@ -380,15 +444,18 @@ function ConvertTo-RuntimeSection {
 function ConvertTo-RuntimePage {
     param($Page)
 
-    if ([string]::IsNullOrWhiteSpace($Page.pageKey) -or [string]::IsNullOrWhiteSpace($Page.title)) {
-        throw 'Runtime page requires pageKey and title.'
-    }
+    $pageKey = Get-RequiredStringValue -Value $Page.pageKey -Description 'Runtime page pageKey'
+    Assert-PageKey -Value $pageKey -Description 'Runtime page pageKey'
+    $title = Get-RequiredStringValue -Value $Page.title -Description "Runtime page '$pageKey' title"
+    $canonicalRoute = Get-RequiredStringValue -Value $Page.canonicalRoute -Description "Runtime page '$pageKey' canonicalRoute"
+    Assert-RoutePath -Value $canonicalRoute -Description "Runtime page '$pageKey' canonicalRoute"
+    $templateRole = Get-RequiredStringValue -Value $Page.templateRole -Description "Runtime page '$pageKey' templateRole"
 
     [pscustomobject]@{
-        pageKey = $Page.pageKey
-        title = $Page.title
-        canonicalRoute = $Page.canonicalRoute
-        templateRole = $Page.templateRole
+        pageKey = $pageKey
+        title = $title
+        canonicalRoute = $canonicalRoute
+        templateRole = $templateRole
         sections = @(As-Array $Page.sections | ForEach-Object { ConvertTo-RuntimeSection $_ })
     }
 }
@@ -396,13 +463,13 @@ function ConvertTo-RuntimePage {
 function ConvertTo-RuntimeNavigationItem {
     param($Item)
 
-    if ([string]::IsNullOrWhiteSpace($Item.label) -or [string]::IsNullOrWhiteSpace($Item.pageKey)) {
-        throw 'Runtime navigation item requires label and pageKey.'
-    }
+    $label = Get-RequiredStringValue -Value $Item.label -Description 'Runtime navigation label'
+    $pageKey = Get-RequiredStringValue -Value $Item.pageKey -Description "Runtime navigation '$label' pageKey"
+    Assert-PageKey -Value $pageKey -Description "Runtime navigation '$label' pageKey"
 
     [pscustomobject]@{
-        label = $Item.label
-        pageKey = $Item.pageKey
+        label = $label
+        pageKey = $pageKey
     }
 }
 
@@ -453,9 +520,11 @@ foreach ($field in $requiredIdentityFields) {
 
 $routeByPageKey = @{}
 foreach ($route in As-Array $siteModel.canonicalRoutes) {
-    if (-not [string]::IsNullOrWhiteSpace($route.pageKey) -and -not [string]::IsNullOrWhiteSpace($route.route)) {
-        $routeByPageKey[$route.pageKey] = $route.route
-    }
+    $pageKey = Get-RequiredStringValue -Value $route.pageKey -Description 'canonicalRoutes.pageKey'
+    Assert-PageKey -Value $pageKey -Description 'canonicalRoutes.pageKey'
+    $routePath = Get-RequiredStringValue -Value $route.route -Description "canonicalRoutes.$pageKey.route"
+    Assert-RoutePath -Value $routePath -Description "canonicalRoutes.$pageKey.route"
+    $routeByPageKey[$pageKey] = $routePath
 }
 
 foreach ($navItem in As-Array $siteModel.navigation) {

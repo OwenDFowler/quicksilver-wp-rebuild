@@ -549,7 +549,7 @@ body.admin-bar .site-header {
     height: 100%;
     object-fit: cover;
     opacity: 1;
-    filter: brightness(.48) saturate(.9);
+    filter: brightness(.82) saturate(.96);
     transform: scale(1.03);
     transition:
         opacity .34s ease,
@@ -567,13 +567,13 @@ body.admin-bar .site-header {
 
 .values-panel::before {
     z-index: -2;
-    background: rgba(0, 0, 0, .34);
+    background: rgba(0, 0, 0, .2);
     transition: background .3s ease;
 }
 
 .values-panel::after {
     z-index: -1;
-    background: linear-gradient(180deg, rgba(0, 0, 0, .14), rgba(0, 0, 0, .82));
+    background: linear-gradient(180deg, rgba(0, 0, 0, .06), rgba(0, 0, 0, .44));
     opacity: 1;
     transition: opacity .3s ease;
 }
@@ -582,6 +582,7 @@ body.admin-bar .site-header {
     max-width: 320px;
     padding: 2.5rem 2rem;
     opacity: 0;
+    text-shadow: 0 2px 14px rgba(0, 0, 0, .74);
     transform: translateY(1.45rem);
     transition:
         opacity .28s ease,
@@ -592,14 +593,14 @@ body.admin-bar .site-header {
 .values-panel:focus .values-panel__image,
 .values-panel:focus-within .values-panel__image {
     opacity: 1;
-    filter: brightness(1) saturate(1);
+    filter: brightness(1) saturate(1.02);
     transform: scale(1);
 }
 
 .values-panel:hover::before,
 .values-panel:focus::before,
 .values-panel:focus-within::before {
-    background: rgba(0, 0, 0, .12);
+    background: rgba(0, 0, 0, .08);
 }
 
 .values-panel:hover::after,
@@ -619,13 +620,13 @@ body.admin-bar .site-header {
 .values-band:hover .values-panel.is-default:not(:hover) .values-panel__image,
 .values-band:focus-within .values-panel.is-default:not(:focus):not(:focus-within) .values-panel__image {
     opacity: 1;
-    filter: brightness(.48) saturate(.9);
+    filter: brightness(.82) saturate(.96);
     transform: scale(1.03);
 }
 
 .values-band:hover .values-panel.is-default:not(:hover)::before,
 .values-band:focus-within .values-panel.is-default:not(:focus):not(:focus-within)::before {
-    background: rgba(0, 0, 0, .34);
+    background: rgba(0, 0, 0, .2);
 }
 
 .values-band:hover .values-panel.is-default:not(:hover)::after,
@@ -968,7 +969,7 @@ body.admin-bar .site-header {
     .values-band:hover .values-panel.is-default:not(:hover) .values-panel__image,
     .values-band:focus-within .values-panel.is-default:not(:focus):not(:focus-within) .values-panel__image {
         opacity: 1;
-        filter: brightness(.72) saturate(.95);
+        filter: brightness(.85) saturate(.98);
         transform: scale(1);
     }
 
@@ -979,7 +980,7 @@ body.admin-bar .site-header {
     .values-panel:focus-within::before,
     .values-band:hover .values-panel.is-default:not(:hover)::before,
     .values-band:focus-within .values-panel.is-default:not(:focus):not(:focus-within)::before {
-        background: rgba(0, 0, 0, .56);
+        background: rgba(0, 0, 0, .24);
     }
 
     .values-panel::after,
@@ -999,6 +1000,8 @@ body.admin-bar .site-header {
     .values-panel:focus-within .values-panel__content,
     .values-band:hover .values-panel.is-default:not(:hover) .values-panel__content,
     .values-band:focus-within .values-panel.is-default:not(:focus):not(:focus-within) .values-panel__content {
+        width: min(100%, 22rem);
+        background: linear-gradient(90deg, rgba(0, 0, 0, .62), rgba(0, 0, 0, .32) 72%, transparent);
         opacity: 1;
         transform: translateY(0);
     }
@@ -1147,6 +1150,7 @@ body.admin-bar .site-header {
 
     .values-panel__content {
         padding: 1.6rem 1.2rem;
+        background: linear-gradient(90deg, rgba(0, 0, 0, .66), rgba(0, 0, 0, .38) 78%, transparent);
     }
 
     .section--feature {

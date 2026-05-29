@@ -34,7 +34,7 @@ Run this after the WordPress control image is deployed:
 Run this before theme package review:
 
 ```powershell
-.\scripts\package-theme.ps1
+.\scripts\check-theme-local.ps1
 ```
 
 ## Content Draft Flow
@@ -68,7 +68,7 @@ No script should silently turn a draft into published content. A publish-capable
 ## Theme Flow
 
 1. Edit source under `theme/quicksilver-construction/`.
-2. Package with `.\scripts\package-theme.ps1`.
+2. Run `.\scripts\check-theme-local.ps1` to regenerate theme data, check all theme JavaScript syntax, lint PHP through the WordPress image, package the zip, and run Git deploy-hygiene checks.
 3. Review the generated zip path and size.
 4. Deploy the repo-controlled WordPress image with `.\scripts\deploy-wordpress-control-image.ps1`.
 5. Verify the deployed WP-CLI/theme surface with `.\scripts\verify-railway-wp-cli.ps1`.
@@ -79,6 +79,8 @@ No script should silently turn a draft into published content. A publish-capable
 ```
 
 The image deployment syncs `theme/quicksilver-construction/` into the WordPress volume. Activation is a separate WordPress DB write and must not be bundled into ordinary image deployment.
+
+`scripts\package-theme.ps1` is a lower-level zip helper. The normal theme review/package gate is `scripts\check-theme-local.ps1`.
 
 Theme activation rollback gate:
 

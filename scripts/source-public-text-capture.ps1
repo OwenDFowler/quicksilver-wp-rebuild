@@ -10,6 +10,7 @@ $ErrorActionPreference = 'Stop'
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 $RepoFullPath = [System.IO.Path]::GetFullPath($RepoRoot)
+$TextCaptureRoot = Join-Path $RepoRoot 'assets\source\text-capture'
 $SourceUserAgent = 'QuickSilverPublicTextCapture/1.0 (+public-source-preservation)'
 
 if ([string]::IsNullOrWhiteSpace($OutputRoot)) {
@@ -20,8 +21,23 @@ function Assert-UnderRepo {
     param([string]$Path)
 
     $fullPath = [System.IO.Path]::GetFullPath($Path)
-    if (-not $fullPath.StartsWith($RepoFullPath, [System.StringComparison]::OrdinalIgnoreCase)) {
+    $repoRootWithSeparator = $RepoFullPath.TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $RepoFullPath -and -not $fullPath.StartsWith($repoRootWithSeparator, [System.StringComparison]::OrdinalIgnoreCase)) {
         throw "Refusing to write outside repo: $fullPath"
+    }
+}
+
+function Assert-UnderPath {
+    param(
+        [string]$Path,
+        [string]$ParentPath,
+        [string]$Description
+    )
+
+    $fullPath = [System.IO.Path]::GetFullPath($Path)
+    $fullParent = [System.IO.Path]::GetFullPath($ParentPath).TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $fullParent.TrimEnd([System.IO.Path]::DirectorySeparatorChar) -and -not $fullPath.StartsWith($fullParent, [System.StringComparison]::OrdinalIgnoreCase)) {
+        throw "$Description must resolve under $fullParent. Received: $fullPath"
     }
 }
 
@@ -268,7 +284,7 @@ function Get-RestCollection {
     }
 }
 
-Assert-UnderRepo $OutputRoot
+Assert-UnderPath -Path $OutputRoot -ParentPath $TextCaptureRoot -Description 'Source text-capture output'
 if ($MaxHtmlPages -lt 1) {
     throw 'MaxHtmlPages must be at least 1.'
 }
@@ -280,7 +296,7 @@ $sourceBase = Normalize-SourceBaseUrl $SourceBaseUrl
 $sourceBaseUri = [System.Uri]$sourceBase
 $timestamp = (Get-Date).ToUniversalTime().ToString('yyyyMMddTHHmmssZ')
 $captureDir = Join-Path $OutputRoot $timestamp
-Assert-UnderRepo $captureDir
+Assert-UnderPath -Path $captureDir -ParentPath $TextCaptureRoot -Description 'Source text-capture run output'
 New-Item -ItemType Directory -Force -Path (Join-Path $captureDir 'html') | Out-Null
 New-Item -ItemType Directory -Force -Path (Join-Path $captureDir 'text') | Out-Null
 New-Item -ItemType Directory -Force -Path (Join-Path $captureDir 'resources') | Out-Null

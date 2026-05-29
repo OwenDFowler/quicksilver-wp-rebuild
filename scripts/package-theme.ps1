@@ -6,17 +6,23 @@ param(
 $ErrorActionPreference = 'Stop'
 
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+$CanonicalThemeSlug = 'quicksilver-construction'
 $ThemePath = Join-Path $RepoRoot "theme\$ThemeSlug"
 $StylePath = Join-Path $ThemePath 'style.css'
 $IndexPath = Join-Path $ThemePath 'index.php'
 $GeneratedDataPath = Join-Path $ThemePath 'inc\generated\site-data.php'
 $RepoFullPath = [System.IO.Path]::GetFullPath($RepoRoot)
 
+if ($ThemeSlug -cne $CanonicalThemeSlug) {
+    throw "Unsupported QuickSilver theme slug '$ThemeSlug'. This repo owns one theme: $CanonicalThemeSlug."
+}
+
 function Assert-UnderRepo {
     param([string]$Path)
 
     $fullPath = [System.IO.Path]::GetFullPath($Path)
-    if (-not $fullPath.StartsWith($RepoFullPath, [System.StringComparison]::OrdinalIgnoreCase)) {
+    $repoRootWithSeparator = $RepoFullPath.TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
+    if ($fullPath -ne $RepoFullPath -and -not $fullPath.StartsWith($repoRootWithSeparator, [System.StringComparison]::OrdinalIgnoreCase)) {
         throw "Refusing to touch path outside repo: $fullPath"
     }
 }

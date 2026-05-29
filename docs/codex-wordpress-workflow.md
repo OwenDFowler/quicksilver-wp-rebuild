@@ -39,7 +39,7 @@ Use this only when local credentials or target setup are missing.
 1. Run `scripts/wp-inventory.ps1` before content writes so Codex sees current WordPress content state.
 2. Use `scripts/wp-upsert-page.ps1` to create or update draft pages from `content/pages/*.json` only after the payload is aligned with `content/site-model.json` or explicitly marked provisional.
 3. Edit theme/source files locally.
-4. Package the theme for review with `scripts/package-theme.ps1`.
+4. Run the local theme gate with `scripts/check-theme-local.ps1`.
 5. Deploy the WordPress control image with `scripts/deploy-wordpress-control-image.ps1` when theme/runtime files should sync to Railway.
 6. Verify WP-CLI and theme visibility with `scripts/verify-railway-wp-cli.ps1`.
 7. Activate the QuickSilver theme only with `scripts/activate-railway-theme.ps1 -ConfirmActivation`.

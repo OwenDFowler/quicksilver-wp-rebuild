@@ -21,9 +21,9 @@ $logo = qsc_logo_asset();
 
 <header class="site-header">
     <div class="site-header__top">
-        <span><?php echo esc_html($address['line1'] . ' ' . $address['cityStateZip']); ?></span>
-        <a href="<?php echo esc_url($phone['href']); ?>">Call Us: <?php echo esc_html($phone['display']); ?></a>
-        <a href="<?php echo esc_url($email['href']); ?>"><?php echo esc_html($email['display']); ?></a>
+        <span><?php echo esc_html__('Location:', 'quicksilver-construction') . ' ' . esc_html($address['line1'] . ' ' . $address['cityStateZip']); ?></span>
+        <a href="<?php echo esc_url($phone['href']); ?>"><?php esc_html_e('Call Us:', 'quicksilver-construction'); ?> <?php echo esc_html($phone['display']); ?></a>
+        <a href="<?php echo esc_url($email['href']); ?>"><?php esc_html_e('Mail:', 'quicksilver-construction'); ?> <?php echo esc_html($email['display']); ?></a>
     </div>
 
     <div class="site-header__main">
@@ -35,10 +35,6 @@ $logo = qsc_logo_asset();
                 height="<?php echo esc_attr((string) qsc_asset_height($logo)); ?>"
                 alt="<?php echo esc_attr(qsc_asset_alt($logo)); ?>"
             >
-            <span class="brand__text">
-                <strong>QuickSilver</strong>
-                <span>Construction</span>
-            </span>
         </a>
 
         <button class="menu-toggle" type="button" aria-controls="primary-menu" aria-expanded="false">

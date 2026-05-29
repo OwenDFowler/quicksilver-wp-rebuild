@@ -19,23 +19,30 @@ function qsc_theme_setup(): void
 }
 add_action('after_setup_theme', 'qsc_theme_setup');
 
+function qsc_theme_asset_version(string $relativePath): string
+{
+    $path = get_template_directory() . '/' . ltrim($relativePath, '/');
+    if (!is_readable($path)) {
+        throw new RuntimeException("Missing QuickSilver theme asset: $relativePath");
+    }
+
+    return (string) filemtime($path);
+}
+
 function qsc_enqueue_assets(): void
 {
-    $theme = wp_get_theme();
-    $version = $theme->get('Version');
-
     wp_enqueue_style(
         'qsc-site',
         get_template_directory_uri() . '/assets/css/site.css',
         [],
-        $version
+        qsc_theme_asset_version('assets/css/site.css')
     );
 
     wp_enqueue_script(
         'qsc-interactions',
         get_template_directory_uri() . '/assets/js/interactions.js',
         [],
-        $version,
+        qsc_theme_asset_version('assets/js/interactions.js'),
         true
     );
     wp_script_add_data('qsc-interactions', 'defer', true);

@@ -45,6 +45,18 @@ function qsc_render_image(array $asset, string $className, string $loading = 'la
     );
 }
 
+function qsc_render_decorative_image(array $asset, string $className, string $loading = 'lazy'): void
+{
+    printf(
+        '<img class="%s" src="%s" width="%d" height="%d" alt="" loading="%s" aria-hidden="true">',
+        esc_attr($className),
+        esc_url(qsc_asset_url($asset)),
+        qsc_asset_width($asset),
+        qsc_asset_height($asset),
+        esc_attr($loading)
+    );
+}
+
 function qsc_render_section_text(array $section): void
 {
     if (array_key_exists('heading', $section) && is_string($section['heading']) && $section['heading'] !== '') {

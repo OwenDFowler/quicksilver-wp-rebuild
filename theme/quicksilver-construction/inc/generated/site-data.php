@@ -131,6 +131,50 @@ return json_decode(<<<'JSON'
                       "sourceRestSlug":  "home1",
                       "sourceInventorySlug":  "home",
                       "sourcePath":  "/",
+                      "mediaSlots":  {
+                                         "qualityPrimary":  {
+                                                                "sectionId":  "home.quality-overview",
+                                                                "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                                "alt":  "Completed wood kitchen remodel by QuickSilver Construction",
+                                                                "decorative":  false
+                                                            },
+                                         "qualityInset":  {
+                                                              "sectionId":  "home.quality-overview",
+                                                              "localPath":  "assets/source/media/downloads/must-recreate/001-gallery-project-image-1000000981.webp",
+                                                              "alt":  "QuickSilver crew cutting concrete during a remodel",
+                                                              "decorative":  false
+                                                          },
+                                         "ctaBackground":  {
+                                                               "sectionId":  "home.project-cta",
+                                                               "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                               "alt":  "",
+                                                               "decorative":  true
+                                                           },
+                                         "valueMission":  {
+                                                              "sectionId":  "home.values-band",
+                                                              "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                              "alt":  "",
+                                                              "decorative":  true
+                                                          },
+                                         "valueVision":  {
+                                                             "sectionId":  "home.values-band",
+                                                             "localPath":  "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
+                                                             "alt":  "",
+                                                             "decorative":  true
+                                                         },
+                                         "valueExperience":  {
+                                                                 "sectionId":  "home.values-band",
+                                                                 "localPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
+                                                                 "alt":  "",
+                                                                 "decorative":  true
+                                                             },
+                                         "valueCommitment":  {
+                                                                 "sectionId":  "home.values-band",
+                                                                 "localPath":  "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
+                                                                 "alt":  "",
+                                                                 "decorative":  true
+                                                             }
+                                     },
                       "sections":  [
                                        {
                                            "id":  "home.hero",
@@ -187,6 +231,7 @@ return json_decode(<<<'JSON'
                                            "contentOwner":  "structured-json",
                                            "renderOwner":  "theme-template",
                                            "heading":  "Why Choose QuickSilver Construction",
+                                           "body":  "Attention to detail guides every project - big or small - with thoughtful planning and precise execution designed to last.",
                                            "items":  [
                                                          {
                                                              "title":  "Residential Construction",
@@ -213,18 +258,22 @@ return json_decode(<<<'JSON'
                                            "renderOwner":  "theme-template",
                                            "items":  [
                                                          {
+                                                             "mediaSlotKey":  "valueMission",
                                                              "title":  "Our Mission",
                                                              "body":  "To deliver dependable construction services with honesty, craftsmanship, and attention to detail for every client."
                                                          },
                                                          {
+                                                             "mediaSlotKey":  "valueVision",
                                                              "title":  "Our Vision",
                                                              "body":  "To be the local contractor known for reliability, quality workmanship, and projects completed right the first time."
                                                          },
                                                          {
+                                                             "mediaSlotKey":  "valueExperience",
                                                              "title":  "Our Experience",
                                                              "body":  "Years of hands-on construction experience across excavation, residential building, and finish work."
                                                          },
                                                          {
+                                                             "mediaSlotKey":  "valueCommitment",
                                                              "title":  "Our Commitment",
                                                              "body":  "We believe every project deserves clear communication, honest pricing, and dependable workmanship."
                                                          }
@@ -509,6 +558,50 @@ return json_decode(<<<'JSON'
                      "sourceRestSlug":  "home1",
                      "sourceInventorySlug":  "home",
                      "sourcePath":  "/",
+                     "mediaSlots":  {
+                                        "qualityPrimary":  {
+                                                               "sectionId":  "home.quality-overview",
+                                                               "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                               "alt":  "Completed wood kitchen remodel by QuickSilver Construction",
+                                                               "decorative":  false
+                                                           },
+                                        "qualityInset":  {
+                                                             "sectionId":  "home.quality-overview",
+                                                             "localPath":  "assets/source/media/downloads/must-recreate/001-gallery-project-image-1000000981.webp",
+                                                             "alt":  "QuickSilver crew cutting concrete during a remodel",
+                                                             "decorative":  false
+                                                         },
+                                        "ctaBackground":  {
+                                                              "sectionId":  "home.project-cta",
+                                                              "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                              "alt":  "",
+                                                              "decorative":  true
+                                                          },
+                                        "valueMission":  {
+                                                             "sectionId":  "home.values-band",
+                                                             "localPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                             "alt":  "",
+                                                             "decorative":  true
+                                                         },
+                                        "valueVision":  {
+                                                            "sectionId":  "home.values-band",
+                                                            "localPath":  "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
+                                                            "alt":  "",
+                                                            "decorative":  true
+                                                        },
+                                        "valueExperience":  {
+                                                                "sectionId":  "home.values-band",
+                                                                "localPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
+                                                                "alt":  "",
+                                                                "decorative":  true
+                                                            },
+                                        "valueCommitment":  {
+                                                                "sectionId":  "home.values-band",
+                                                                "localPath":  "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
+                                                                "alt":  "",
+                                                                "decorative":  true
+                                                            }
+                                    },
                      "sections":  [
                                       {
                                           "id":  "home.hero",
@@ -565,6 +658,7 @@ return json_decode(<<<'JSON'
                                           "contentOwner":  "structured-json",
                                           "renderOwner":  "theme-template",
                                           "heading":  "Why Choose QuickSilver Construction",
+                                          "body":  "Attention to detail guides every project - big or small - with thoughtful planning and precise execution designed to last.",
                                           "items":  [
                                                         {
                                                             "title":  "Residential Construction",
@@ -591,18 +685,22 @@ return json_decode(<<<'JSON'
                                           "renderOwner":  "theme-template",
                                           "items":  [
                                                         {
+                                                            "mediaSlotKey":  "valueMission",
                                                             "title":  "Our Mission",
                                                             "body":  "To deliver dependable construction services with honesty, craftsmanship, and attention to detail for every client."
                                                         },
                                                         {
+                                                            "mediaSlotKey":  "valueVision",
                                                             "title":  "Our Vision",
                                                             "body":  "To be the local contractor known for reliability, quality workmanship, and projects completed right the first time."
                                                         },
                                                         {
+                                                            "mediaSlotKey":  "valueExperience",
                                                             "title":  "Our Experience",
                                                             "body":  "Years of hands-on construction experience across excavation, residential building, and finish work."
                                                         },
                                                         {
+                                                            "mediaSlotKey":  "valueCommitment",
                                                             "title":  "Our Commitment",
                                                             "body":  "We believe every project deserves clear communication, honest pricing, and dependable workmanship."
                                                         }
@@ -657,7 +755,8 @@ return json_decode(<<<'JSON'
                   "logo":  {
                                "slot":  "logo",
                                "path":  "assets/media/generated/026-logo-media-reference-logo-mug.webp",
-                               "alt":  "Q",
+                               "alt":  "QuickSilver Construction",
+                               "decorative":  false,
                                "width":  341,
                                "height":  100,
                                "sourceLocalPath":  "assets/source/media/downloads/must-recreate/026-logo-media-reference-logo-mug.webp",
@@ -676,7 +775,8 @@ return json_decode(<<<'JSON'
                                    {
                                        "slot":  "home.hero",
                                        "path":  "assets/media/generated/002-gallery-project-image-homepage-hero-slider-10-2-scaled.jpg",
-                                       "alt":  "QuickSilver Construction project photo",
+                                       "alt":  "",
+                                       "decorative":  true,
                                        "width":  2560,
                                        "height":  1709,
                                        "sourceLocalPath":  "assets/source/media/downloads/must-recreate/002-gallery-project-image-homepage-hero-slider-10-2-scaled.jpg",
@@ -694,7 +794,8 @@ return json_decode(<<<'JSON'
                                    {
                                        "slot":  "home.hero",
                                        "path":  "assets/media/generated/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
-                                       "alt":  "O",
+                                       "alt":  "",
+                                       "decorative":  true,
                                        "width":  2560,
                                        "height":  1709,
                                        "sourceLocalPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
@@ -712,7 +813,8 @@ return json_decode(<<<'JSON'
                                    {
                                        "slot":  "home.hero",
                                        "path":  "assets/media/generated/005-gallery-project-image-homepage-hero-slider-30-scaled.jpg",
-                                       "alt":  "QuickSilver Construction project photo",
+                                       "alt":  "",
+                                       "decorative":  true,
                                        "width":  2560,
                                        "height":  1709,
                                        "sourceLocalPath":  "assets/source/media/downloads/must-recreate/005-gallery-project-image-homepage-hero-slider-30-scaled.jpg",
@@ -728,74 +830,137 @@ return json_decode(<<<'JSON'
                                        "sha256":  "5d6dd7cf7c8a587fb63194207b24d9dcc3bdcef216ecbe78668106671d67694f"
                                    }
                                ],
-                  "homeVisuals":  [
-                                      {
-                                          "slot":  "home.visual",
-                                          "path":  "assets/media/generated/023-content-image-img-9309.webp",
-                                          "alt":  "QuickSilver Construction work photo",
-                                          "width":  1875,
-                                          "height":  2244,
-                                          "sourceLocalPath":  "assets/source/media/downloads/candidate/023-content-image-img-9309.webp",
-                                          "priority":  "candidate",
-                                          "roles":  "content image",
-                                          "sourcePageSlugs":  "home",
-                                          "sha256":  "ea8457f0388da1ace150ec1e20a700971a9e3e9389ab2d52e5fccef1e22c983a"
-                                      },
-                                      {
-                                          "slot":  "home.visual",
-                                          "path":  "assets/media/generated/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
-                                          "alt":  "O",
-                                          "width":  2560,
-                                          "height":  1195,
-                                          "sourceLocalPath":  "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
-                                          "priority":  "must-recreate",
-                                          "roles":  [
-                                                        "content image",
-                                                        "gallery/project image"
-                                                    ],
-                                          "sourcePageSlugs":  [
-                                                                  "home",
-                                                                  "photo-gallery"
-                                                              ],
-                                          "sha256":  "66d5f156d8c5ae69698dc88679e0f0ff7ae304ffe7e19c69ab6675bc5f626af7"
-                                      },
-                                      {
-                                          "slot":  "home.visual",
-                                          "path":  "assets/media/generated/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
-                                          "alt":  "O",
-                                          "width":  2560,
-                                          "height":  1195,
-                                          "sourceLocalPath":  "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
-                                          "priority":  "must-recreate",
-                                          "roles":  [
-                                                        "content image",
-                                                        "gallery/project image"
-                                                    ],
-                                          "sourcePageSlugs":  [
-                                                                  "home",
-                                                                  "photo-gallery"
-                                                              ],
-                                          "sha256":  "f293557f3b5132ed6a537d8a06d4d00e094234b23b99f2bc163f6f925ff4f6c0"
-                                      },
-                                      {
-                                          "slot":  "home.visual",
-                                          "path":  "assets/media/generated/021-content-image-gallery-project-image-img-0023.webp",
-                                          "alt":  "QuickSilver Construction work photo",
-                                          "width":  2500,
-                                          "height":  1106,
-                                          "sourceLocalPath":  "assets/source/media/downloads/must-recreate/021-content-image-gallery-project-image-img-0023.webp",
-                                          "priority":  "must-recreate",
-                                          "roles":  [
-                                                        "content image",
-                                                        "gallery/project image"
-                                                    ],
-                                          "sourcePageSlugs":  [
-                                                                  "home",
-                                                                  "photo-gallery"
-                                                              ],
-                                          "sha256":  "aaeeb94f9198e2047ec82eed86dc430e10c5bee98f14af28848f27b15ca2f1dd"
-                                      }
-                                  ]
+                  "homeStill":  {
+                                    "qualityPrimary":  {
+                                                           "slot":  "home.qualityPrimary",
+                                                           "path":  "assets/media/generated/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                           "alt":  "Completed wood kitchen remodel by QuickSilver Construction",
+                                                           "decorative":  false,
+                                                           "width":  2560,
+                                                           "height":  1709,
+                                                           "sourceLocalPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                           "priority":  "must-recreate",
+                                                           "roles":  [
+                                                                         "content image",
+                                                                         "gallery/project image"
+                                                                     ],
+                                                           "sourcePageSlugs":  [
+                                                                                   "home",
+                                                                                   "photo-gallery"
+                                                                               ],
+                                                           "sha256":  "2f69f29824318b5f81171f5f1d04b31e32cbfefa9d9eb6924aee0d01ab5ed57f"
+                                                       },
+                                    "qualityInset":  {
+                                                         "slot":  "home.qualityInset",
+                                                         "path":  "assets/media/generated/001-gallery-project-image-1000000981.webp",
+                                                         "alt":  "QuickSilver crew cutting concrete during a remodel",
+                                                         "decorative":  false,
+                                                         "width":  1875,
+                                                         "height":  2244,
+                                                         "sourceLocalPath":  "assets/source/media/downloads/must-recreate/001-gallery-project-image-1000000981.webp",
+                                                         "priority":  "must-recreate",
+                                                         "roles":  "gallery/project image",
+                                                         "sourcePageSlugs":  "photo-gallery",
+                                                         "sha256":  "8ff063565f1c611510ac4e6dcb1df053b4732d2129b02285df16d6578a16b347"
+                                                     },
+                                    "ctaBackground":  {
+                                                          "slot":  "home.ctaBackground",
+                                                          "path":  "assets/media/generated/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                          "alt":  "",
+                                                          "decorative":  true,
+                                                          "width":  2560,
+                                                          "height":  1709,
+                                                          "sourceLocalPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                          "priority":  "must-recreate",
+                                                          "roles":  [
+                                                                        "content image",
+                                                                        "gallery/project image"
+                                                                    ],
+                                                          "sourcePageSlugs":  [
+                                                                                  "home",
+                                                                                  "photo-gallery"
+                                                                              ],
+                                                          "sha256":  "2f69f29824318b5f81171f5f1d04b31e32cbfefa9d9eb6924aee0d01ab5ed57f"
+                                                      }
+                                },
+                  "homeValues":  {
+                                     "valueMission":  {
+                                                          "slot":  "home.valueMission",
+                                                          "path":  "assets/media/generated/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                          "alt":  "",
+                                                          "decorative":  true,
+                                                          "width":  2560,
+                                                          "height":  1709,
+                                                          "sourceLocalPath":  "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+                                                          "priority":  "must-recreate",
+                                                          "roles":  [
+                                                                        "content image",
+                                                                        "gallery/project image"
+                                                                    ],
+                                                          "sourcePageSlugs":  [
+                                                                                  "home",
+                                                                                  "photo-gallery"
+                                                                              ],
+                                                          "sha256":  "2f69f29824318b5f81171f5f1d04b31e32cbfefa9d9eb6924aee0d01ab5ed57f"
+                                                      },
+                                     "valueVision":  {
+                                                         "slot":  "home.valueVision",
+                                                         "path":  "assets/media/generated/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
+                                                         "alt":  "",
+                                                         "decorative":  true,
+                                                         "width":  2560,
+                                                         "height":  1195,
+                                                         "sourceLocalPath":  "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
+                                                         "priority":  "must-recreate",
+                                                         "roles":  [
+                                                                       "content image",
+                                                                       "gallery/project image"
+                                                                   ],
+                                                         "sourcePageSlugs":  [
+                                                                                 "home",
+                                                                                 "photo-gallery"
+                                                                             ],
+                                                         "sha256":  "f293557f3b5132ed6a537d8a06d4d00e094234b23b99f2bc163f6f925ff4f6c0"
+                                                     },
+                                     "valueExperience":  {
+                                                             "slot":  "home.valueExperience",
+                                                             "path":  "assets/media/generated/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
+                                                             "alt":  "",
+                                                             "decorative":  true,
+                                                             "width":  2560,
+                                                             "height":  1709,
+                                                             "sourceLocalPath":  "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
+                                                             "priority":  "must-recreate",
+                                                             "roles":  [
+                                                                           "gallery/project image",
+                                                                           "homepage hero/slider"
+                                                                       ],
+                                                             "sourcePageSlugs":  [
+                                                                                     "home",
+                                                                                     "photo-gallery"
+                                                                                 ],
+                                                             "sha256":  "e9ab28941583192ad7d2e48496fd224a25250082e81c29e5d623fd08bc182323"
+                                                         },
+                                     "valueCommitment":  {
+                                                             "slot":  "home.valueCommitment",
+                                                             "path":  "assets/media/generated/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
+                                                             "alt":  "",
+                                                             "decorative":  true,
+                                                             "width":  2560,
+                                                             "height":  1195,
+                                                             "sourceLocalPath":  "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
+                                                             "priority":  "must-recreate",
+                                                             "roles":  [
+                                                                           "content image",
+                                                                           "gallery/project image"
+                                                                       ],
+                                                             "sourcePageSlugs":  [
+                                                                                     "home",
+                                                                                     "photo-gallery"
+                                                                                 ],
+                                                             "sha256":  "66d5f156d8c5ae69698dc88679e0f0ff7ae304ffe7e19c69ab6675bc5f626af7"
+                                                         }
+                                 }
               }
 }
 JSON, true, 512, JSON_THROW_ON_ERROR);

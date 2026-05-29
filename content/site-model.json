@@ -161,6 +161,50 @@
       "sourceRestSlug": "home1",
       "sourceInventorySlug": "home",
       "sourcePath": "/",
+      "mediaSlots": {
+        "qualityPrimary": {
+          "sectionId": "home.quality-overview",
+          "localPath": "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+          "alt": "Completed wood kitchen remodel by QuickSilver Construction",
+          "decorative": false
+        },
+        "qualityInset": {
+          "sectionId": "home.quality-overview",
+          "localPath": "assets/source/media/downloads/must-recreate/001-gallery-project-image-1000000981.webp",
+          "alt": "QuickSilver crew cutting concrete during a remodel",
+          "decorative": false
+        },
+        "ctaBackground": {
+          "sectionId": "home.project-cta",
+          "localPath": "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+          "alt": "",
+          "decorative": true
+        },
+        "valueMission": {
+          "sectionId": "home.values-band",
+          "localPath": "assets/source/media/downloads/must-recreate/025-content-image-gallery-project-image-kitchen-1-1-scaled.jpg",
+          "alt": "",
+          "decorative": true
+        },
+        "valueVision": {
+          "sectionId": "home.values-band",
+          "localPath": "assets/source/media/downloads/must-recreate/011-content-image-gallery-project-image-dsc-5580-scaled.webp",
+          "alt": "",
+          "decorative": true
+        },
+        "valueExperience": {
+          "sectionId": "home.values-band",
+          "localPath": "assets/source/media/downloads/must-recreate/003-gallery-project-image-homepage-hero-slider-18-scaled.jpg",
+          "alt": "",
+          "decorative": true
+        },
+        "valueCommitment": {
+          "sectionId": "home.values-band",
+          "localPath": "assets/source/media/downloads/must-recreate/009-content-image-gallery-project-image-dsc-5516-scaled.webp",
+          "alt": "",
+          "decorative": true
+        }
+      },
       "sections": [
         {
           "id": "home.hero",
@@ -217,6 +261,7 @@
           "contentOwner": "structured-json",
           "renderOwner": "theme-template",
           "heading": "Why Choose QuickSilver Construction",
+          "body": "Attention to detail guides every project - big or small - with thoughtful planning and precise execution designed to last.",
           "items": [
             {
               "title": "Residential Construction",
@@ -243,18 +288,22 @@
           "renderOwner": "theme-template",
           "items": [
             {
+              "mediaSlotKey": "valueMission",
               "title": "Our Mission",
               "body": "To deliver dependable construction services with honesty, craftsmanship, and attention to detail for every client."
             },
             {
+              "mediaSlotKey": "valueVision",
               "title": "Our Vision",
               "body": "To be the local contractor known for reliability, quality workmanship, and projects completed right the first time."
             },
             {
+              "mediaSlotKey": "valueExperience",
               "title": "Our Experience",
               "body": "Years of hands-on construction experience across excavation, residential building, and finish work."
             },
             {
+              "mediaSlotKey": "valueCommitment",
               "title": "Our Commitment",
               "body": "We believe every project deserves clear communication, honest pricing, and dependable workmanship."
             }

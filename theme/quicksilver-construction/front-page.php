@@ -5,8 +5,9 @@ get_header();
 $homePage = qsc_home_page();
 $sections = qsc_required($homePage, 'sections');
 $heroImages = qsc_home_hero_assets();
-$overviewImage = qsc_home_visual_asset(0);
-$ctaImage = qsc_home_visual_asset(1);
+$qualityPrimaryImage = qsc_home_still_asset('qualityPrimary');
+$qualityInsetImage = qsc_home_still_asset('qualityInset');
+$ctaImage = qsc_home_still_asset('ctaBackground');
 ?>
 
 <main id="main-content" class="site-main">
@@ -30,7 +31,6 @@ $ctaImage = qsc_home_visual_asset(1);
                     <?php endforeach; ?>
                 </div>
                 <div class="hero__content reveal">
-                    <p class="eyebrow"><?php esc_html_e('Whidbey Island Construction', 'quicksilver-construction'); ?></p>
                     <h1><?php echo esc_html(qsc_required($section, 'heading')); ?></h1>
                     <p><?php echo esc_html(qsc_required($section, 'body')); ?></p>
                     <div class="hero__actions">
@@ -41,23 +41,24 @@ $ctaImage = qsc_home_visual_asset(1);
                 </div>
             </section>
         <?php elseif ($type === 'image-text') : ?>
-            <section class="section section--split reveal">
-                <div class="section__media">
-                    <?php qsc_render_image($overviewImage, 'section__image'); ?>
+            <section class="section section--quality reveal">
+                <div class="quality-media">
+                    <?php qsc_render_image($qualityPrimaryImage, 'quality-media__primary'); ?>
                 </div>
-                <div class="section__content">
+                <div class="section__content quality-copy">
                     <?php qsc_render_section_text($section); ?>
                     <ul class="check-list">
                         <?php foreach (qsc_required($section, 'items') as $item) : ?>
                             <li><?php echo esc_html($item); ?></li>
                         <?php endforeach; ?>
                     </ul>
+                    <?php qsc_render_image($qualityInsetImage, 'quality-media__inset'); ?>
                 </div>
             </section>
         <?php elseif ($type === 'card-grid') : ?>
-            <section class="section reveal">
+            <section class="section section--services reveal">
                 <div class="section__intro">
-                    <h2><?php echo esc_html(qsc_required($section, 'heading')); ?></h2>
+                    <?php qsc_render_section_text($section); ?>
                 </div>
                 <div class="card-grid">
                     <?php foreach (qsc_required($section, 'items') as $item) : ?>
@@ -72,10 +73,26 @@ $ctaImage = qsc_home_visual_asset(1);
         <?php elseif ($type === 'values-band') : ?>
             <section class="values-band reveal" aria-label="<?php esc_attr_e('QuickSilver values', 'quicksilver-construction'); ?>">
                 <?php foreach (qsc_required($section, 'items') as $index => $item) : ?>
-                    <article>
-                        <span><?php echo esc_html(str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT)); ?></span>
-                        <h3><?php echo esc_html(qsc_required($item, 'title')); ?></h3>
-                        <p><?php echo esc_html(qsc_required($item, 'body')); ?></p>
+                    <?php
+                    $valueTitle = qsc_required($item, 'title');
+                    $mediaSlotKey = qsc_required($item, 'mediaSlotKey');
+                    if (!is_string($mediaSlotKey) || $mediaSlotKey === '') {
+                        throw new RuntimeException('QuickSilver values item mediaSlotKey must be a non-empty string.');
+                    }
+
+                    $valueImage = qsc_home_value_asset($mediaSlotKey);
+                    ?>
+                    <article
+                        class="values-panel<?php echo $index === 0 ? ' is-default' : ''; ?>"
+                        tabindex="0"
+                        aria-label="<?php echo esc_attr($valueTitle); ?>"
+                    >
+                        <?php qsc_render_decorative_image($valueImage, 'values-panel__image'); ?>
+                        <div class="values-panel__content">
+                            <span><?php echo esc_html(str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT)); ?></span>
+                            <h3><?php echo esc_html($valueTitle); ?></h3>
+                            <p><?php echo esc_html(qsc_required($item, 'body')); ?></p>
+                        </div>
                     </article>
                 <?php endforeach; ?>
             </section>
@@ -88,9 +105,7 @@ $ctaImage = qsc_home_visual_asset(1);
             </section>
         <?php elseif ($type === 'image-cta') : ?>
             <section class="project-cta reveal">
-                <div class="project-cta__image">
-                    <?php qsc_render_image($ctaImage, 'section__image'); ?>
-                </div>
+                <?php qsc_render_decorative_image($ctaImage, 'project-cta__background'); ?>
                 <div class="project-cta__content">
                     <?php qsc_render_section_text($section); ?>
                     <div class="hero__actions">

@@ -110,14 +110,24 @@ function qsc_home_hero_assets(): array
     return $hero;
 }
 
-function qsc_home_visual_asset(int $index): array
+function qsc_home_still_asset(string $slot): array
 {
-    $visuals = qsc_required(qsc_media(), 'homeVisuals');
-    if (!is_array($visuals) || !array_key_exists($index, $visuals) || !is_array($visuals[$index])) {
-        throw new RuntimeException("Missing QuickSilver homepage visual asset at index $index.");
+    $assets = qsc_required(qsc_media(), 'homeStill');
+    if (!is_array($assets) || !array_key_exists($slot, $assets) || !is_array($assets[$slot])) {
+        throw new RuntimeException("Missing QuickSilver homepage still-design asset: $slot.");
     }
 
-    return $visuals[$index];
+    return $assets[$slot];
+}
+
+function qsc_home_value_asset(string $slot): array
+{
+    $assets = qsc_required(qsc_media(), 'homeValues');
+    if (!is_array($assets) || !array_key_exists($slot, $assets) || !is_array($assets[$slot])) {
+        throw new RuntimeException("Missing QuickSilver homepage values asset: $slot.");
+    }
+
+    return $assets[$slot];
 }
 
 function qsc_asset_url(array $asset): string

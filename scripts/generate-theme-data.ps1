@@ -218,6 +218,33 @@ function Get-FirstRequired {
     return $items[0]
 }
 
+function Get-RequiredAssetByLocalPath {
+    param(
+        $Assets,
+        [string]$LocalPath,
+        [string]$Description
+    )
+
+    $asset = Get-FirstRequired (
+        As-Array $Assets |
+            Where-Object { $_.localPath -eq $LocalPath }
+    ) $Description
+
+    return $asset
+}
+
+function Get-RequiredHomeSection {
+    param(
+        [array]$Sections,
+        [string]$SectionId
+    )
+
+    return Get-FirstRequired (
+        As-Array $Sections |
+            Where-Object { $_.id -eq $SectionId }
+    ) "home section '$SectionId'"
+}
+
 function Get-AssetAlt {
     param($Asset)
 
@@ -244,7 +271,9 @@ function Get-AssetAlt {
 function Copy-ThemeAsset {
     param(
         $Asset,
-        [string]$Slot
+        [string]$Slot,
+        [string]$AltOverride = $null,
+        [bool]$Decorative = $false
     )
 
     if ([string]::IsNullOrWhiteSpace($Asset.localPath)) {
@@ -264,7 +293,8 @@ function Copy-ThemeAsset {
     [pscustomobject]@{
         slot = $Slot
         path = "assets/media/generated/$fileName"
-        alt = Get-AssetAlt $Asset
+        alt = if ($Decorative) { '' } elseif ($null -ne $AltOverride) { $AltOverride } else { Get-AssetAlt $Asset }
+        decorative = $Decorative
         width = $dimensions.width
         height = $dimensions.height
         sourceLocalPath = $Asset.localPath
@@ -337,19 +367,44 @@ if ($heroAssets.Count -eq 0) {
     throw "No homepage hero assets were found in the media manifest."
 }
 
-$homeVisualAssets = @(
-    $allAssets |
-        Where-Object {
-            (Has-Value $_.sourcePageSlugs 'home') -and
-            (Has-Value $_.inferredRoles 'content image') -and
-            -not (Has-Value $_.inferredRoles 'homepage hero/slider')
-        } |
-        Sort-Object priority, localPath |
-        Select-Object -First 4
-)
+$homeMediaSlots = $homePage.mediaSlots
+if ($null -eq $homeMediaSlots) {
+    throw "Home page model must define mediaSlots for still-design assets."
+}
 
-if ($homeVisualAssets.Count -lt 2) {
-    throw "At least two homepage content image assets are required by the theme template."
+$requiredHomeStillSlotKeys = @('qualityPrimary', 'qualityInset', 'ctaBackground')
+$valuesSection = Get-RequiredHomeSection -Sections $homeSections -SectionId 'home.values-band'
+$valuesItems = As-Array $valuesSection.items
+if ($valuesItems.Count -eq 0) {
+    throw "Home values section must contain at least one item."
+}
+
+$requiredHomeValueSlotKeys = @()
+foreach ($item in $valuesItems) {
+    if ([string]::IsNullOrWhiteSpace($item.mediaSlotKey)) {
+        throw "Every home values item must define mediaSlotKey."
+    }
+
+    $requiredHomeValueSlotKeys += $item.mediaSlotKey
+}
+
+$allRequiredHomeSlotKeys = @($requiredHomeStillSlotKeys + $requiredHomeValueSlotKeys | Select-Object -Unique)
+foreach ($slotKey in $allRequiredHomeSlotKeys) {
+    if ($null -eq $homeMediaSlots.$slotKey) {
+        throw "Home page mediaSlots.$slotKey is required."
+    }
+
+    if ([string]::IsNullOrWhiteSpace($homeMediaSlots.$slotKey.localPath)) {
+        throw "Home page mediaSlots.$slotKey.localPath is required."
+    }
+
+    if ($null -eq $homeMediaSlots.$slotKey.decorative) {
+        throw "Home page mediaSlots.$slotKey.decorative is required."
+    }
+
+    if (-not [bool]$homeMediaSlots.$slotKey.decorative -and [string]::IsNullOrWhiteSpace($homeMediaSlots.$slotKey.alt)) {
+        throw "Home page mediaSlots.$slotKey.alt is required for non-decorative assets."
+    }
 }
 
 Assert-UnderRepo $GeneratedDataDir
@@ -359,9 +414,21 @@ New-Item -ItemType Directory -Force -Path $GeneratedMediaDir | Out-Null
 
 Get-ChildItem -LiteralPath $GeneratedMediaDir -File | Remove-Item -Force
 
-$logo = Copy-ThemeAsset -Asset $logoAsset -Slot 'logo'
-$hero = @($heroAssets | ForEach-Object { Copy-ThemeAsset -Asset $_ -Slot 'home.hero' })
-$homeVisuals = @($homeVisualAssets | ForEach-Object { Copy-ThemeAsset -Asset $_ -Slot 'home.visual' })
+$logo = Copy-ThemeAsset -Asset $logoAsset -Slot 'logo' -AltOverride 'QuickSilver Construction'
+$hero = @($heroAssets | ForEach-Object { Copy-ThemeAsset -Asset $_ -Slot 'home.hero' -Decorative $true })
+$homeStill = [ordered]@{}
+foreach ($slotKey in $requiredHomeStillSlotKeys) {
+    $slot = $homeMediaSlots.$slotKey
+    $asset = Get-RequiredAssetByLocalPath -Assets $allAssets -LocalPath $slot.localPath -Description "homepage still-design asset '$slotKey'"
+    $homeStill[$slotKey] = Copy-ThemeAsset -Asset $asset -Slot "home.$slotKey" -AltOverride $slot.alt -Decorative ([bool]$slot.decorative)
+}
+
+$homeValues = [ordered]@{}
+foreach ($slotKey in $requiredHomeValueSlotKeys) {
+    $slot = $homeMediaSlots.$slotKey
+    $asset = Get-RequiredAssetByLocalPath -Assets $allAssets -LocalPath $slot.localPath -Description "homepage values asset '$slotKey'"
+    $homeValues[$slotKey] = Copy-ThemeAsset -Asset $asset -Slot "home.$slotKey" -AltOverride $slot.alt -Decorative ([bool]$slot.decorative)
+}
 
 $themeData = [pscustomobject]@{
     schemaVersion = 1
@@ -376,7 +443,8 @@ $themeData = [pscustomobject]@{
     media = [pscustomobject]@{
         logo = $logo
         homeHero = $hero
-        homeVisuals = $homeVisuals
+        homeStill = [pscustomobject]$homeStill
+        homeValues = [pscustomobject]$homeValues
     }
 }
 
@@ -401,6 +469,7 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
     GeneratedData = $GeneratedDataPath
     GeneratedMediaDir = $GeneratedMediaDir
     HeroAssetCount = $hero.Count
-    HomeVisualAssetCount = $homeVisuals.Count
+    HomeStillAssetSlots = @($homeStill.Keys)
+    HomeValueAssetSlots = @($homeValues.Keys)
     LogoAsset = $logo.path
 }
